@@ -2,6 +2,7 @@
 
 ## INSTRUCTORS 
 Lawrence Cormack <cormack@utexas.edu> 
+
 Franco Pestilli <pestilli@utexas.edu>
 
 A short course description can be found on [The University of Texas Course Registar Website](https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42035/).
@@ -21,7 +22,7 @@ B of above in 420
 
 ### Requirements
 - BYOL - Bring Your Own Laptop to class for hands on participation. The College or Department might have a loaner service for the duration of the course.
-- Install JupyterLab_App  on your laptop:  https://github.com/jupyterlab/jupyterlab-desktop#download (Later in the course, we will install Anaconda, a powerful suite of data science tools. You can go ahead and do that now if you wish.)
-- Git installation on your laptop (this will require …)
+- [Install JupyterLab_App  on your laptop](https://github.com/jupyterlab/jupyterlab-desktop#download) Later in the course, we will install Anaconda, a powerful suite of data science tools. You can go ahead and do that now if you wish.
+- [Install Git on your laptop](https://github.com/git-guides/install-git)
 - Read Understand and Respect the class code of conduct (see below under POLICIES)
 
