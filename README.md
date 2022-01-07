@@ -20,8 +20,8 @@ There are no prerequisites for the course.
 B of above in 420
 
 ### Requirements
-BYOL - Bring Your Own Laptop to class for hands on participation. The College or Department might have a loaner service for the duration of the course.
-Install JupyterLab_App  on your laptop:  https://github.com/jupyterlab/jupyterlab-desktop#download (Later in the course, we will install Anaconda, a powerful suite of data science tools. You can go ahead and do that now if you wish.)
-Git installation on your laptop (this will require …)
-Read Understand and Respect the class code of conduct (see below under POLICIES)
+- BYOL - Bring Your Own Laptop to class for hands on participation. The College or Department might have a loaner service for the duration of the course.
+- Install JupyterLab_App  on your laptop:  https://github.com/jupyterlab/jupyterlab-desktop#download (Later in the course, we will install Anaconda, a powerful suite of data science tools. You can go ahead and do that now if you wish.)
+- Git installation on your laptop (this will require …)
+- Read Understand and Respect the class code of conduct (see below under POLICIES)
 
