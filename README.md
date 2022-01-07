@@ -4,7 +4,7 @@
 Lawrence Cormack <cormack@utexas.edu> 
 Franco Pestilli <pestilli@utexas.edu>
 
-Course Page: https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42035/ |
+Course Page: https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42035/
 
 ## COURSE DESCRIPTION
 This course lays the foundation for data science education targeting psychological and brain science students. No previous coding experience is required. The students will be introduced to basic concepts and tools for data analysis. The focus is on hands-on practice and enjoyable learning. The course will use python as the programming language, and Jupyter Notebooks as the development environment (our “home base”) for the examples, tutorials, and assignments. We use Jupyterlab Notebooks because they are both the industry standard and a nice way to load, visualize, and analyze data as well as describe our findings in one environment.  We will also learn GitHub to document changes and backup our work and, eventually, for use as a collaboration tool. 
