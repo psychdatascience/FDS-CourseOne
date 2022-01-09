@@ -11,7 +11,11 @@ Below is the list of references and surces for examp,es, additional material and
 | GitHub | GitHub functionality | https://docs.github.com/en/github |
 | GitHub | MarkDown Usage |  https://docs.github.com/en/github/writing-on-github |
 | Linux | Linux/Unix Usage | https://ubuntu.com/tutorials |
-| Python | Python Usage and Documentation | https://docs.python.org |
-| Python | Python teaching and code | https://github.com/wesm/pydata-book |
+| Python | Usage and Documentation | https://docs.python.org |
+| Python | Teaching and code | https://github.com/wesm/pydata-book |
+| Jupyter | Usage and Documentation | https://xxx/ |
+| Data | Example datasets <behavior,brain,timeseries> | https://xxx/ |
+| Readings | Additional or related readings | https://xxx/ |
+| Other | Stuff difficult to sort in the categories above | https://xxx/ |
 | --------- | -------- | -------- |
 
