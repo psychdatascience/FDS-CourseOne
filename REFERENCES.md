@@ -18,4 +18,3 @@ Below is the list of references and surces for examp,es, additional material and
 | Readings | Additional or related readings | https://xxx/ |
 | Other | Stuff difficult to sort in the categories above | https://xxx/ |
 | --------- | -------- | -------- |
-
