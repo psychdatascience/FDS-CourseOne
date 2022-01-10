@@ -10,7 +10,7 @@ Course Page: https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42
 
 Course tutorials: https://github.com/psychdatascience/FDS-CourseOne  
 
-![YOURLIFE_1](https://user-images.githubusercontent.com/2119795/148829937-d3ce1680-894a-4cf2-be10-1b1d94cc1bfb.png)
+![YOURLIFE_1](https://user-images.githubusercontent.com/2119795/148850045-ebc1c54e-bf78-4f36-a0fd-adbb0e42fb7b.png)
 
 ## COURSE DESCRIPTION
 
