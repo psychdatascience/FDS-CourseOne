@@ -8,7 +8,7 @@ Canvas: https://utexas.instructure.com/courses/1331982
 
 Course Page: https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42035/
 
-Class communication: via Canvas only
+Course tutorials: https://github.com/psychdatascience/FDS-CourseOne  
 
 ![YOURLIFE_1](https://user-images.githubusercontent.com/2119795/148829937-d3ce1680-894a-4cf2-be10-1b1d94cc1bfb.png)
 
