@@ -10,6 +10,7 @@ Below is the list of references and surces for examp,es, additional material and
 | --------- | -------- | -------- |
 | GitHub | GitHub functionality | https://docs.github.com/en/github |
 | GitHub | MarkDown Usage |  https://docs.github.com/en/github/writing-on-github |
+| git | git commands and usage | https://git-scm.com/ |
 | Linux | Linux/Unix Usage | https://ubuntu.com/tutorials |
 | Python | Usage and Documentation | https://docs.python.org |
 | Python | Teaching and code | https://github.com/wesm/pydata-book |
