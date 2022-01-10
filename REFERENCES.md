@@ -14,6 +14,7 @@ Below is the list of references and surces for examp,es, additional material and
 | Linux | Linux/Unix Usage | https://ubuntu.com/tutorials |
 | Python | Usage and Documentation | https://docs.python.org |
 | Python | Teaching and code | https://github.com/wesm/pydata-book |
+| Python | Documentation and Installation | https://www.anaconda.com |
 | Jupyter | Usage and Documentation | https://xxx/ |
 | Data | Example datasets <behavior,brain,timeseries> | https://xxx/ |
 | Readings | Additional or related readings | https://xxx/ |
