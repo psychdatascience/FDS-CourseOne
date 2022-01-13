@@ -2,27 +2,29 @@
 
 Learning Goals:
 
-* Learn about the Unix/Linux Terminal
-* Navigate the file system using command-line operations
-* create a folder and a file
+* Learn about the Unix/Linux Terminal (or Windows terminal/console)
+* Navigate the file system using the terminal
+* Create a folders and a files with the terminal
 
 Prerequisites:
 
 * Internet access
-* A linux or Unix based Computer
+* A computer with a terminal application. Basically, any computer (even a Chromebook!)
 
 ### Reading overview
-This short reading is a very simple introduction to the Unix/Linux terminal. 
-We will not attempt to cover the basics of the terminal exstensively, instead, we will focus on what is needed to master Git adn GitHub.
+This short reading is a very simple introduction to your computer's terminal. 
+We will not attempt to cover the terminal extensively, instead, we will focus on the basics needed to use Git and GitHub.
 
 ## The Terminal
-We are used to look at and operate our personal computers using graphical user interfaces (GUI). This means that we routinely open files or folders by first searching them using the "file finder" graphical interface to find a folder or a file. We perform a serach using a serch bar. Navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUI. GUI have revolutionized computers effectively making it personal, hence PCs or Personal Computers. Before personal computers and GUI there was text and the terminal.
+We are used to looking at and operate our personal computers using graphical user interfaces (GUIs). This means that we routinely open files or folders by first finding them using the "finder" (mac) or "browser" (Windows) graphical interface and then clicking on them. We perform a search using a search bar. We navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUIs. GUIs have revolutionized computers effectively making them accessable to anyone. Before GUIs, however, there was the terminal.
 
 ###### Question: Do you know who started the personal comptuer revolution (name individuals or a company)? 
 
-The terminal is the command line (text) interface to your computer file system and operative system. It is exchangely referred to as terminal, shell or command line. The term `terminal` comes from the old days when computer systems were basically architected as today's supercomptuing systems ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)). A centralized computer (main frame) was accessible by individual users only via terminals and command line interfaces. The centralized computer had the ability to compute but the terminals were only interfaces that allowed access to the storage and computing power using only a keyboard and a small screen. The terminal allowed only text to be transferred to the main frame computer. The text composed basic commands for what was a programmable operative system. Linux (Ubuntu is one of the most diffused Linux distributions) is a programmable operative system. Mac OSX is also a programmable operative system. These system provide terminal access to file dists, commands to run programs and basic functionality to navigate the file system and run programs that can change the behavior of your computer software.
+The terminal is the command line (text) interface to your computer file system and operative system. It is now referred to as interchangebly as the terminal, console, shell, or command line. They were called "terminals" because they were literally the end of the line - information from a centralized computer (a "main frame" - generally in another room or even another building) came out as far as the terminus or terminal, and no further. The earliest terminal was "teletypewriter" or "tty", literally a modified typewriter. Later a one-piece keyboard and monitor combination called a "console" took its place but, of course, these were also called terminals. The "shell" is the software that allows you to interact with the computer's operating system using terminal/console. It is mainly used to run other programs by typing the name of the program plus any options at the "command line", the place where your typing appears ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)).
 
-Most of the following examples will use Mac OSX to demonstrate how to access the Terminal and use basic shell commands. This is just because I happen to have access to a Mac OSX. If you are using Linux (Ubuntu for example) [here is a nice tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on how to access and use the terminal. If you are on Microsoft Windows 10 you might look into the [new Terminal](https://www.microsoft.com/en-us/p/windows-terminal/).
+Today's "terminal/console" is not an antique thing you plug into your computer, but rather just a window on your desktop that looks and acts like the terminals of yore. But why would we want to seemingly step back in time like this? Because, despite the ease of use of the GUI interface to your computer, the terminal is powerful and often provides faster and easier ways of doing things once you get a little good at using it. In fact, there are still certain things that you can do using the terminal that you cannot do using the GUI.
+
+Most of the following examples will use Mac OSX to demonstrate how to access the Terminal and use basic shell commands. This is just because I happen to have access to a Mac OSX. If you are using Linux (Ubuntu for example) [here is a nice tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on how to access and use the terminal. If you are using Windows, the terminal application is called the "console". If you are on Microsoft Windows 10 you might look into the [new Terminal](https://www.microsoft.com/en-us/p/windows-terminal/).
 
 ## Opening a terminal
 In Mac OSX you can find the terminal using the search bar.
@@ -32,6 +34,8 @@ In Mac OSX you can find the terminal using the search bar.
 After that, I suggest you add the Terminal Icon to your Dock
  
 [![Here is an example on how to do it.](https://img.youtube.com/vi/cE5zXT2aP9Y/0.jpg)](https://youtu.be/cE5zXT2aP9Y)
+
+In windows, locate and run the "console".
 
 ## Navigating the file system
 
