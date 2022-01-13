@@ -51,3 +51,25 @@ Now that we have created a repository. Added a ReadMe file, a license and an add
 
 
 Additional readings about repositoroes can be found [here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
+
+#### 4. Git Commits
+
+##### What is a `commit`? 
+
+Our goal is to write code. We use Git and GitHub as version control systems to help us track down any potential mistakes and correct them. A commit is the operation of saving the latest code changes to the repository. The commit makes the code part of the most up-to-date version of the repository. More specifically, we use commits to both save the recent code inside the repository of code and to add a record in the log of the history of the repository to remind us (in case neded) that we made a change at a specific time. Commits are kept in the repository history indefinitely. 
+
+Once a recent change to the code is 'committed' to the repository the new changes become officially part of the code repository. Uncommitted code versions are visioble only to you, locally on your machine or in your web broswer. Committed code is visible to everyone that has access to the repository.
+
+We use a commit method to keep track of the changes. At every commit `git` will create a timestamp in the log of the code repository. The commit code will also be saved in the repository and protected so to easily roll back, to the version before the change, in case we were to find that the code introduced by the commit had a bug. See https://en.wikipedia.org/wiki/Commit_(version_control) for further reading.
+
+Commits are not just special to `git` and GitHub. Commits existed before `git` in `SVN` for example. Imagine a lonely developer in an ivory tower. It takes many hours of solitude for the developer to write useful blocks of code. The developer writes for seevral hours going back and forth on the same lines of code. After multiple tests, the developer decides that the code she wrote is OK. It serves the purpose. That is when the developer is ready to `commit`. The words literaly means that the code block that was written is meangfull for the project (or at least the developer things so at the time), so meanigful that it would be important to save a copy of the code into the code base in the repository.
+
+Now, so far we have not really written code. Only created repositores, files and edited them. Yet, if you go back to the previous tutorials you can appreciate that everytime we made a change to the repository. Before the change became live and visible online we had to click a `green button` indicating that we were committing. So we have been committing to the repository all this time without knowing. Or at least, without discussing it. Great.
+
+[Here](https://github.com/git-guides/git-commit) is some additional reading material about `commits`. 
+
+##### How does a commit work in Git (in broad strokes)?
+
+In a nutshell, commits in `git` are snapshots of the entire repository (copies, or almost copies, only the files changed are actually duplicated, but that is for another time). A commit should be thought of as a copy of your entire repository, made at a specific time. The copy will contain the status of the repository at that time. Changes 
+
+You should make new commits often, based around logical units of change. Over time, commits should tell a story of the history of your repository and how it came to be the way that it currently is. Commits include lots of metadata in addition to the contents and message, like the author, timestamp, and more!
