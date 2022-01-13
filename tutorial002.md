@@ -1,7 +1,5 @@
 ## Tutorial 2: GitHub Overview and Account Creation
 
-Author: Franco Pestilli, The University of Texas at Austin
-
 Learning Goals:
 
 * Create and account on GitHub 
