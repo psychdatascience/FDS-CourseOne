@@ -56,6 +56,10 @@ Additional readings about repositoroes can be found [here.](https://docs.github.
 
 ##### What is a `commit`? 
 
+As we edited and saved files in the GitHub repository following the tutorial above, you might have noticed that GitHub added information on the files that appeared on top of the repository files. The image below shows where GitHub diplayed information about one change I made to a file in this the repository for this class using the web browser. This is an example of a commit, and GitHub displays information about the commit (ID, User that commited and timestamp) because commits are important.
+
+<img width="1194" alt="GitHubCommits" src="https://user-images.githubusercontent.com/2119795/149251330-5cdd1315-51ba-4345-aff4-bc9806cf0acf.png">
+
 Our goal is to write code. We use Git and GitHub as version control systems to help us track down any potential mistakes and correct them. A commit is the operation of saving the latest code changes to the repository. The commit makes the code part of the most up-to-date version of the repository. More specifically, we use commits to both save the recent code inside the repository of code and to add a record in the log of the history of the repository to remind us (in case neded) that we made a change at a specific time. Commits are kept in the repository history indefinitely. 
 
 Once a recent change to the code is 'committed' to the repository the new changes become officially part of the code repository. Uncommitted code versions are visioble only to you, locally on your machine or in your web broswer. Committed code is visible to everyone that has access to the repository.
