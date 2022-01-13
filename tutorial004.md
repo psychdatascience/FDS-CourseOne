@@ -2,25 +2,28 @@
 
 Learning Goals:
 
-* Learn about the Unix/Linux Terminal
-* Navigate the file system using command-line operations
-* create a folder and a file
+* Learn about the Unix/Linux Terminal (or Windows terminal/console)
+* Navigate the file system using the terminal
+* Create a folders and a files with the terminal
 
 Prerequisites:
 
 * Internet access
-* A linux or Unix based Computer
+* A computer with a terminal application. Basically, any computer (even a Chromebook!)
 
 ### Reading overview
-This short reading is a very simple introduction to the Unix/Linux terminal. 
-We will not attempt to cover the basics of the terminal exstensively, instead, we will focus on what is needed to master Git adn GitHub.
+This short reading is a very simple introduction to your computer's terminal. 
+We will not attempt to cover the basics of the terminal exstensively, instead, we will focus on what is needed to master Git and GitHub.
 
 ## The Terminal
-We are used to look at and operate our personal computers using graphical user interfaces (GUI). This means that we routinely open files or folders by first searching them using the "file finder" graphical interface to find a folder or a file. We perform a serach using a serch bar. Navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUI. GUI have revolutionized computers effectively making it personal, hence PCs or Personal Computers. Before personal computers and GUI there was text and the terminal.
+We are used to looking at and operate our personal computers using graphical user interfaces (GUI). This means that we routinely open files or folders by first searching them using the "file finder" graphical interface to find a folder or a file. We perform a serach using a search bar. We navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUI. GUI have revolutionized computers effectively making it personal, hence PCs or Personal Computers. Before personal computers and GUI there was text and the terminal.
 
 ###### Question: Do you know who started the personal comptuer revolution (name individuals or a company)? 
 
-The terminal is the command line (text) interface to your computer file system and operative system. It is exchangely referred to as terminal, shell or command line. The term `terminal` comes from the old days when computer systems were basically architected as today's supercomptuing systems ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)). A centralized computer (main frame) was accessible by individual users only via terminals and command line interfaces. The centralized computer had the ability to compute but the terminals were only interfaces that allowed access to the storage and computing power using only a keyboard and a small screen. The terminal allowed only text to be transferred to the main frame computer. The text composed basic commands for what was a programmable operative system. Linux (Ubuntu is one of the most diffused Linux distributions) is a programmable operative system. Mac OSX is also a programmable operative system. These system provide terminal access to file dists, commands to run programs and basic functionality to navigate the file system and run programs that can change the behavior of your computer software.
+The terminal is the command line (text) interface to your computer file system and operative system. It is referred to as interchangebly as the terminal, console, shell or command line. They were called "terminals" because they were literally the end of the line - information from the computer came out as far as the terminus or terminal, and no further. Technically, the "terminal" was the software that printed text and allowed you to input text, the "console" was the hardware – literally a modified typewriter at first, and later a one-piece keyboard and monitor combination – and the "shell" was the software that sent the text to the terminal and interpreted the commands typed at the terminal for the operating system (the software that ultimately controls the computer).
+
+The term `terminal` comes from the old days when computer systems were basically architected as today's supercomptuing systems ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)). A centralized computer (main frame) was accessible by individual users only via terminals and command line interfaces. The centralized computer had the ability to compute but the terminals were only interfaces that allowed access to the storage and computing power using only a keyboard and a small screen.  
+The terminal allowed only text to be transferred to the main frame computer. Technically, text consisted of basic commands for software called the "shell", which in turn manipulated the  programmable operative system. Linux (Ubuntu is one of the most diffused Linux distributions) is a programmable operative system. Mac OSX is also a programmable operative system. These system provide terminal access to files, directories (a.k.a "folders"), the ability to run simple programs to do things like copy a bunch of files at once.
 
 Most of the following examples will use Mac OSX to demonstrate how to access the Terminal and use basic shell commands. This is just because I happen to have access to a Mac OSX. If you are using Linux (Ubuntu for example) [here is a nice tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on how to access and use the terminal. If you are on Microsoft Windows 10 you might look into the [new Terminal](https://www.microsoft.com/en-us/p/windows-terminal/).
 
