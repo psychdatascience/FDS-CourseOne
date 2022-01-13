@@ -13,10 +13,10 @@ Prerequisites:
 
 ### Reading overview
 This short reading is a very simple introduction to your computer's terminal. 
-We will not attempt to cover the basics of the terminal exstensively, instead, we will focus on what is needed to master Git and GitHub.
+We will not attempt to cover the basics of the terminal extensively, instead, we will focus on what is needed to master Git and GitHub.
 
 ## The Terminal
-We are used to looking at and operate our personal computers using graphical user interfaces (GUI). This means that we routinely open files or folders by first searching them using the "file finder" graphical interface to find a folder or a file. We perform a serach using a search bar. We navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUI. GUI have revolutionized computers effectively making it personal, hence PCs or Personal Computers. Before personal computers and GUI there was text and the terminal.
+We are used to looking at and operate our personal computers using graphical user interfaces (GUI). This means that we routinely open files or folders by first searching them using the "finder" (mac) or "browser" (Windows) graphical interface to find a folder or a file. We perform a serach using a search bar. We navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUI. GUI have revolutionized computers effectively making it personal, hence PCs or Personal Computers. Before personal computers and GUI there was text and the terminal.
 
 ###### Question: Do you know who started the personal comptuer revolution (name individuals or a company)? 
 
