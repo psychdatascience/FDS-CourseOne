@@ -15,8 +15,9 @@ Below is the list of references and sources that have been using for the example
 | Python | Usage and Documentation | https://docs.python.org |
 | Python | Teaching and code | https://github.com/wesm/pydata-book |
 | Python | Documentation and Installation | https://www.anaconda.com |
-| Jupyter | Usage and Documentation | https://xxx/ |
+| Jupyter | Usage and Documentation | https://jupyter.org/ |
 | Data | Example datasets <behavior,brain,timeseries> | https://xxx/ |
-| Readings | Additional or related readings | https://xxx/ |
+| History and definitions | Wikipedia | https://www.wikipedia.org/ |
 | Other | Inspiration from tutorials by The software Carpentry| https://software-carpentry.org/lessons/ |
+| Readings | Additional or related readings | https://xxx/ |
 | Other | Stuff difficult to sort in the categories above | https://xxx/ |
