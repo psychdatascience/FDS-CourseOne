@@ -18,5 +18,5 @@ Below is the list of references and sources that have been using for the example
 | Jupyter | Usage and Documentation | https://xxx/ |
 | Data | Example datasets <behavior,brain,timeseries> | https://xxx/ |
 | Readings | Additional or related readings | https://xxx/ |
+| Other | Inspiration from tutorials by The software Carpentry| https://software-carpentry.org/lessons/ |
 | Other | Stuff difficult to sort in the categories above | https://xxx/ |
-| --------- | -------- | -------- |
