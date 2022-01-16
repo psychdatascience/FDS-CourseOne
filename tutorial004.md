@@ -77,10 +77,11 @@ Below a short Video that uses the commands above to give you a sense of the outp
 [![Using basic commands in the terminal](https://img.youtube.com/vi/zQsChRhwD5Y/0.jpg)](https://youtu.be/zQsChRhwD5Y)
 
 #### A couple of notes. 
-Note one. The Terminal is programmable and that means customizable. 
+
+###### Note one. The Terminal is programmable and that means customizable. 
 
 All this can be customized because the terminal is programmable, the interface and display of information by default can be chanhed by changing specific configuration files. We will not go over that as it is not relevat for the current topic but here is a couple of good resources [one](https://www.maketecheasier.com/customize-mac-terminal/) and [another, more advanced, one](https://medium.com/@charlesdobson/how-to-customize-your-macos-terminal-7cce5823006e).
 
-Note two. Commands have options.
+###### Note two. Commands have options.
 
 In the previous video video I use additional parameters (a.k.a. options) to generate richer outputs from the commands or to automatically delete folder and the files insdie the folder. You can find out more about how to use a command in Unix/Linux and the available options for the command by typing the comman followed by -h for help, for example `rm -h`
