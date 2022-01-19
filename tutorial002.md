@@ -43,7 +43,9 @@ Here are resources on how to get a GitHub Educational account if you are a:
 
 #### Note about Git. 
 
-Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). SVN is a centralized version control system. When using SVN a code repository is used by making a copy of the latest version of the repository. That copy was all a user had access to. With Git, everyone who uses a repository and makes a local copy of a repository has *everything* (i.e., code and code history). See [here](https://www.quora.com/What-does-it-mean-when-Git-says-distributed-is-the-new-centralized-and-local-branching-on-the-cheap-next-to-their-logo-on-the-website)) for further infomation.
+Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). 
+
+SVN is a centralized version control system. When using SVN a code repository is used by making a copy of the latest version of the repository. That copy was all a user had access to. With Git, everyone who uses a repository and makes a local copy of a repository has *everything* (i.e., code and code history). See [here](https://www.quora.com/What-does-it-mean-when-Git-says-distributed-is-the-new-centralized-and-local-branching-on-the-cheap-next-to-their-logo-on-the-website)) for further infomation.
 
 
 
