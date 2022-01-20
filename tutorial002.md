@@ -53,9 +53,9 @@ Git and GitHub allow software developers working on a single project to make cop
 
 ### GitHub community guideliness
 
-https://docs.github.com/en/github/site-policy/github-community-guidelines
+Because GitHub is a tool that allows social interaction among developers, issues related to behavior in social interaction in public and professional contexts are raised. There are published resources that can be used as guidelines for behavior in the context of work using GitHub. See them here:  https://docs.github.com/en/github/site-policy/github-community-guidelines
 
-TO FINISH
+
 
 
 
