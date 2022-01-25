@@ -57,17 +57,31 @@ Think about markdown as a programming language. You type, you add a few extra sy
 
 For example, a few useful commands can be found here (adapted from [the GitHub Guide](https://guides.github.com/features/mastering-markdown/):
 
-Bold	** ** or __ __	Command+B (Mac) or Ctrl+B (Windows/Linux)	**This is bold text**	This is bold text
-Italic	* * or _ _     	Command+I (Mac) or Ctrl+I (Windows/Linux)	*This text is italicized*	This text is italicized
-Strikethrough	~~ ~~		~~This was mistaken text~~	This was mistaken text
-Bold and nested italic	** ** and _ _		**This text is _extremely_ important**	This text is extremely important
-All bold and italic	*** ***		***All this text is important***	All this text is important
+| Font Type| MD command | text rendering| text description|
+| Bold	| ** ** | **This is bold text**	| This is bold text |
+| Italic	| * * | *This text is italicized*	| This text is italicized |
+| Strikethrough	| ~~ ~~		| ~~This was mistaken text~~	| This was mistaken text |
+| Bold and nested italic	| ** ** and _ _ |	**This text is _extremely_ important**	| This text is extremely important |
+|All bold and italic	| *** ***	| ***All this text is important***	| All this text is important |
 
-You can make a table in MarkDown but using the symbols `|` and `-` creatively:
-
-for example 
+You can even make a table in MarkDown but using the symbols `|` and `-` creatively. For example the following commands:
 
 `| This | is | a | table | header |`
+
+`| --- | --- | --- | --- | --- |`
+
+`| this | is | the | table's | content |`
+
+`| More | content | is | shown | here |`
+
+will render this table:
+
+| This | is | a | table | header |
+| --- | --- | --- | --- | --- |
+| this | is | the | table's | content |
+| More | content | is | shown | here |
+
+There are many commands in MarkDown (explore for example you can add Emojis 👽, by starting typing : and selecting your favorite 🐜!). Note that we will ask you to learn more about it for the next lectures and the first report!
 
 #### 4. Git Commits
 
