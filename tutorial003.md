@@ -52,6 +52,23 @@ We have now created a repository, added a ReadMe file, a license, and an additio
 
 Additional readings about repositoroes can be found [here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
 
+A few notes about MarkDown.
+Think about markdown as a programming language. You type, you add a few extra symbols or 'syntax' and that will allow render the text with special formatting.
+
+For example, a few useful commands can be found here (adapted from [the GitHub Guide](https://guides.github.com/features/mastering-markdown/):
+
+Bold	** ** or __ __	Command+B (Mac) or Ctrl+B (Windows/Linux)	**This is bold text**	This is bold text
+Italic	* * or _ _     	Command+I (Mac) or Ctrl+I (Windows/Linux)	*This text is italicized*	This text is italicized
+Strikethrough	~~ ~~		~~This was mistaken text~~	This was mistaken text
+Bold and nested italic	** ** and _ _		**This text is _extremely_ important**	This text is extremely important
+All bold and italic	*** ***		***All this text is important***	All this text is important
+
+You can make a table in MarkDown but using the symbols `|` and `-` creatively:
+
+for example 
+
+`| This | is | a | table | header |`
+
 #### 4. Git Commits
 
 ##### What is a `commit`? 
