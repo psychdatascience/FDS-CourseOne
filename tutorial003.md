@@ -57,7 +57,8 @@ Think about markdown as a programming language. You type, you add a few extra sy
 
 For example, a few useful commands can be found here (adapted from [the GitHub Guide](https://guides.github.com/features/mastering-markdown/):
 
-| Font Type| MD command | text rendering| text description|
+| Font Type | MD command | text rendering| text description|
+| --- | --- | --- | --- | 
 | Bold	| ** ** | **This is bold text**	| This is bold text |
 | Italic	| * * | *This text is italicized*	| This text is italicized |
 | Strikethrough	| ~~ ~~		| ~~This was mistaken text~~	| This was mistaken text |
@@ -81,7 +82,9 @@ will render this table:
 | this | is | the | table's | content |
 | More | content | is | shown | here |
 
-There are many commands in MarkDown (explore for example you can add Emojis 👽, by starting typing : and selecting your favorite 🐜!). Note that we will ask you to learn more about it for the next lectures and the first report!
+There are many commands in MarkDown (explore for example you can add Emojis 👽, by starting typing : and selecting your favorite 🐜!). You can even add a URL to your MD file in the following way: `[URL NAME HERE](URL HERE)` for example here is the URL to all the commands you can explore and learn about: [MarkDown Syntax](https://guides.github.com/features/mastering-markdown/).
+
+Note that we will ask you to learn more about it for the next lectures and the first report!
 
 #### 4. Git Commits
 
