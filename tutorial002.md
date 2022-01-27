@@ -43,7 +43,19 @@ Here are resources on how to get a GitHub Educational account if you are a:
 
 #### Note about Git. 
 
-Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). SVN is a centralized version control system. When using SVN a code repository is used by making a copy of the latest version of the repository. That copy was all a user had access to. With Git, everyone who uses a repository and makes a local copy of a repository has *everything* (i.e., code and code history). See [here](https://www.quora.com/What-does-it-mean-when-Git-says-distributed-is-the-new-centralized-and-local-branching-on-the-cheap-next-to-their-logo-on-the-website)) for further infomation.
+Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). 
+
+SVN is a centralized version control system. When using SVN a code repository is used by making a copy of the latest version of the repository. That copy was all a user had access to. With Git, everyone who uses a repository and makes a local copy of a repository has *everything* (i.e., code and code history). See [here](https://www.quora.com/What-does-it-mean-when-Git-says-distributed-is-the-new-centralized-and-local-branching-on-the-cheap-next-to-their-logo-on-the-website) for further information.
+
+## Social coding with GitHub
+
+Git and GitHub allow software developers working on a single project to make copies of the repository used for the project. Pull code from the repository to get the most up-to-date version of the code and push code into the repository to `commit` any recent changes. This allows to do what we call `social coding` where multiple developers can communicate their code online. 
+
+### GitHub community guideliness
+
+Because GitHub is a tool that allows social interaction among developers, issues related to behavior in social interaction in public and professional contexts are raised. There are published resources that can be used as guidelines for behavior in the context of work using GitHub. See them here:  https://docs.github.com/en/github/site-policy/github-community-guidelines
+
+
 
 
 
