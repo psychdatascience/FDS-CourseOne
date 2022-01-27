@@ -9,6 +9,6 @@
 | 004      | The Terminal (or Windows Console) |
 | 005      | GitHub III: committing and pushing changes |
 | 006      | Python I: Reading and writing data files |
-| 007      | Python II: Visualizing distribution |
+| 007      | Python II: Visualizing distributions |
 
 
