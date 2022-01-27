@@ -31,7 +31,7 @@ Course Prerequisites There are no prerequisites for the course.
 - Software installed on your laptop:
 
  - Python installation via Anaconda: https://www.anaconda.com/products/individual.
- - The git code management too: https://git-scm.com/.
+ - The git code management tool: https://git-scm.com/.
 
 - Read Understand and Respect the class code of conduct (see below under POLICIES)
 - Remember this class is about learning and having fun. We are here to provide you with the opportunity to learn something helpful for your future.
