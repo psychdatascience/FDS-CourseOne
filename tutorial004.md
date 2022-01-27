@@ -13,14 +13,19 @@ Prerequisites:
 
 ### Reading overview
 This short reading is a very simple introduction to your computer's terminal. 
-We will not attempt to cover the terminal extensively, instead, we will focus on the basics needed to use Git and GitHub.
+We will not attempt to cover the terminal exhaustively, instead, we will focus on the basics needed to get you started and help you use Git and GitHub.
 
 ## The Terminal
-We are used to looking at and operate our personal computers using graphical user interfaces (GUIs). This means that we routinely open files or folders by first finding them using the "finder" (mac) or "browser" (Windows) graphical interface and then clicking on them. We perform a search using a search bar. We navigate the internet using a browesr such as Chrome or Safari, we write documents using Google Docs or Microsoft Word. All these examples use graphical user interfaces or GUIs. GUIs have revolutionized computers effectively making them accessable to anyone. Before GUIs, however, there was the terminal.
+We are used to looking at and operate our personal computers using graphical user interfaces (GUIs). This means that we routinely open files or folders by first finding them using the "finder" (mac) or "browser" (Windows) graphical interface and then clicking on them. We perform a search using a search bar. We navigate the internet using a browesr such as Chrome, Firefox or Safari, we write documents using Google Docs or Microsoft Word. All these are examples of software that uses graphical user interfaces or GUIs. GUIs have revolutionized computers effectively making them accessable to anyone. Before GUIs, however, there was the `Terminal`.
 
-###### Question: Do you know who started the personal computer revolution (name individuals or a company)? 
+##### Question: Do you know who started the personal computer revolution (name individuals or a company)? 
 
-The terminal is the command line (text) interface to your computer file system and operative system. It is now referred to as interchangebly as the terminal, console, shell, or command line. They were called "terminals" because they were literally the end of the line - information from a centralized computer (a "main frame" - generally in another room or even another building) came out as far as the terminus or terminal, and no further. The earliest terminal was "teletypewriter" or "tty", literally a modified typewriter. Later a one-piece keyboard and monitor combination called a "console" took its place but, of course, these were also called terminals. The "shell" is the software that allows you to interact with the computer's operating system using terminal/console. It is mainly used to run other programs by typing the name of the program plus any options at the "command line", the place where your typing appears ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)).
+The terminal is the command line (text) interface to your computer file system and operative system. It is now referred to as interchangebly as the terminal, console, shell, or command line. They were called "terminals" because they were literally the end of the line - information from a centralized computer (a "main frame" - generally in another room or even another building) came out as far as the terminus or terminal, and no further. The earliest terminal was the ["teletypewriter" or "tty"](https://en.wikipedia.org/wiki/Teleprinter), literally a modified typewriter. 
+
+###### The teletypewriter
+![The TTY](https://en.wikipedia.org/wiki/Teleprinter#/media/File:WACsOperateTeletype.jpg)
+
+Later a one-piece keyboard and monitor combination called a "console" took its place but, of course, these were also called terminals. The "shell" is the software that allows you to interact with the computer's operating system using terminal/console. It is mainly used to run other programs by typing the name of the program plus any options at the "command line", the place where your typing appears ([read here for more information](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)).
 
 Today's "terminal/console" is not an antique thing you plug into your computer, but rather just a window on your desktop that looks and acts like the terminals of yore. But why would we want to seemingly step back in time like this? Because, despite the ease of use of the GUI interface to your computer, the terminal is powerful and often provides faster and easier ways of doing things once you get a little good at using it. In fact, there are still certain things that you can do using the terminal that you cannot do using the GUI.
 
