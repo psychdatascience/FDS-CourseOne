@@ -9,7 +9,7 @@ Then you can start your own brand-new notebook in your tutorials folder (which s
 
 #### Your mission!
 
-Once you've done that, you mission is to
+So here's the deal. The lab where you work uses low temperature freezers ("minus 80s" in the biz) to store biological samples. The data are temperature records from two freezers, Freezer 4 and Freezer 2. Your boss has asked to check if she should be worried about either of the freezers.
 
 * load the data into a pandas data frame
 
@@ -22,6 +22,8 @@ Once you've done that, you mission is to
 * write your data summary out to a new file
 
 * read you summary back in, and visually confirm somehow that the read was successful!
+
+So what do you think? Are both freezers functioning nominally?
 
 #### Commit and push your work to GitHub
 Now that you've done all that work, commit it and push your repo to the cloud where it can bask for all eternity!
