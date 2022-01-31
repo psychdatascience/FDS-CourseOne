@@ -40,7 +40,7 @@ git config --global user.email "pestilli@utexas.edu"
 
 The `git config` command sets the basic configuration parameters of git and makes a recond on your local computer. You will need to change my information and instead use your own GitHub ID and associated email address. These will save a record of the GitHub user ID and email. This operation will be performed once, and then GitHub will know who is sending files to the cloud.
 
-The next configuration that it is helpful to do before starting with Git and the terminal is the text editor used by git on your local machine. The command we suggest to use at the beginning to set uo the default text editor for git is the following:
+The next configuration that it is helpful to do before starting with Git and the terminal is the text editor used by git on your local machine. The command we suggest to use on Mac OSX at the beginning is the following:
 
 ```
 git config --global /System/Applications/TextEdit.app
@@ -52,7 +52,7 @@ On a Windows computer you might try something like the following to set up the `
 git config --global core.editor "c:/Windows/System32/notepad.exe"
 ```
 
-There are many editors that can be chose. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsfot (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
+There are many editors to choose from and geek data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsfot (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
 
 Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more the other paramenters, the following is a command that will display the list of paramters and their setting on your computer. In the future you might need to set other configuration parameters and set 
 
