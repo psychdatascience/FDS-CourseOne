@@ -28,6 +28,7 @@ Open a terminal and navigate to the folder you have been using to handle git in 
 
 `
  cd ~
+ 
  cd git
 `
 
@@ -35,6 +36,7 @@ The above steps are not necessary, but I tend to like to work with Git from the 
 
 ` 
 git config --global user.name "francopestilli"
+
 git config --global user.email "pestilli@utexas.edu"
 `
 
