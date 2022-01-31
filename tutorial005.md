@@ -26,19 +26,22 @@ To work with Git from your computer we will need to communicate between the clou
 
 Open a terminal and navigate to the folder you have been using to handle git in the previous tutorials. Type the following in your terminal:
 
-`
+```
+
  cd ~
- 
  cd git
-`
+
+```
 
 The above steps are not necessary, but I tend to like to work with Git from the location where all my git files are. That is `/Users/francopestilli/git/' on my computer. This was explained in Tutorial 2 and 3. After navigating to your git location we will set up some paramters git will use to notify GitHub about your user acount on GitHub.com.  So, let type the following commands in the terminal:
 
-` 
+``` 
+
 git config --global user.name "francopestilli"
 
 git config --global user.email "pestilli@utexas.edu"
-`
+
+```
 
 The `git config` command sets the basic configuration parameters of git and makes a recond on your local computer. You will need to change my information and instead use your own GitHub ID and associated email address. These will save a record of the GitHub user ID and email. This operation will be performed once, and then GitHub will know who is sending files to the cloud.
 
