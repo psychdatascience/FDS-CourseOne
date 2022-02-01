@@ -18,13 +18,13 @@ Prerequisites:
 
 ### 1. A reminder for version control.
 
-In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git.](https://github.com/git-guides/install-git). We will assume that that is the case and ask the others to find a way to install Git on their OS.
+In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git.](https://github.com/git-guides/install-git). Now on, we will assume that git is installed on your computer.
 
-Just as a reminder. Version cotnrol is a system to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
+Just as a reminder. Version control is a method to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
 
 ### 2. Set up Git via the Terminal.
 
-To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to do some operations to set up your account and link your credentials on GitHub.com and your local file system. Indeed, we will need to be able to shake hands between files that live locally on your computer hardrive and copies of the files stored on the computers used by GitHub.com (what I referred to above as "the could").
+To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to first perform some operations to set up your GitHub account on your computer and link your credentials on GitHub.com and your local file system. Indeed, we will need to be able to *shake hands* between files that live locally on your computer hardrive and copies of the same files stored on the computers used by GitHub.com (what I referred to above as "the cloud" or later on as `origin`).
 
 Open a terminal and navigate to the folder you have been using to handle git in the previous tutorials. Type the following in your terminal:
 
@@ -33,7 +33,9 @@ Open a terminal and navigate to the folder you have been using to handle git in 
  cd git
 ```
 
-The above steps are not necessary, but I tend to like to work with Git from the location where all my git files are. That is `/Users/francopestilli/git/' on my computer. This was explained in Tutorial 2 and 3. After navigating to your git location we will set up some paramters git will use to notify GitHub about your user acount on GitHub.com.  So, let type the following commands in the terminal:
+The above steps are not necessary, but I tend to like to work with Git from the location where all my git files are. That is `/Users/francopestilli/git/` on my computer. If you need a reminder Tutorial 2 and 3, went over some of the operations performed above. 
+
+After navigating to your git location we will set up some paramters git will use to notify GitHub about your user acount on GitHub.com.  So, let type the following commands in the terminal:
 
 ``` 
 git config --global user.name "francopestilli"
@@ -48,13 +50,13 @@ The next configuration that it is helpful to do before starting with Git and the
 git config --global /System/Applications/TextEdit.app
 ```
 
-On a Windows computer you might try something like the following to set up the `notepad` to read and write git log files and commit messages:
+On a Windows computer you might try something like the following to set up `notepad` to read and write git log files and commit messages:
 
 ```
 git config --global core.editor "c:/Windows/System32/notepad.exe"
 ```
 
-There are many editors to choose from and geek data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsoft (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
+There are many editors to choose from and data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsoft (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
 
 Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
 
@@ -102,7 +104,7 @@ The command will make a copy of the online repository on the current directory o
 
 ### 4. Edit your repository using the terminal.
 
-Next, we will edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
+Next, we will edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
 
 First let's learn how to take a look at the status of your local repository. Let's go back to the terminal and type:
 
