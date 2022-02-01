@@ -2,11 +2,13 @@
 
 Learning Goals:
 
-* Set up GitHub on your computer
-* clone a repository locally on your computer (using Unix/Linux Terminal commands)
-* make changes to the repository (adding a file and editing a file)
-* make a commit to record the changes
-* push the changes upstream, i.e. to repository stored on the cloud on GitHub.com
+ * Create a repository on GitHub.com.
+ * Clone the repository locally on your computer.
+ * Make changes to a file inside the repository.
+ * Add the changes to the stack of changes in the local git repository.
+ * Commit the changes to the record of the local repository.
+ * Push the local repository to GitHub.com
+ * (Handle advanced authentication features on GitHub, if necessary.)
 
 Prerequisites:
 
@@ -126,7 +128,90 @@ As you can see git has detected changes to the `README.md` file. Let's analyze t
   - `Your branch is up to data with origin/main` This means that the files in your local copy of the repository and the main branch you are currently working on are the same as the versions of the files committed to the cloud version of the repository, the `origin` is, in a nutshell, the term used here to refer to the cloud-hosted copy of the repository, so the files on GitHub.com.
   -  `Changes not staged for commit:` ... `modified:   README.md` This block of text, says that a file (`README.md`) on your local version of the repository has been modified and suggests a way to `restore` the file to the original version (the version still on `origin`) or a way to `add` the changes to the wanted changes that will need to be added to the `origin` when the next `commit` is performed.
 
+### 5. Commit the changes and push the to origin.
 
+Next, we will want to close the loop of the process that will take our local changes to README.md to be aceepted and recorded as the newest version of the file.
+  - The process of accepting or promoting the local version of a file as the current version is called a `commit`. We commit to a change when we think it is a good change, that should be kept.
+  - The process of synching the local files with the files in the cloud version of the repository is called a `push`, we push to the cloud. We `pull` from the cloud to a local version of a repository. 
+
+Because `git` is a distributed version-control system there are often multiple ways to do things. hereafter we will show one convenient way to perform a commit and a push and sync all the files but there can be alternative ways to achive the same state.
+
+#### Commit the file changes to your local repository
+
+When we run `git status` git suggested to use the command `add` to add the changes to README.md to the stack of changes to be committed to the local repository. That would look like the following:
+
+```
+git add README.md
+git commit -m "I started editing README.md and added some basic information about myself."
+```
+
+The above would first add the changes detected by git to README.md and then commit the changes the local copy of the repository (and added the mandatory commit message using the option `-m`). After that the files will still be only changed on your local computer, not yet pushed to the cloud, or better to `origin`, to GitHub.com. So for example, if you hardrive were to die on you or you would spill a cup of coffee on your computer you would risk the way to lose your work. Keeping files on GitHub.com makes your work safe, your files on GitHub.com are kept by a professional-grade system. After performing the above operations (`git add` and `git commit`) you can check the status of your repository, below what git returns when i used the command `git status`:
+
+```
+(base) francopestilli@francos-mbp francopestilli % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) francopestilli@francos-mbp francopestilli %
+```
+
+As you can read from the message all is good. There is nothing to commit, you are working on a clean tree of the repository, but, git notifies us that `Your branch is ahead of 'origin/main' by 1 commit.` This means that your local copy of the repository is different (it is ahead of or it has a newer file versions) than the one on the cloud, `origin`. So the next thing is to fix that. 
+
+#### Pushing to origin to synch the local and cloud repositories
+
+After changing a file and committing to its most recent version, the final step of the git/GitHub workflow is to push the local repository living on your machine to the cloud. To do so, we will use the comman `git push`, this command will copy the local versions of repository to the repository stored at https://github.com/yourUserID/yourUserID. The way I would do it is the following:
+
+```
+git push
+```
+
+To synch with GitHub.com, you will need to confirm your credentials:
+
+```
+(base) francopestilli@francos-mbp francopestilli % git push
+Username for 'https://github.com': #######
+Password for 'https://francopestilli@github.com': #######
+```
+
+This is the result of the operation above. (If you are having problems with authenticating at this stage, please see Note 1 at the bottom of this tutorial. It explains how to create an access token to use instead of a passowrd-based authentication.)
+
+```
+(base) francopestilli@francos-mbp francopestilli % git push
+Username for 'https://github.com': francopestilli
+Password for 'https://francopestilli@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 563 bytes | 563.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/francopestilli/francopestilli
+   0d544b9..c934e0d  main -> main
+(base) francopestilli@francos-mbp francopestilli % 
+```
+
+#### Summary of everything above.
+
+Okay! This tutorial was not short. definitely longer than the previous ones. After all this work this is what we have done:
+
+  - Created a repository on GitHub.com.
+  - Cloned the repository locally on your computer.
+  - Made changes to a file inside the repository.
+  - Added the changes to the stack of changes in the local git repository.
+  - Committed the changes to the record of the local repository.
+  - Pushed the local repository to GitHub.com
+
+Now the local copy and the copy of the repository on GitHub.com are all in sync and your README.md file was updated. You can continue editing this file and use MarkDown to make it better and better.
+
+
+_________________________________________________________________________________
+###### Note 1. GitHub Access Tokens. In 2021, GitHub.com eliminated the option of allowing passwords for operations such as git push. Using a password was deemed not safe enough. In alternative, GitHub is suggestion to use a personal access token. A pwrsonal access token is just like a password, but it is created automatically by GitHub, it does not necessarily apply to all operations on your accound (a token can be limited to only a few operations) and it expires after a certain amount of time. [This is the article GitHub published explaining why they made this change and how to create an access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). This is a short video that shows how to generate a GitHub Access token. Tokens should be treated just like passwords and kept in a secure location and never shared.
+
+[![This is a short video that shows how to generate a GitHub Access token.](https://img.youtube.com/vi/WmDTEADPahg/0.jpg)](https://www.youtube.com/watch?v=WmDTEADPahg). 
+
+###### Note 2. How I do git commits. Above is follows a standard workflow and showed how to commit changes to a file using a two-step process: `git add` and then `git commit`. In my normal workflow, I eliminate one step by using a single command that does both commits and adds: `git commit -am "This is my message"` the option `-a` in the previous command means `git add` so the commit command will do all at once a `commit` and an `add`. I find this a more convenient way to handle my workflow as this method eliminates one command, less typing is better than more typing!
 
 
 
