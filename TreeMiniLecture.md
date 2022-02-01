@@ -11,3 +11,7 @@ cd - change directory
 cd child
 cd .. - your way back!
 cd ~ - click your heels three times!
+## Mac Finder tricks
+viewing the path
+copying the path
+opening terminal at a location
