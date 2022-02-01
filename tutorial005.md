@@ -70,9 +70,58 @@ First, navigate to GitHub.com and *sign in*.
 
 #### Create a repository: Using the Web User Interface (Web UI).
 
-Next create a new repository. Importantly, the name of the reposity should *match* your GitHub user ID (in my case the repository will be named `francopestilli` because that is my user ID on github, see here: https://github.com/francopestilli 
+Next create a new repository. Importantly, the name of the repository should *match* your GitHub user ID (in my case the repository will be named `francopestilli` because that is my user ID on github, see here: https://github.com/francopestilli 
 
 [![This is a video showing how to create a new repository using the graphical interface on GitHub. The name of the repository is special as it matches the user's ID.](https://img.youtube.com/vi/qijRlJpBm9A/0.jpg)](https://www.youtube.com/watch?v=qijRlJpBm9A).
 
-#### Start Editing your repository on your local computer.
+After all this, if you navigate to your GitHub Resume Repository: https://github.com/yourUserName/yourUserName (change the URL to use your real user name), you will see something like the following:
+
+<img width="1393" alt="YourGitHubResumeRepo" src="https://user-images.githubusercontent.com/2119795/151894081-ecb31b0e-9556-4911-a37d-5326db550f0b.png">
+
+#### Clone the new repository from GitHub.com onto your local computer.
+
+Next on your local computer, navigate to the root of your `git` repositories:
+
+```
+ cd ~
+ cd git
+```
+
+The command that will allow the repository online to be copied locally on your computer whil emaintaining an invisible link to your online repository living on gitHub is `clone`:
+
+```
+git clone https://github.com/yourUserName/yourUserName 
+```
+
+The command will make a copy of the online repository on the current directory on your computer. So let's check this. You can show your current directory `pwd`, we just navigated to it a few lines above, if all went well it should be `git`. You can then list the files and folders in the repository using `ls -l`. You should see a folder named `yourUserName`. 
+
+
+[![This video shows how to clone a repository already existing on GitHub.com using terminal on Mac OSX.](https://img.youtube.com/vi/G931KZx4Rhc/0.jpg)](https://www.youtube.com/watch?v=G931KZx4Rhc).
+
+#### Start Editing your repository using the terminal.
+
+Next, we will edit the readme.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
+
+First let's learn how to take a look at the status of your local repository. Let's go back to the terminal and type:
+
+```
+git status
+```
+Below what the command returns for me after I edited the README.md:
+
+```
+(base) francopestilli@francos-mbp francopestilli % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+```
+
+As you can see git has detected changes to the `README.md` file. 
+
+
+
 
