@@ -12,7 +12,7 @@ Learning Goals:
 
 Prerequisites:
 
-* Internet access on linux or Unix based computer (or Windows, especially with PowerShell)
+* Internet access on Linux or Unix based computer (or Windows, especially with PowerShell)
 * Git Installed
 * A GitHub account and ability Create a GitHub Repo, i.e., ([Tutorial 2](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial002.md)) and [Tutorial 3](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md)
 
