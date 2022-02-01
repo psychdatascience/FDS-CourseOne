@@ -102,15 +102,16 @@ The command will make a copy of the online repository on the current directory o
 
 [![This video shows how to clone a repository already existing on GitHub.com using terminal on Mac OSX.](https://img.youtube.com/vi/G931KZx4Rhc/0.jpg)](https://www.youtube.com/watch?v=G931KZx4Rhc).
 
-### 4. Edit your repository using the terminal.
+### 4. Edit your repository.
 
-Next, we will edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
+We want edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
 
-First let's learn how to take a look at the status of your local repository. Let's go back to the terminal and type:
+First let's learn how to take a look at the status of your local repository. Let's go back to the terminal and type the following:
 
 ```
 git status
 ```
+
 Below what the command `git status` returns on my computer after editing the README.md:
 
 ```
@@ -124,13 +125,13 @@ Changes not staged for commit:
 	modified:   README.md
 ```
 
-As you can see git has detected changes to the `README.md` file. Let's analyze this out put:
+As you can see git has detected changes to the `README.md` file. Let's analyze the output above:
 
   - `On branch main` This means that you are currently working on the main development thread for this repository. Git allows "branching" (just like a tree branch). This means that you can create a copy (a branch) of repository that diverges from the principal (main branch). Generally branches are "merged" back into the main branch once a certain development goal is achieved. [Here is some some additional reading material to understand basic branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
   - `Your branch is up to data with origin/main` This means that the files in your local copy of the repository and the main branch you are currently working on are the same as the versions of the files committed to the cloud version of the repository, the `origin` is, in a nutshell, the term used here to refer to the cloud-hosted copy of the repository, so the files on GitHub.com.
   -  `Changes not staged for commit:` ... `modified:   README.md` This block of text, says that a file (`README.md`) on your local version of the repository has been modified and suggests a way to `restore` the file to the original version (the version still on `origin`) or a way to `add` the changes to the wanted changes that will need to be added to the `origin` when the next `commit` is performed.
 
-### 5. Commit the changes and push the to origin.
+### 5. Commit the changes and push to `origin`.
 
 Next, we will want to close the loop of the process that will take our local changes to README.md to be aceepted and recorded as the newest version of the file.
   - The process of accepting or promoting the local version of a file as the current version is called a `commit`. We commit to a change when we think it is a good change, that should be kept.
