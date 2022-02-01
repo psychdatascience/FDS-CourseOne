@@ -10,19 +10,19 @@ Learning Goals:
 
 Prerequisites:
 
-* Internet access on linux or Unix based computer
+* Internet access on linux or Unix based computer (or Windows, especially with PowerShell)
 * Git Installed
 * A GitHub account and ability Create a GitHub Repo, i.e., ([Tutorial 2](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial002.md)) and [Tutorial 3](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md)
 
 ### A reminder for version control.
 
-In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the Linux/Unix terminal, on your local computer. To do so, we will need to have Git installed on your comouter. [Here is a guide to installing git.](https://github.com/git-guides/install-git). We will assume that that is the case and ask the others to find a way to install Git on their OS.
+In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git.](https://github.com/git-guides/install-git). We will assume that that is the case and ask the others to find a way to install Git on their OS.
 
 Just as a reminder. Version cotnrol is a system to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
 
 ### Set up Git via the Terminal
 
-To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to do some operations to set up your account and link your credential on GitHub.com and your local file system. Indeed, we will need to be able to shake hands between files that live locally on your computer hardrive and copies of the files stored on the computers used by GitHub.com (what I referred to above as "the could").
+To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to do some operations to set up your account and link your credentials on GitHub.com and your local file system. Indeed, we will need to be able to shake hands between files that live locally on your computer hardrive and copies of the files stored on the computers used by GitHub.com (what I referred to above as "the could").
 
 Open a terminal and navigate to the folder you have been using to handle git in the previous tutorials. Type the following in your terminal:
 
@@ -38,7 +38,7 @@ git config --global user.name "francopestilli"
 git config --global user.email "pestilli@utexas.edu"
 ```
 
-The `git config` command sets the basic configuration parameters of git and makes a recond on your local computer. You will need to change my information and instead use your own GitHub ID and associated email address. These will save a record of the GitHub user ID and email. This operation will be performed once, and then GitHub will know who is sending files to the cloud.
+The `git config` command sets the basic configuration parameters of git and makes a record on your local computer. You will need to change my information and instead use your own GitHub ID and associated email address. These will save a record of the GitHub user ID and email. This operation will be performed once, and then GitHub will know who is sending files to the cloud.
 
 The next configuration that it is helpful to do before starting with Git and the terminal is the text editor used by git on your local machine. The command we suggest to use on Mac OSX at the beginning is the following:
 
@@ -52,13 +52,13 @@ On a Windows computer you might try something like the following to set up the `
 git config --global core.editor "c:/Windows/System32/notepad.exe"
 ```
 
-There are many editors to choose from and geek data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsfot (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
+There are many editors to choose from and geek data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsoft (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
 
-Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more the other paramenters, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
+Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
 
 ### Create a new repository and start editing it
 
-We will now create a new repository, and edit files and directories in it, perform commits via the Terminal. To preactice we will create your own GitHub Resume. GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page. A sort of CV that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
+We will now create a new repository, and edit files and directories in it, perform commits via the Shell. To preactice we will create your own GitHub Resume. GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page. A sort of CV (Resume) that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
 
 So, first let repeat some of the steps of Tutorial 3 and create a repository on GitHub.com:
 
@@ -87,7 +87,7 @@ Next on your local computer, navigate to the root of your `git` repositories:
  cd git
 ```
 
-The command that will allow the repository online to be copied locally on your computer whil emaintaining an invisible link to your online repository living on gitHub is `clone`:
+The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on gitHub is `clone`:
 
 ```
 git clone https://github.com/yourUserName/yourUserName 
