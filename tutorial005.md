@@ -20,7 +20,7 @@ In this tutorial we will learn how to perform some of the operations done with G
 
 Just as a reminder. Version cotnrol is a system to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
 
-### 2. Set up Git via the Terminal
+### 2. Set up Git via the Terminal.
 
 To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to do some operations to set up your account and link your credentials on GitHub.com and your local file system. Indeed, we will need to be able to shake hands between files that live locally on your computer hardrive and copies of the files stored on the computers used by GitHub.com (what I referred to above as "the could").
 
@@ -56,7 +56,7 @@ There are many editors to choose from and geek data scientists "geek over" their
 
 Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
 
-### 3. Create a new repository and start editing it
+### 3. Create and clone a new repository.
 
 We will now create a new repository, and edit files and directories in it, perform commits via the Shell. To preactice we will create your own GitHub Resume. GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page. A sort of CV (Resume) that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
 
@@ -98,7 +98,7 @@ The command will make a copy of the online repository on the current directory o
 
 [![This video shows how to clone a repository already existing on GitHub.com using terminal on Mac OSX.](https://img.youtube.com/vi/G931KZx4Rhc/0.jpg)](https://www.youtube.com/watch?v=G931KZx4Rhc).
 
-#### Start Editing your repository using the terminal.
+### 4. Edit your repository using the terminal.
 
 Next, we will edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
 
