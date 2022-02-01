@@ -64,7 +64,9 @@ So, first let repeat some of the steps of Tutorial 3 and create a repository on 
 
 #### Navigate to GitHub.com/yourUserID and Sign in to your account.
 
-First, navigate to GitHub.com and *sign in*. [![This is a Video Reminder on How to Login on GitHub, if neeed](https://img.youtube.com/vi/KGLG-0VIEDM/0.jpg)](https://www.youtube.com/watch?v=KGLG-0VIEDM)
+First, navigate to GitHub.com and *sign in*. 
+
+[![This is a Video Reminder on How to Login on GitHub, if neeed](https://img.youtube.com/vi/KGLG-0VIEDM/0.jpg)](https://www.youtube.com/watch?v=KGLG-0VIEDM)
 
 #### Create a repository: Using the Web User Interface (Web UI).
 
