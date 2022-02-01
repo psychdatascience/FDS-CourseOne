@@ -47,7 +47,7 @@ The `git config` command sets the basic configuration parameters of git and make
 The next configuration that it is helpful to do before starting with Git and the terminal is the text editor used by git on your local machine. The command we suggest to use on Mac OSX at the beginning is the following:
 
 ```
-git config --global /System/Applications/TextEdit.app
+git config --global core.editor /System/Applications/TextEdit.app
 ```
 
 On a Windows computer you might try something like the following to set up `notepad` to read and write git log files and commit messages:
