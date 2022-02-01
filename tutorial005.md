@@ -47,7 +47,7 @@ The `git config` command sets the basic configuration parameters of git and make
 The next configuration that it is helpful to do before starting with Git and the terminal is the text editor used by git on your local machine. The command we suggest to use on Mac OSX at the beginning is the following:
 
 ```
-git config --global core.editor /System/Applications/TextEdit.app
+git config --global core.editor "/System/Applications/TextEdit.app"
 ```
 
 On a Windows computer you might try something like the following to set up `notepad` to read and write git log files and commit messages:
@@ -58,13 +58,13 @@ git config --global core.editor "c:/Windows/System32/notepad.exe"
 
 There are many editors to choose from and data scientists "geek over" their editor. For examlple, I am currently using [Visual Studio Code](https://code.visualstudio.com/) a.k.a. `VS code`. `VS code` is a recently updated editor by Microsoft (note that we receive no money from Microsofot for this course). `VS code` is very slick and with nice features, especially for [the completion of blocks of code](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode). 
 
-Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
+Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters but for this tutorial, we are done! 
 
 ### 3. Create and clone a new repository.
 
-We will now create a new repository, and edit files and directories in it, perform commits via the Shell. To preactice we will create your own GitHub Resume. GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page. A sort of CV (Resume) that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
+We will now create a new repository, and edit files and directories in it, perform commits via the terminal. To practice using git via the terminal, we will create your own GitHub Resume! So that you will also improve your online Data Science presence. [GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page.](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile) A sort of CV (Resume) that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
 
-So, first let repeat some of the steps of Tutorial 3 and create a repository on GitHub.com:
+So, first let's repeat some of the steps of Tutorial 3 and create a repository on GitHub.com.
 
 #### Navigate to GitHub.com/yourUserName and Sign in to your account.
 
@@ -74,11 +74,11 @@ First, navigate to GitHub.com and *sign in*.
 
 #### Create a repository: Using the Web User Interface (Web UI).
 
-Next create a new repository. Importantly, the name of the repository should *match* your GitHub user ID (in my case the repository will be named `francopestilli` because that is my user ID on github, see here: https://github.com/francopestilli 
+Next, create a new repository. Importantly, the name of the repository should *match* your GitHub user ID (in my case the repository will be named `francopestilli` because that is my user ID on github, see here: https://github.com/francopestilli 
 
 [![This is a video showing how to create a new repository using the graphical interface on GitHub. The name of the repository is special as it matches the user's ID.](https://img.youtube.com/vi/qijRlJpBm9A/0.jpg)](https://www.youtube.com/watch?v=qijRlJpBm9A).
 
-After all this, if you navigate to your GitHub Resume Repository: https://github.com/yourUserName/yourUserName (change the URL to use your real user name), you will see something like the following:
+After all these steps, you can navigate to your GitHub Resume Repository: https://github.com/yourUserName/yourUserName (hint: change the URL to use your real user name), you will see something like the following:
 
 <img width="1393" alt="YourGitHubResumeRepo" src="https://user-images.githubusercontent.com/2119795/151894081-ecb31b0e-9556-4911-a37d-5326db550f0b.png">
 
@@ -91,28 +91,32 @@ Next on your local computer, navigate to the root of your `git` repositories:
  cd git
 ```
 
-The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on gitHub is `clone`:
+The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on GitHub is `clone`:
 
 ```
 git clone https://github.com/yourUserName/yourUserName 
 ```
 
-The command will make a copy of the online repository on the current directory on your computer. So let's check this. You can show your current directory `pwd`, we just navigated to it a few lines above, if all went well it should be `git`. You can then list the files and folders in the repository using `ls -l`. You should see a folder named `yourUserName`. 
-
+The command will make a copy of the online repository on the current directory on your computer. So let's check this. You can show your current directory `pwd`. You can see all files and folders in your current using `ls -l`. We can navigate to the new repository folder `yourUserName` using `cd yourUserName`. 
 
 [![This video shows how to clone a repository already existing on GitHub.com using terminal on Mac OSX.](https://img.youtube.com/vi/G931KZx4Rhc/0.jpg)](https://www.youtube.com/watch?v=G931KZx4Rhc).
 
 ### 4. Edit your repository.
 
-We want edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the readme.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the readme.md fie and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: *I am from Rome and I am here because I believe in science and education and I would like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not simple, but I believe we can.* Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
+We want edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the README.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the README.md file and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: 
 
-First let's learn how to take a look at the status of your local repository. Let's go back to the terminal and type the following:
+*I am from Rome and I work in a Public University because I believe in science and education. I like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not a simple task, but I believe we can.* 
+
+Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
+
+First let's learn how to take a look at the status of your local repository. Let's go back to the terminal, navigate to the new folder we just cloned and check the status of the repository:
 
 ```
+cd /Users/francopestilli/git/yourUserName
 git status
 ```
 
-Below what the command `git status` returns on my computer after editing the README.md:
+Below is a snapshot of what the command `git status` returned on my computer after editing the README.md:
 
 ```
 (base) francopestilli@francos-mbp francopestilli % git status
@@ -127,28 +131,28 @@ Changes not staged for commit:
 
 As you can see git has detected changes to the `README.md` file. Let's analyze the output above:
 
-  - `On branch main` This means that you are currently working on the main development thread for this repository. Git allows "branching" (just like a tree branch). This means that you can create a copy (a branch) of repository that diverges from the principal (main branch). Generally branches are "merged" back into the main branch once a certain development goal is achieved. [Here is some some additional reading material to understand basic branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+  - `On branch main` This means that you are currently working on the main development thread for this repository. Git allows "branching" (just like a tree branch). This means that you can create a copy (a `branch`) of repository that diverges from the principal (`main` branch). Generally branches are "merged" back into the main branch after a certain development goal is achieved. [Here is some some additional reading material to understand basic branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
   - `Your branch is up to data with origin/main` This means that the files in your local copy of the repository and the main branch you are currently working on are the same as the versions of the files committed to the cloud version of the repository, the `origin` is, in a nutshell, the term used here to refer to the cloud-hosted copy of the repository, so the files on GitHub.com.
   -  `Changes not staged for commit:` ... `modified:   README.md` This block of text, says that a file (`README.md`) on your local version of the repository has been modified and suggests a way to `restore` the file to the original version (the version still on `origin`) or a way to `add` the changes to the wanted changes that will need to be added to the `origin` when the next `commit` is performed.
 
 ### 5. Commit the changes and push to `origin`.
 
-Next, we will want to close the loop of the process that will take our local changes to README.md to be aceepted and recorded as the newest version of the file.
+Next, we will want to close the loop of the process that will take our local changes to README.md to be accepted and recorded as the official, newest version of the file.
   - The process of accepting or promoting the local version of a file as the current version is called a `commit`. We commit to a change when we think it is a good change, that should be kept.
   - The process of synching the local files with the files in the cloud version of the repository is called a `push`, we push to the cloud. We `pull` from the cloud to a local version of a repository. 
 
-Because `git` is a distributed version-control system there are often multiple ways to do things. hereafter we will show one convenient way to perform a commit and a push and sync all the files but there can be alternative ways to achive the same state.
+Because `git` is a distributed version-control system there are often multiple ways to do things. hereafter we will show one convenient way to perform a commit and a push and sync all the files but there can be alternative ways to achieve the same state.
 
 #### Commit the file changes to your local repository
 
-When we run `git status` git suggested to use the command `add` to add the changes to README.md to the stack of changes to be committed to the local repository. That would look like the following:
+Above, when we run the command `git status`, git suggested to use the command `add` to add the changes to README.md to the stack of changes to be committed to the local repository. That would look like the following:
 
 ```
 git add README.md
 git commit -m "I started editing README.md and added some basic information about myself."
 ```
 
-The above would first add the changes detected by git to README.md and then commit the changes the local copy of the repository (and added the mandatory commit message using the option `-m`). After that the files will still be only changed on your local computer, not yet pushed to the cloud, or better to `origin`, to GitHub.com. So for example, if you hardrive were to die on you or you would spill a cup of coffee on your computer you would risk the way to lose your work. Keeping files on GitHub.com makes your work safe, your files on GitHub.com are kept by a professional-grade system. After performing the above operations (`git add` and `git commit`) you can check the status of your repository, below what git returns when i used the command `git status`:
+The above would first add the changes detected by git to README.md and then commit the changes the local copy of the repository (and added the mandatory commit message using the option `-m`). After that, the files will be changed on your local computer, but not yet pushed to the cloud, or better to `origin`. So, if your hardrive were to die or you would spill a cup of coffee on your computer you would risk to lose your work. Keeping files on the cloud (GitHub.com) makes your work error proof becuase your files on GitHub.com are kept by a professional-grade system. After performing the above operations (`git add` and `git commit`) you can check the status of your repository, using `git status`. Below what git returned when I used the command `git status`:
 
 ```
 (base) francopestilli@francos-mbp francopestilli % git status
@@ -160,7 +164,7 @@ nothing to commit, working tree clean
 (base) francopestilli@francos-mbp francopestilli %
 ```
 
-As you can read from the message all is good. There is nothing to commit, you are working on a clean tree of the repository, but, git notifies us that `Your branch is ahead of 'origin/main' by 1 commit.` This means that your local copy of the repository is different (it is ahead of or it has a newer file versions) than the one on the cloud, `origin`. So the next thing is to fix that. 
+As you can read from the message all is good. There is nothing to commit, I am working on a clean tree of the repository, but, git notifies us that `Your branch is ahead of 'origin/main' by 1 commit.` This means that my local copy of the repository is different (it is ahead of or it has a newer file version) than the one on the cloud, `origin`. So the next thing is to fix that. 
 
 #### Pushing to origin to synch the local and cloud repositories
 
@@ -197,7 +201,7 @@ To https://github.com/francopestilli/francopestilli
 
 ### 6. Summary of everything above.
 
-Okay! This tutorial was not short. definitely longer than the previous ones. After all this work this is what we have done:
+Okay! This tutorial was not short. It was definitely longer than the previous ones. After all this work this is what we have done:
 
   - Created a repository on GitHub.com.
   - Cloned the repository locally on your computer.
