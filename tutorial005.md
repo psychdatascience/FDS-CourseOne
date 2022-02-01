@@ -18,7 +18,7 @@ Prerequisites:
 
 ### 1. A reminder for version control.
 
-In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git.](https://github.com/git-guides/install-git). Now on, we will assume that git is installed on your computer.
+In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git](https://github.com/git-guides/install-git). Now on, we will assume that git is installed on your computer.
 
 Just as a reminder. Version control is a method to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
 
@@ -74,7 +74,7 @@ First, navigate to GitHub.com and *sign in*.
 
 #### Create a repository: Using the Web User Interface (Web UI).
 
-Next, create a new repository. Importantly, the name of the repository should *match* your GitHub user ID (in my case the repository will be named `francopestilli` because that is my user ID on github, see here: https://github.com/francopestilli 
+Next, create a new repository. Importantly, the name of the repository should *match* your GitHub user ID, in my case the repository will be named `francopestilli`, because that is my user ID on GitHub, see this is the URL to my user on GitHub: https://github.com/francopestilli 
 
 [![This is a video showing how to create a new repository using the graphical interface on GitHub. The name of the repository is special as it matches the user's ID.](https://img.youtube.com/vi/qijRlJpBm9A/0.jpg)](https://www.youtube.com/watch?v=qijRlJpBm9A).
 
