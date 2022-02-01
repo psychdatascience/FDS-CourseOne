@@ -64,7 +64,7 @@ We will now create a new repository, and edit files and directories in it, perfo
 
 So, first let repeat some of the steps of Tutorial 3 and create a repository on GitHub.com:
 
-#### Navigate to GitHub.com/yourUserID and Sign in to your account.
+#### Navigate to GitHub.com/yourUserName and Sign in to your account.
 
 First, navigate to GitHub.com and *sign in*. 
 
@@ -161,7 +161,7 @@ As you can read from the message all is good. There is nothing to commit, you ar
 
 #### Pushing to origin to synch the local and cloud repositories
 
-After changing a file and committing to its most recent version, the final step of the git/GitHub workflow is to push the local repository living on your machine to the cloud. To do so, we will use the comman `git push`, this command will copy the local versions of repository to the repository stored at https://github.com/yourUserID/yourUserID. The way I would do it is the following:
+After changing a file and committing to its most recent version, the final step of the git/GitHub workflow is to push the local repository living on your machine to the cloud. To do so, we will use the comman `git push`, this command will copy the local versions of repository to the repository stored at https://github.com/yourUserName/yourUserName. The way I would do it is the following:
 
 ```
 git push
@@ -175,7 +175,7 @@ Username for 'https://github.com': #######
 Password for 'https://francopestilli@github.com': #######
 ```
 
-This is the result of the operation above. (If you are having problems with authenticating at this stage, please see Note 1 at the bottom of this tutorial. It explains how to create an access token to use instead of a passowrd-based authentication.)
+Below the output in the terminal with the results of the operation above. (If you are having problems with authenticating at this stage, please see Note 1 at the bottom of this tutorial. It explains how to create an access token to use instead of a passowrd-based authentication.)
 
 ```
 (base) francopestilli@francos-mbp francopestilli % git push
@@ -192,7 +192,7 @@ To https://github.com/francopestilli/francopestilli
 (base) francopestilli@francos-mbp francopestilli % 
 ```
 
-#### Summary of everything above.
+### 6. Summary of everything above.
 
 Okay! This tutorial was not short. definitely longer than the previous ones. After all this work this is what we have done:
 
