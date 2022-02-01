@@ -105,7 +105,7 @@ The command will make a copy of the online repository on the current directory o
 
 We want edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the README.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the README.md file and let's add your First Name, Middle initials and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example I would write: 
 
-*I am from Rome and I work in a Public University because I believe in science and education. I like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not a simple task, but I believe we can.* 
+*I work in a Public University because I believe in science and education. I like to think that by teaching young minds how to think critically and how to use cutting edge tools, like coding, we can make the world a better place. It is not a simple task, but I believe we can.* 
 
 Finally, finish editing, save and close your editor. Now we are ready to make our first commit. 
 
