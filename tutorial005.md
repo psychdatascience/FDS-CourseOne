@@ -14,13 +14,13 @@ Prerequisites:
 * Git Installed
 * A GitHub account and ability Create a GitHub Repo, i.e., ([Tutorial 2](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial002.md)) and [Tutorial 3](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md)
 
-### A reminder for version control.
+### 1. A reminder for version control.
 
 In this tutorial we will learn how to perform some of the operations done with GitHub using the Web-UI but instead using the command line interface, the shell, on your local computer. To do so, we will need to have Git installed on your computer. [Here is a guide to installing git.](https://github.com/git-guides/install-git). We will assume that that is the case and ask the others to find a way to install Git on their OS.
 
 Just as a reminder. Version cotnrol is a system to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2022/Spring/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encoutnered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at: Keeping track of small changes, updating files as their are modified, rembering to update records.
 
-### Set up Git via the Terminal
+### 2. Set up Git via the Terminal
 
 To work with Git from your computer we will need to communicate between the cloud used by GitHub.com and your local computer. To do so, we will need to do some operations to set up your account and link your credentials on GitHub.com and your local file system. Indeed, we will need to be able to shake hands between files that live locally on your computer hardrive and copies of the files stored on the computers used by GitHub.com (what I referred to above as "the could").
 
@@ -56,7 +56,7 @@ There are many editors to choose from and geek data scientists "geek over" their
 
 Git has many other configuration parameters. Yet, for a start this will be all we need. If you are interested in exploring more of the other parameners, the following is a command that will display the list of paramters and their setting on your computer: 'git config --list', you can also learn more about `git config` by typing the following help command `git config -h`. In the future you might need to set other configuration parameters and set 
 
-### Create a new repository and start editing it
+### 3. Create a new repository and start editing it
 
 We will now create a new repository, and edit files and directories in it, perform commits via the Shell. To preactice we will create your own GitHub Resume. GitHub recently allowed users to create a repository that can be used as landing page for your GitHub page. A sort of CV (Resume) that will display as people navigate to your GitHub account. Data science geeks will like the idea of having a slick set up and appealing GitHub page as that page is your passport to the world of data science!
 
