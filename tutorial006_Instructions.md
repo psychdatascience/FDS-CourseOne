@@ -14,7 +14,7 @@ Inside this folder, make another folder (you can use the command `mkdir` to do s
 Don't use black spaces in your file or folder names for Python, MatLab, the Terminal or when using R. Even though your computer's operating system graphical interface allows using spaces in your file/folder names, the black-spaces wreaks havoc when you try to read and write files from your own programs.
 
 #### Download the tutorial files
-Once you have have a folder, download the [Tutorial 006 .ipynb file](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial006.ipynb) and the [Data File for Tutorial 006 .csv file](https://github.com/psychdatascience/FDS-CourseOne/blob/main/datasets/006DataFile.csv). Move then the .ipynb notebook into the first folder (`.../GitHub/PythonTutorials`), and the .csv file into the second (`.../GitHub/PythonTutorials/datasets`). 
+Once you have have a folder, download the Tutorial 006 .ipynb file from Canvas and the Data File for Tutorial 006 .csv file also provided on Canvas. Move then the .ipynb notebook into the first folder (`.../GitHub/PythonTutorials`), and the .csv file into the second (`.../GitHub/PythonTutorials/datasets`). 
 
 #### Git Commit Push your modified local repo up to the cloud
 To do this you can do somehting like the following:
