@@ -21,7 +21,7 @@ Once you have have a folder, download the Tutorial 006 .ipynb file from Canvas a
 #### Git Commit Push your modified local repo up to the cloud
 To do this you can do somehting like the following:
 
-A) `git add -R /Users/YourUserNameOnYourPC/GitHub/PythonTutorials/*`
+A) `git add /Users/YourUserNameOnYourPC/GitHub/PythonTutorials/`
 
 B) `git commit -am "Your nice commit message here"`
 
