@@ -10,6 +10,8 @@ Inside this folder, make another folder (you can use the command `mkdir` to do s
 
 ``.../GitHub/PythonTutorials/datasets`` folder 
 
+(or similar – the important thing is that your "datasets" folder is a subfolder of wherever you are going to keep your Jupyter notebooks)
+
 ##### Note: 
 Don't use black spaces in your file or folder names for Python, MatLab, the Terminal or when using R. Even though your computer's operating system graphical interface allows using spaces in your file/folder names, the black-spaces wreaks havoc when you try to read and write files from your own programs.
 
@@ -19,7 +21,7 @@ Once you have have a folder, download the Tutorial 006 .ipynb file from Canvas a
 #### Git Commit Push your modified local repo up to the cloud
 To do this you can do somehting like the following:
 
-A) `git add -R /Users/YourUserNameOnYourPC/GitHub/PythonTutorials/*`
+A) `git add /Users/YourUserNameOnYourPC/GitHub/PythonTutorials/`
 
 B) `git commit -am "Your nice commit message here"`
 
