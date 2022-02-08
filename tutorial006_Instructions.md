@@ -10,6 +10,8 @@ Inside this folder, make another folder named "datasets". If you named the first
 
 ``.../GitHub/PythonTutorials/datasets`` folder 
 
+(or similar – the important thing is that your "datasets" folder is a subfolder of wherever you are going to keep your Jupyter notebooks)
+
 ##### Note: 
 Don't use spaces in your file or folder names for this class (or when using R for that matter). Even though your computer's operating system allows it, it wreaks havoc when you try to read and write files from your own programs.
 
