@@ -10,6 +10,8 @@ Inside this folder, make another folder (you can use the command `mkdir` to do s
 
 ``.../GitHub/PythonTutorials/datasets`` folder 
 
+(or similar – the important thing is that your "datasets" folder is a subfolder of wherever you are going to keep your Jupyter notebooks)
+
 ##### Note: 
 Don't use black spaces in your file or folder names for Python, MatLab, the Terminal or when using R. Even though your computer's operating system graphical interface allows using spaces in your file/folder names, the black-spaces wreaks havoc when you try to read and write files from your own programs.
 
