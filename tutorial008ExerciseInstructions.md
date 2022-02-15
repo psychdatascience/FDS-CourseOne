@@ -1,7 +1,7 @@
 ### Exercise 008!
 
 #### The situation
-It is well known that many hormones have diurnal fluctuations. You're boss wants a descriptive function to describe this fluctuation over the course of a single day. She has data on relative melatonin level vs. relative time of day that you can use.  
+It is well known that many hormones have diurnal fluctuations. Your boss wants a descriptive function to describe this fluctuation over the course of a single day. She has data on relative melatonin level vs. relative time of day that you can use.  
 
 #### Your mission:
 
