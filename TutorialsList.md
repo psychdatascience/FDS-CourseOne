@@ -17,10 +17,10 @@
 | 012      | for and while loops|
 | 013      | Logic, if-else, while loops|
 | 014      | Making correlated datasets |
-| 015      | plotting: matplotlib fundementals |
+| 015      | plotting: matplotlib fundamentals |
 | 016      | functions|
-| 017      |  |
-| 018      |  |
+| 017      | functions for data wrangling|
+| 018      | Pandas and Seaborn fundamentals|
 | 019      |  |
 | 020      |  |
 
