@@ -21,7 +21,7 @@
 | 016      | functions|
 | 017      | Intro to data wrangling |
 | 018      | Automating data wraggling |
-| 019      | Pandas and Seaborn fundamentals? |
-| 020      |  |
+| 019      | functions and modules |
+| 020      | Pandas and Seaborn fundamentals? |
 
 
