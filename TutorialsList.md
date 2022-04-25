@@ -22,6 +22,9 @@
 | 017      | Intro to data wrangling |
 | 018      | Automating data wraggling |
 | 019      | functions and modules |
-| 020      | Pandas and Seaborn fundamentals? |
+| 020      | Seaborn overview |
+| 021      | Pandas I - basic objects |
+| 022      | Pandas II - methods, indexing, grouping |
+| 023      | Time Series |
 
 
