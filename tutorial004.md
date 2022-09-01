@@ -136,8 +136,14 @@ In the previous video video I use additional parameters (a.k.a. options) to gene
 
 ### The UNIX File System Hierarchy
 
+Above, we took a dive into our local file system. We have not really explained what is a File system and how it works. Here we will try to give an introduction to the local file system. We will not aim at being exhaustive but provide a first approximation.
 
-On Apple's Mac OSX the visible directory structure (the one a user can easily have access to) is slightly different than the Unix/Linux File system Hierarchy. The table below is an extract from [an Article by Apple](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW14) that is more exstennsive on the topic. The table reports the top-level directories commonly accessed by a user.
+Unix-like operating systems create use a File System with one root directory, and every file existing on the system is located under it somewhere. The structure of the UNIX File system is defined and is called File System Hierarchy (FSH).
+
+
+#### A look at On Apple's macOS File system
+
+Apple's macOS is a UNIX based system. Yet, in macOS the visible directory structure (the one a user can easily have access to) is slightly different than the Unix/Linux File system Hierarchy. The table below is an extract from [an Article by Apple](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW14) that is more exstennsive on the topic. The table reports the top-level directories commonly accessed by a user.
 
 | Directory | Usage |
 | --- | --- |
@@ -146,3 +152,19 @@ On Apple's Mac OSX the visible directory structure (the one a user can easily ha
 | `/Network` |  This directory will show a list of computers visible when the computer is connected to a network. |
 | `/System` |  This directory contains the system resources required by Mac OSX to run. These resources are provided by Apple and must not be modified. |
 | `/Users` | This directory contains one or more user home directories. The user home directory is where user-related files are stored. A typical user’s home directory includes the following subdirectories: <ul><li>`Applications`—Contains user-specific apps.</li><li>`Desktop`—Contains the items on the user’s desktop.</li><li>`Documents`—Contains user documents and files.</li><li>`Downloads`—Contains files downloaded from the Internet.</li><li>`Library`—Contains user-specific app files (hidden in Mac OS 10.7 and later).</li><li>`Movies`—Contains the user’s video files.</li><li>`Music`—Contains the user’s music files.</li><li>`Pictures`—Contains the user’s photos.</li><li>`Public`—Contains content the user wants to share.</li><li>`Sites`—Contains web pages used by the user’s personal site.</li></ul> The preceding directories are for storing user documents and media only. Apps and programs do not write files to the preceding directories unless explicitly directed to do so by the user. The sole exception to this rule is the Library directory, which apps may use to store data files needed to support the current user. Of the subdirectories, only the `Public` directory is accessible by other users on the system. Access to the other directories is restricted by default. |
+
+#### Windows File System
+
+Microsoft Windows (this short reference is relevant for Windows 10, see the [Original Wikipedia Article here](https://en.wikipedia.org/wiki/Directory_structure#:~:text=In%20DOS%2C%20Windows%2C%20and%20OS,to%20being%20combined%20as%20one.)) uses a file system strcuture that does not follow the UNIX Hierarchy.  In most Windows 10 installation, the following folders may appear.
+
+| Folder	| Description |
+| --- | --- |
+| `\PerfLogs` |  May hold Windows performance logs, but on a default configuration, it is empty. |
+| `\Program Files` | <ul><li>`32-bit architecture`: All programs (both 16-bit and 32-bit) are installed in this folder.</li><li>`64-bit architecture`: 64-bit programs are installed in this folder.</li></ul> |
+| `\Program Files (x86)` | Appears on 64-bit editions of Windows. 32-bit and 16-bit programs are by default installed in this folder, even though 16-bit programs do not run on 64-bit Windows. |
+| `\ProgramData` (hidden) |  Contains program data that is expected to be accessed by computer programs regardless of the user account in the context of which they run. For example, a program may store specific information needed to operate DVD recorders or image scanners connected to a computer, because all users use them. Windows itself uses this folder. For example, Windows Defender stores its virus definitions in `\ProgramData\Microsoft\Windows Defender`. Programs do not have permission to store files in this folder, but have permission to create subfolders and store files in them. The organization of the files is at the discretion of the developer. |
+| `\Users` | User profile folders. This folder contains one subfolder for each user that has logged onto the system at least once. In addition, it has two other folders: `Public` and `Default` (hidden). |
+| `\Public` | This folder serves as a buffer for users of a computer to share files. By default this folder is accessible to all users that can log on to the computer. Also, by default, this folder is shared over the network, although anonymous access (i.e. without a valid password-protected user account) to it is denied. This folder contains user data, not program data, meaning that users are expected to be sole decider of what is in this folder and how it is organized. It is unethical for a program to store its proprietary data here. (There are other folders dedicated to program data.) |
+| `[username]\AppData` (hidden) | This folder stores per-user application data and settings. The folder contains three subfolders: Roaming, Local, and LocalLow. Roaming is for networked based logins for roaming profiles. Data saved in Roaming will synchronize to the computer when the user logs into that. Local and LocalLow does not sync up with networked computers. |
+| `\Windows` |  Windows itself is installed into this folder. <ul><li>`\System` - stores 16-bit DLLs and is normally empty on 64-bit editions of Windows.</li><li>`\System32` -  stores either 32-bit or 64-bit DLL files, depending on whether the Windows edition is 32-bit or 64-bit.</li><li>`\SysWOW64` - Only appears on 64-bit editions of Windows and stores 32-bit DLLs.</li></ul> These folders store dynamic-link library (DLL) files that implement the core features of Windows and Windows API. |   
+| `\WinSxS` | This folder is officially called "Windows component store" and constitutes the majority of Windows. A copy of all Windows components, as well as all Windows updates and service packs is stored in this folder. |
