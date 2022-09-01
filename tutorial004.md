@@ -138,17 +138,28 @@ In the previous video video I use additional parameters (a.k.a. options) to gene
 
 Above, we took a dive into our local file system. We have not really explained what is a File system and how it works. Here we will try to give an introduction to the local file system. We will not aim at being exhaustive but provide a first approximation.
 
-Unix-like operating systems create use a File System with one root directory, and every file existing on the system is located under it somewhere. The structure of the UNIX File system is defined and is called File System Hierarchy (FSH).
+Unix-like operating systems create use a File System with one root directory, and every file existing on the system is located under it somewhere. The structure of the UNIX File system is defined and is called Filesystem Hierarchy Standard (FHS). The FHS describes the conventions used for the layout of a UNIX operative system.
 
+Notwithstanding the operative system, all files and folders must be addressed by starting in a specific, "root" directory. This root directory on UNIX/Linux systems is indicated with the symble `/`. The "root" or `/` is where all the files originate. All files and folders are organized under the `/` directory. The image below shows the FHS organized in a visual fashion, `/` is where the Filesystem Hierarchy starts.
+
+<img width="1109" alt="image" src="https://i.pinimg.com/originals/ab/06/70/ab0670ef648900b04d7a37d7a5b5ba0a.png">
+
+Wikipedia has an nice, longer [article on the FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
 
 #### A look at On Apple's macOS File system
 
-Apple's macOS is a UNIX based system. Yet, in macOS the visible directory structure (the one a user can easily have access to) is slightly different than the Unix/Linux File system Hierarchy. The table below is an extract from [an Article by Apple](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW14) that is more exstennsive on the topic. The table reports the top-level directories commonly accessed by a user.
+Apple's macOS is a UNIX based system, as such the FHS also exists on macOS.  The command `man hier` typed in a Terminal on an Apple macOS computer should show something that looks like the following image. The image shows the critical top-level directories living under your `root` or `/` directory.
 
+<img width="1109" alt="image" src="https://user-images.githubusercontent.com/2119795/187829218-06ee5352-217a-4c88-83ec-046898c5b7c1.png">
+
+macOS simplifies the UNIX FHS for the common users. So, in macOS the visible directory structure (the one any user can easily have access to from the GUI) is slightly different than the Unix/Linux Filesystem Hierarchy. The table below is an extract from [an Article by Apple](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW14) that is more exstennsive on the topic. 
+
+The table below reports the top-level directories commonly accessed by a user using the GUI. This file system strcuture hides the underlying, more complex UNIX FHS that still exists on macOS. The UNIX FHS can be seen by typing `man hier` or navigating the filesystem from a terminal using `ls` and `cd`.
+ 
 | Directory | Usage |
 | --- | --- |
 | `/Applications` | The directory where apps and programs the users utilizes are installed. The directory is intended for use by all users of a computer (if you have multiple users they will all see, read and write the programs in this folder. The App Store installs apps purchased by the user in this directory automatically. The directory contains a subdirectory called `Utilities`. This folder contains apps and programs that are intended for use not by the user but by the operative system. |
-| `Library` |  This directory contains components of apps and programs not directly accessed by the user but needed by the Apps or programs use the `Library` directory to store app/program-specific (or system-specific) resources. Each user on a computer will have their distinct `Library` folder. |
+| `/Library` |  This directory contains components of apps and programs not directly accessed by the user but needed by the Apps or programs use the `Library` directory to store app/program-specific (or system-specific) resources. Each user on a computer will have their distinct `Library` folder. |
 | `/Network` |  This directory will show a list of computers visible when the computer is connected to a network. |
 | `/System` |  This directory contains the system resources required by Mac OSX to run. These resources are provided by Apple and must not be modified. |
 | `/Users` | This directory contains one or more user home directories. The user home directory is where user-related files are stored. A typical user’s home directory includes the following subdirectories: <ul><li>`Applications`—Contains user-specific apps.</li><li>`Desktop`—Contains the items on the user’s desktop.</li><li>`Documents`—Contains user documents and files.</li><li>`Downloads`—Contains files downloaded from the Internet.</li><li>`Library`—Contains user-specific app files (hidden in Mac OS 10.7 and later).</li><li>`Movies`—Contains the user’s video files.</li><li>`Music`—Contains the user’s music files.</li><li>`Pictures`—Contains the user’s photos.</li><li>`Public`—Contains content the user wants to share.</li><li>`Sites`—Contains web pages used by the user’s personal site.</li></ul> The preceding directories are for storing user documents and media only. Apps and programs do not write files to the preceding directories unless explicitly directed to do so by the user. The sole exception to this rule is the Library directory, which apps may use to store data files needed to support the current user. Of the subdirectories, only the `Public` directory is accessible by other users on the system. Access to the other directories is restricted by default. |
