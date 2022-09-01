@@ -1,10 +1,11 @@
-# Introduction to the Unix/Linux Terminal
+# Introduction to the Unix/Linux Terminal and standard file system
 
 Learning Goals:
 
 * Learn about the Unix/Linux Terminal (or Windows terminal/console)
 * Navigate the file system using the terminal
 * Create a folders and a files with the terminal
+* Learn about the standard filesystem on a computer (UNIX/Linux, macOS and Windows)
 
 Prerequisites:
 
@@ -12,7 +13,7 @@ Prerequisites:
 * A computer with a terminal application. Basically, any computer (even a Chromebook!)
 
 ### Reading overview
-This short reading is a very simple introduction to your computer's terminal. 
+This short reading is a very simple introduction to your computer's terminal and the system of files and folders on your computer.
 We will not attempt to cover the terminal exhaustively, instead, we will focus on the basics needed to get you started and help you use Git and GitHub.
 
 ## The Terminal
