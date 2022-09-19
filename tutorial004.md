@@ -46,7 +46,17 @@ After that, I suggest you add the Terminal Icon to your Dock.
 
 In Windows, locate and run the "console".
 
-## Navigating the file system
+## The Unix/Linux Filesystem
+
+https://en.wikipedia.org/wiki/Unix_filesystem
+
+The filesystem appears as one rooted tree of directories.[1] Instead of addressing separate volumes such as disk partitions, removable media, and network shares as separate trees (as done in DOS and Windows: each drive has a drive letter that denotes the root of its file system tree), such volumes can be mounted on a directory, causing the volume's file system tree to appear as that directory in the larger tree.[1] The root of the entire tree is denoted /.
+
+In the original Bell Labs Unix, a two-disk setup was customary, where the first disk contained startup programs, while the second contained users' files and programs. This second disk was mounted at the empty directory named usr on the first disk, causing the two disks to appear as one filesystem, with the second disk’s contents viewable at /usr.
+
+https://linuxfoundation.org/blog/classic-sysadmin-the-linux-filesystem-explained/
+
+## Navigating the filesystem
 
 By default Unix/Linux Terminals will show some basic information to help identify the user the opened the terminal and the system the terminal was opened on. This information can seem trivial on a PC because well we know who we are and on which computer we are running. Yet remmeber that terminals were intially used by multiple users on different shared mainframe computers.
 
