@@ -1,5 +1,5 @@
 
-# Make a New Repository on GitHub.
+# Make a New Repository on GitHub and Edit a Markdown File
 
 Learning Goals:
 

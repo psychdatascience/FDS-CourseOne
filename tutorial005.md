@@ -218,7 +218,7 @@ ________________________________________________________________________________
 
 [![This is a short video that shows how to generate a GitHub Access token.](https://img.youtube.com/vi/WmDTEADPahg/0.jpg)](https://www.youtube.com/watch?v=WmDTEADPahg). 
 
-###### Note 2. How I do git commits. Above is follows a standard workflow and showed how to commit changes to a file using a two-step process: `git add` and then `git commit`. In my normal workflow, I eliminate one step by using a single command that does both commits and adds: `git commit -am "This is my message"` the option `-a` in the previous command means `git add` so the commit command will do all at once a `commit` and an `add`. I find this a more convenient way to handle my workflow as this method eliminates one command, less typing is better than more typing!
+###### Note 2. My preferred way to `git commit`. Above is follows a standard workflow and showed how to commit changes to a file using a two-step process: `git add` and then `git commit`. In my normal workflow, I eliminate one step by using a single command that does both commits and adds: `git commit -am "This is my message"` the option `-a` in the previous command means `git add` so the commit command will do all at once a `commit` and an `add`. I find this a more convenient way to handle my workflow as this method eliminates one command, less typing is better than more typing!
 
 
 
