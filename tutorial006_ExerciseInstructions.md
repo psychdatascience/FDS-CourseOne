@@ -32,9 +32,5 @@ So what do you think? Are both freezers functioning nominally?
 Now that you've done all that work, commit it and push your repo to the cloud where it can bask for all eternity!
 
 #### Submit!
-<<<<<<< HEAD
 
 Finally, print out your notebook as a .pdf file and submit it via Canvas!
-=======
-Finally, print out your notebook as a .pdf file and submit it via Canvas (before midnight)!
->>>>>>> 7e4923f60f41be33023d6854035349fbf712c6bb
