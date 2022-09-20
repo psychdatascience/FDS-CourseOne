@@ -9,7 +9,7 @@
 | 004      | The Terminal (or Windows Console) |
 | 005      | GitHub III: committing and pushing changes |
 | 006      | Python I: Reading and writing data files |
-| 007      | Python II: Visualizing distributions |
+| 007      | Python II: Describe data: A dive into visualizing data distributions |
 | 008      | Python III: Visualizing relationships | 
 | 009      | Intro to lists and numpy arrays |
 | 010      | Simulation: numpy, combining arrays, random #s (currently plane noise)|
