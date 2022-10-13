@@ -34,7 +34,7 @@ GitHub provides videos and written documentation to help 'on board' new users. T
 
 This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub.
 
-[![This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub](https://img.youtube.com/vi/noZnOSpcjYY/0.jpg)](https://www.youtube.com/watch?v=noZnOSpcjYY)].
+[![This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub](https://img.youtube.com/vi/noZnOSpcjYY/0.jpg)](https://www.youtube.com/watch?v=noZnOSpcjYY).
 
 Using GitHub is primarily free (you can find their pricing model [here](https://github.com/pricing)). Yet, some of helpful and more advanced features require a paid plan. Alternatively, users working for educational organizations (those that have an .edu email account), can request a free GitHub account with additional features or receive discounted rates.
 
