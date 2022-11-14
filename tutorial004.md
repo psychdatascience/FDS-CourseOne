@@ -44,7 +44,8 @@ After that, I suggest you add the Terminal Icon to your Dock.
  
 [![Here is an example on how to do it.](https://img.youtube.com/vi/cE5zXT2aP9Y/0.jpg)](https://youtu.be/cE5zXT2aP9Y)
 
-In Windows, locate and run the "console".
+In Windows, locate and run the "Windows Powershell". In Windows 10 and above, the Powershell is installed automatically and is the default program.
+[![Example Video on How-To Find The Powershell on Windows.11](https://img.youtube.com/vi/xxxxxxxxxx/0.jpg)](https://youtu.be/xxxxxxxxx)
 
 ## The Unix/Linux Filesystem
 
