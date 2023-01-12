@@ -4,7 +4,7 @@
 
 Lawrence Cormack <cormack@utexas.edu> | Franco Pestilli <pestilli@utexas.edu>
 
-Canvas: https://utexas.instructure.com/courses/1331982 
+Canvas: <Fall 2022 URL>
 
 Course Page: https://utdirect.utexas.edu/apps/registrar/course_schedule/20222/42035/
 
