@@ -11,6 +11,7 @@ Prerequisites:
 
 * Internet access
 * A computer with a terminal application. Basically, any computer (even a Chromebook!)
+* Windows user: [Install Bash on Windows](https://itsfoss.com/install-bash-on-windows/)
 
 ### Reading overview
 This short reading is a very simple introduction to your computer's terminal and the system of files and folders on your computer.
