@@ -57,7 +57,10 @@ Git and GitHub allow software developers working on a single project to make cop
 
 Because GitHub is a tool that allows social interaction among developers, issues related to behavior in social interaction in public and professional contexts are raised. There are published resources that can be used as guidelines for behavior in the context of work using GitHub. See them here:  https://docs.github.com/en/github/site-policy/github-community-guidelines
 
+### Set up access control for your new GitHub account
 
+Above, we guided you trhough the process of creating a GitHub account. You now should have an account on the GitHub.com cloud. After setting up your GitHub account you will need to configure your local machine so that it can communicate with the account you created on the cloud. 
 
+You will use GitHub to control `git` locally on your computer. For that, youy will need to be able to `push` and `pull` files and changes to files from your computer (where normally you will work) upstream to the cloud (GitHub.com/YourUser/YourRepo). 
 
-
+For that we will want to create a user token a dunique security key that can be used locally on your computer to access the GitHub.com cloud. [This is a nice document from GitHub that explain how to add a token.](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) You can follow that document and after that your user account will be set up and safe.
