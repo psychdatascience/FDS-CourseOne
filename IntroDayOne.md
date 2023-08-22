@@ -1,7 +1,12 @@
 ## Introductions
 
 ## Overview
-Github, file systems, the terminal, Python programming, Python libraries, data science
+Github,   
+file systems,  
+the terminal,  
+Python programming,  
+Python libraries,  
+data science
 
 ## Python - why?
 widely used in data science  
@@ -16,3 +21,4 @@ Thonny
 Fridays at 2pm 5.556  
 Basic Python help, catch up, practice, whatever...
  
+## Github overview (Franco)
