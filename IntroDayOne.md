@@ -15,3 +15,4 @@ Thonny
 ## "PyFun Code Camp"
 Fridays at 2pm 5.556  
 Basic Python help, catch up, practice, whatever...
+ 
