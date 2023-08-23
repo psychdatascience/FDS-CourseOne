@@ -22,3 +22,8 @@ Fridays at 2pm 5.556
 Basic Python help, catch up, practice, whatever...
  
 ## Github overview (Franco)
+
+### How the course will work day-to-day
+### Video on Canvas
+### I will learn your names but be patient
+
