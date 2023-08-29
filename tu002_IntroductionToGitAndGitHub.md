@@ -20,7 +20,8 @@ Mistakes in software development are referred to as 'bugs', this terminology is 
 
 GitHub can helps you track down the mistake you make and either revert the code to a version before the mistake was introduced or change the code so to eliminate the mistake (see [here](https://en.wikipedia.org/wiki/Version_control) for more details on version control). 
 
-[![This is a nice video from GitHub that provides a nice overview of GitHub](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc).
+This is a nice video from GitHub that provides a nice overview of GitHub:
+[![The video](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc).
 
 #### Sign up for GitHub
 
