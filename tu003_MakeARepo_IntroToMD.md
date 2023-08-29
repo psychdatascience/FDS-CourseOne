@@ -39,7 +39,7 @@ We will next learn how to use the GitHub.com Web User Interface (WebUI) to creat
 
 #### 3. Edit a repository: Add a file to it and then edit the file.
 
-Once a repository is created the next thing we will want to do is to add and edit files. This is indeed why we have created the repository in first place! We will want to use GitHub and get help with content management and version control as we develop data analysis skills. Although this might sound confusing at first (we have not yet used the repository), please bare with us for the moment and let's experiment a little bit on how to add and edit the file all via the Web UI.
+Once a repository is created the next thing we will want to do is to add and edit files. This is indeed why we have created the repository in first place, to use it, edit it, etc! We will want to use GitHub and get help with content management and version control as we develop data analysis skills. Although this might sound confusing at first (we have not yet used the repository), please bare with us for the moment and let's experiment a little bit on how to add and edit the file all via the Web UI.
 
 [![This is a video that shows you how to Create A New File Inside a Repository Using the Web User Interface on GitHub!](https://img.youtube.com/vi/hKj0bay-39A/0.jpg)](https://www.youtube.com/watch?v=hKj0bay-39A)
 
