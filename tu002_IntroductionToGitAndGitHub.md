@@ -1,4 +1,4 @@
-## Tutorial 2: GitHub Overview and Account Creation
+# GitHub Overview and Account Creation
 
 Learning Goals:
 
