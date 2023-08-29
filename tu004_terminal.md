@@ -1,6 +1,3 @@
-Of course! Here's an interactive tutorial on basic Linux shell commands suitable for a 25-30 minute class:
-
----
 
 ## **Introduction to Basic Linux Shell Commands**
 
