@@ -53,3 +53,7 @@
 `git commit -a -m "commit message"` - stage & commit the changes to your local repo  
 `git push` - send them up to GitHub  
 
+### Optional: If you're paranoid, like me, you can  
+`git fetch`  
+`git status`  - just to double check that you're all synched up and current...
+
