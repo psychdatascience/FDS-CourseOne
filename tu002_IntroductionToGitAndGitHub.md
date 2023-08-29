@@ -18,7 +18,9 @@ GitHub uses underlying software called [git](https://git-scm.com/) to allow user
 
 Mistakes in software development are referred to as 'bugs', this terminology is the heritage of the time when computers where not personal yet, but where shared and big and occupied entire rooms (read [Software Bug on Wikipedia](https://en.wikipedia.org/wiki/Software_bug)]. It is said the at these early times of computing insects could enter the computer rooms and interfere with the work of scientists by introducing in the execution of a computer program.  
 
-GitHub can helps you track down the mistake you make and either revert the code to a version before the mistake was introduced or change the code so to eliminate the mistake (see [here](https://en.wikipedia.org/wiki/Version_control) for more details on version control).
+GitHub can helps you track down the mistake you make and either revert the code to a version before the mistake was introduced or change the code so to eliminate the mistake (see [here](https://en.wikipedia.org/wiki/Version_control) for more details on version control). 
+
+[![This is a nice video from GitHub that provides a nice overview of GitHub](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc).
 
 #### Sign up for GitHub
 
@@ -31,10 +33,6 @@ Below is a video to get you started with creating a GitHub account using your .e
 GitHub provides videos and written documentation to help 'on board' new users. The videos and documentation can hell beginners navigate a very complex tool and in most of the case they can answer many questions you might have as you learn GitHub. 
 
 [Here is the GitHub Documentation page](https://docs.github.com/en) 
-
-This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub.
-
-[![This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub](https://img.youtube.com/vi/noZnOSpcjYY/0.jpg)](https://www.youtube.com/watch?v=noZnOSpcjYY).
 
 Using GitHub is primarily free (you can find their pricing model [here](https://github.com/pricing)). Yet, some of helpful and more advanced features require a paid plan. Alternatively, users working for educational organizations (those that have an .edu email account), can request a free GitHub account with additional features or receive discounted rates.
 
