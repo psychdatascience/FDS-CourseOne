@@ -42,7 +42,7 @@ Here are resources on how to get a GitHub Educational account if you are a:
 * [Student](https://education.github.com/benefits?type=student)
 * [Teacher](https://education.github.com/benefits?type=teacher)
 
-#### Note about Git. 
+#### A note about Git. 
 
 Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). 
 
