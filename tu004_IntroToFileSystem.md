@@ -72,9 +72,10 @@ In addition to that, the date of last login  (`Last login: Wed Oct 27 21:00:12`)
 
 ![Example of Bash Shell Terminal in Mac OSX (Big Sur early 2022)](https://user-images.githubusercontent.com/2119795/151271026-9926f136-9c4a-4f25-b748-3187cc8adce5.png)
 
-You can customize you prompt. For example, here is Larry's prompt, which is short and has the current time on the right.
+###### Sidenote: you can customize your prompt
+ For example, here is Larry's prompt, which is short and has the current time on the right.
 
-![Example of shorter shell prompt]()
+![Example of shorter shell prompt](./assets/aDifferentPrompt.png)
 
 #### Useful commands that can be used in the terminal
 
@@ -155,7 +156,7 @@ You can actually write scripts (programs) consisting of shell commands to automa
 
 ### The UNIX File System Hierarchy
 
-Above, we took a dive into our local file system. We have not really explained what is a File system and how it works. Here we will try to give an introduction to the local file system. We will not aim at being exhaustive but provide a first approximation.
+Above, we took a shallow dive into our home directory. We have not really talked about the "file system" and how it works. Here we will try to give an introduction to a typical file system. This is not meant to be exhaustive, but should give you a big picture of a file system's structure..
 
 Unix-like operating systems create use a File System with one root directory, and every file existing on the system is located under it somewhere. The structure of the UNIX File system is defined and is called Filesystem Hierarchy Standard (FHS). The FHS describes the conventions used for the layout of a UNIX operative system.
 
