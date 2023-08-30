@@ -21,7 +21,7 @@ To navigate the file system, we need to be able to
 #### 2.1. `pwd` – Print Working Directory
 The `pwd` command lets us see where we are. It will display the path down the file tree from the very top, "root", all the way down to your current location. (Your current directory, without the whole path, might be displayed in your prompt or in the title bar of your terminal window.)
 
-- Type `pwd` and hit `Enter`. 
+- Type `pwd` and hit `Enter` (the "$" represents the terminal prompt, so don't type it). 
   ```
   $ pwd
   ```
@@ -41,19 +41,47 @@ The `ls` command will **l**i**s**t files and directories (folders) in your curre
   - What do you see?
  
   The `ls` command has many options to filter what you see. Let's try some of them!
-  
+
+  - Try each of these in turn
+    
+  ```
+  $ ls -l
+  ```
+  This lists the files and folders in "long" format, giving addtional information in each row. This will be useful later in your data science life but, now, not so much.
+
+  ```
+  $ ls -F
+  ```
+  This lists the files in **F**abulous format (actually, it's probably classi**F**y – sometimes developers just pick a letter that's available and unlikely to be used for anything else...). This tells you what each thing is by appending a special character. *Most usefully, it will put a backslash after directories.*
+
+  ```
+  $ ls -a
+  ```
+  This lists **a**ll the files in the current directory, including *hidden* files whose names beging with a ".", which tells the OS to not show them to people by default. These are files that regular users don't need to worry about, and should only be messed with if you are *sure* you know what you're doing!
+
+You can specify multiple options at once just by tacking them together. So, yes, you can do 
+  ```
+  $ ls -aF
+  ```
+Awesome aF, right?
 
 ### 2.3. `cd` – Change Directory
 
-- To navigate into a directory, use `cd [directory_name]`. 
+- To navigate into a directory, use `cd [directory_name]`. If your want to jump into a directory that is in your current directory, you just type is name after `cd`. So, for example, if you have a "Documents" directory in your current folder, you can jump into it with:
   ```
   $ cd Documents
   ```
+  Do another `ls -F`, pick a directory, and jump into it.
 
-  - Go back to the previous directory using:
+  - You can go back to the "parent" directory (the one that contains the current directory) using:
     ```
     $ cd ..
     ```
+    Where ever you may roam, you can jump instantly back to your home directory using
+    ```
+    $ cd ~
+    ```
+    So "~" always means your home directory, ".." always means the parent directory. "." means the current directory, but you won't need that much.
 
 ---
 
