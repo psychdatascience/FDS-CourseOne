@@ -20,7 +20,7 @@ If you have a relatively new computer, it should already have git on it. If not 
 
 ### 2. Get the Repository URL
 
-- On the main page of your repository, you'll find a button labeled **"Code"** with a dropdown arrow.
+- On the main page of your repository, you'll find a button labeled **"Code"** with a dropdown arrow (the green button over towards the right, not the `<> Code` tab on the upper left).
 - Click on this button. You'll see a URL (it should end in `.git`).
 - Copy this URL. You'll use it to tell Git which repository you want to clone.
 
@@ -28,7 +28,7 @@ If you have a relatively new computer, it should already have git on it. If not 
 
 ### 3. Open the Terminal
 
-- **For older Windows users:** (the Windows version, not you!) Search for "Git Bash" or "Command Prompt" from the Start menu and open it.
+- **For older Windows users:** (the Windows version, not you) Search for "Git Bash" or "Command Prompt" from the Start menu and open it.
   
 - **For macOS, recent Windows, and Linux users:** Open the "Terminal".
 
@@ -41,6 +41,7 @@ If you have a relatively new computer, it should already have git on it. If not 
   ```
   $ cd ~/projects
   ```
+*A note on file organization: Some people prefer to have a "git" or "GitHub" folder under their home folder and keep each repo in there (each repo will have its own folder). Others might prefer to have, for example, "R_Projects" and "Python_Projects" directories in their home directory, and have the corresponding repos in there. How you organize your files is up to you, but the key word is **organize**! The more organized you are now, the more future you will love past you (who is currently current you – isn't time travel fun?).*
 
 ---
 
@@ -52,33 +53,38 @@ If you have a relatively new computer, it should already have git on it. If not 
   $ git clone [URL]
   ```
 
-  Replace `[URL]` with the actual URL you copied. For example:
+  Of course, replace `[URL]` with the actual URL you copied. For example:
 
   ```
-  $ git clone https://github.com/yourusername/yourrepositoryname.git
+  $ git clone https://github.com/lkcormack/i-hate-statistics.git
   ```
 
 ---
 
 ### 6. Confirm the Repository Has Been Cloned
-
-- Navigate into the newly cloned directory:
+The cloning operation will have created a new directory in the directory from which you did the `git clone ...`.
+- Navigate into the newly cloned directory. For example:
 
   ```
-  $ cd yourrepositoryname
+  $ cd Documents/GitHub/i-hate-statistics
   ```
 
-- Now, if you run the `ls` command (or `dir` on Windows), you should see any files or directories that were in your GitHub repository.
+- Now, if you run the `ls` command (or perhaps `dir` on Windows), you should see any files or directories that were in your GitHub repository.
 
   ```
   $ ls
   ```
+If you do an
+  ```
+  $ ls -a
+  ```
+you will see that there is a hidden `.git` folder in your repo. This is where the magic happens. **Do not touch!***
 
 ---
 
-### 7. Set Up Your Identity (Only if it's their first time using Git)
+### 7. Set Up Your Identity (Only if it's your first time using git)
 
-- To ensure that your commits are properly attributed to you, set up your Git identity. Replace `Your Name` with your actual name and `youremail@example.com` with your email:
+- To ensure that your commits are properly attributed to you, set up your git identity. Replace `Your Name` with your actual name and `youremail@example.com` with your email:
 
   ```
   $ git config --global user.name "Your Name"
