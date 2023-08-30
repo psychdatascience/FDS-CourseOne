@@ -160,7 +160,7 @@ The wild card is very useful; make it your friend!
 
 ### 5. Clean Up
 
-- Let's clean up the files we created. We can do this using the `rm` command to **r**e**m**ove stuff. Be Carefull! This command asks you no questions and tells you no lies. If you `rm` a file, it's gone forever. It does **not** to into a "Trash" folder from which you can grab it back.
+- Let's clean up the files we created. We can do this using the `rm` command to **r**e**m**ove stuff. Be Carefull! This command asks you no questions and tells you no lies. If you `rm` a file, it's gone forever. It does **not** go into a "Trash" folder from which you can grab it back.
 - We could remove the files one-by-one. Let's remove 2 like this:
   ```
   $ rm file1.txt file2.txt
