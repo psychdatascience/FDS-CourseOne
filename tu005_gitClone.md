@@ -5,7 +5,8 @@
 ### Prerequisites: 
 - Have a GitHub account.
 - Have a repository on GitHub you wish to clone (you can use your Simpsons one from the last homework).
-- Have Git installed on your computer. If you have a relatively new computer, it should already have git on it. If not – and we'll find out pretty quickly! – we can download and install it from [download and install Git](https://git-scm.com/downloads).
+- Have Git installed on your computer.
+If you have a relatively new computer, it should already have git on it. If not – and we'll find out pretty quickly! – we can download and install it from [download and install Git](https://git-scm.com/downloads).
 
 ---
 
