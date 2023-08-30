@@ -93,26 +93,46 @@ Awesome aF, right?
   ```
   $ touch my_file.txt
   ```
-
-  - Use `ls` to see if the file was created.
+You just made a new file! (Use `ls` to confirm!). Why "touch"? If you use it on an existing file, it updates the modification date (so you didn't edit it, but you touched/poked/hugged it to let it know you care). You'll almost always use it to create a new file though.
 
 #### 3.2. `cp` – Copy a File
 
-- Copy `my_file.txt` to a new file named `my_copied_file.txt`:
+- Copy `my_file.txt` to a new file named `my_copy.txt`:
   ```
-  $ cp my_file.txt my_copied_file.txt
+  $ cp my_file.txt my_copy.txt
   ```
 
   - Use `ls` to see both files.
 
-#### 3.3. `mv` – Move or Rename a File
+#### 3.3. `mkdir` – Make a new directory
 
-- Rename `my_copied_file.txt` to `my_renamed_file.txt`:
+- Make a new directory named "TestDir" in the current folder.
   ```
-  $ mv my_copied_file.txt my_renamed_file.txt
+  $ mkdir TestDir
   ```
 
-  - Use `ls` to confirm the change.
+  - Use `ls -F` to see your new directory with a "/" after it.
+ 
+  ---
+  See if you can figure out how to put a copy (`cp`) of "my_file.txt" into your new directory, "TestDir". Hint, you can specify a file using a file *path* from your current directory. So `Documents/my_copy.txt` would specify the file "my_copy.txt" in the directory "Documents" in your current directory.
+  ---
+
+### For all the following examples, feel free to use `ls` often to confirm that what you did worked!
+#### 3.4. `mv` – Move or Rename a File
+
+- Move `my_file.txt` to your `TestDir` directory:
+  ```
+  $ mv my_file.txt TestDir/my_file.txt
+  ```
+- You can use `mv` if you just want to rename a file. You're effectively "moving" the file contents into a file with the new name:
+  ```
+  $ cd TestDir
+  $ mv my_file.txt my_renamed_file.txt
+  ```
+
+  ---
+  Pop back up into the parent directory (should be your home directory). Now see if you can rename a file in TestDir without changing directories.
+  ---
 
 ---
 
@@ -120,33 +140,52 @@ Awesome aF, right?
 
 #### 4.1. Using `*` Wildcard
 
-- The `*` wildcard matches any number of characters.
-- Create a few more files for this example:
+- The `*` wildcard matches any number of characters. Just like if "Aces are wild" in a card game, the ace can serve as any card in the deck for your hand, the splat, `*`, will match anything. Let's see how this is useful.
+
+- Create a few more files in TestDir for this example:
   ```
+  $ cd TestDir
   $ touch file1.txt file2.txt file3.doc
   ```
-
-  - List only the `.txt` files:
+ - Now, using the wildcard, we can list just the text files (.txt extension):
     ```
     $ ls *.txt
     ```
+ - or only the files with "file" in the name:
+   ```
+   $ ls *file*
+   ```
+The wild card is very useful; make it your friend!
 
 ---
 
 ### 5. Clean Up
 
-- Let's clean up the files we created.
+- Let's clean up the files we created. We can do this using the `rm` command to **r**e**m**ove stuff. Be Carefull! This command asks you no questions and tells you no lies. If you `rm` a file, it's gone forever. It does **not** to into a "Trash" folder from which you can grab it back.
+- We could remove the files one-by-one. Let's remove 2 like this:
   ```
-  $ rm my_file.txt my_renamed_file.txt file1.txt file2.txt file3.doc
+  $ rm file1.txt file2.txt
   ```
-
-  - Use `ls` to make sure the files are gone.
+  Or we could just remove the whole directory we made.
+  ```
+  $ cd ..
+  $ rm -r TestDir
+  ```
+  The `-r` option stands for "recursive"; it means delete the directory and all its contents.
+ 
+  ---
+  Make a new directory, put a new file it it, and try to use just `rm` to delete it with no `-r` option.
+  ---
+  So `rm` is unforgiving, but it's not downright mean. Go ahead and clean up with `rm -r`.
 
 ---
 
 Conclusion:
 
 Well done! You've now taken your first steps into the world of shell commands. With practice, these commands will become second nature to you. Remember, the terminal is a powerful tool, and the commands you've learned today are just the tip of the iceberg!
+
+Do yourself a favor. Keep your terminal muscles toned by using the terminal a lot, even when you don't need to. For example, whenever you're working on a project in some folder on your computer, even writing a paper, open a terminal in that folder and see what all is in there. Use it to copy or remame files instead of using the "Save As..." menu from within the application.
+
 
 ---
 
