@@ -1,4 +1,3 @@
-Certainly! Here's a hands-on exercise that covers the basic Git functionalities you've mentioned. The exercise involves students making changes to their local repository, committing those changes, and then synchronizing with a remote repository (GitHub in this case).
 
 ---
 
@@ -154,5 +153,3 @@ For this step, you need to make a change directly on the GitHub repository.
 **Conclusion:** Congratulations! You've just practiced creating, modifying, committing, and synchronizing files using Git and GitHub. With these foundational skills, you're on your way to mastering version control!
 
 ---
-
-Make sure to leave time after the exercise for questions, as students might run into issues or have questions about the Git commands they've used.
