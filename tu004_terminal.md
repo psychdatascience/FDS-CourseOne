@@ -1,6 +1,7 @@
-## **Introduction to Basic Linux Shell Commands**
+## **Introduction to Basic Shell Commands**
 
-**Objective:** By the end of this tutorial, you should be able to navigate the Linux file system, create, view, copy, and move files, and use wildcards.
+### Objective: 
+By the end of this tutorial, you should be able to navigate your computer's file system, create, view, copy, and move files, and use wildcards.
 
 ---
 
