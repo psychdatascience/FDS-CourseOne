@@ -15,7 +15,7 @@ Prerequisites:
 
 ### Reading overview
 This short reading is a very simple introduction to your computer's terminal and the system of files and folders on your computer.
-We will not attempt to cover the terminal exhaustively, instead, we will focus on the basics needed to get you started and help you use Git and GitHub.
+We will not attempt to cover the terminal exhaustively, instead, we will focus on the basics needed to get you started and help you use Git and GitHub. We'll follow this reading up with an in-class exercise to build up our terminal muscles.
 
 ## The Terminal
 We are used to looking at and operate our personal computers using graphical user interfaces (GUIs). This means that we routinely open files or folders by first finding them using the "finder" (mac) or "browser" (Windows) graphical interface and then clicking on them. We perform a search using a search bar. We navigate the internet using a browesr such as Chrome, Firefox or Safari, we write documents using Google Docs or Microsoft Word. All these are examples of software that uses graphical user interfaces or GUIs. GUIs have revolutionized computers effectively making them accessable to anyone. Before GUIs, however, there was the `Terminal`.
@@ -34,14 +34,14 @@ Today's "terminal/console" is not an antique thing you plug into your computer, 
 
 ##### Question: Do you know who broght back the terminal in the era of the personal computers (name individuals or a company and at least a couple of answers might be correct)? 
 
-Most of the following examples will use Mac OSX to demonstrate how to access the Terminal and use basic shell commands. This is just because I happen to have access to a Mac OSX. If you are using Linux (Ubuntu for example) [here is a nice tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on how to access and use the terminal. If you are using Windows, the terminal application is called the "console". If you are on Microsoft Windows 10 you might look into the [new Terminal](https://www.microsoft.com/en-us/p/windows-terminal/).
+Most of the following examples will use Mac OSX to demonstrate how to access the Terminal and use basic shell commands (because we use Mac OSX). If you are using Linux (Ubuntu for example) [here is a nice tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on how to access and use the terminal. If you are using Windows, the terminal application is called PowerShell – most or all of the commands we will cover should work "as is" in PowerShell.
 
 ## Opening a terminal
 In Mac OSX you can find the terminal using the search bar.
 
-[![Example Video on How-To Find The Unix Terminal on Max PSX 10.5.x](https://img.youtube.com/vi/g-U1c2ojls8/0.jpg)](https://youtu.be/g-U1c2ojls8)
+[![Example Video on How-To Find The Unix Terminal on Max OS](https://img.youtube.com/vi/g-U1c2ojls8/0.jpg)](https://youtu.be/g-U1c2ojls8)
 
-After that, I suggest you add the Terminal Icon to your Dock.
+If you wish, you can add the Terminal Icon to your Dock.
  
 [![Here is an example on how to do it.](https://img.youtube.com/vi/cE5zXT2aP9Y/0.jpg)](https://youtu.be/cE5zXT2aP9Y)
 
@@ -52,9 +52,9 @@ In Windows, locate and run the "Windows Powershell". In Windows 10 and above, th
 
 https://en.wikipedia.org/wiki/Unix_filesystem
 
-The filesystem appears as one rooted tree of directories.[1] Instead of addressing separate volumes such as disk partitions, removable media, and network shares as separate trees (as done in DOS and Windows: each drive has a drive letter that denotes the root of its file system tree), such volumes can be mounted on a directory, causing the volume's file system tree to appear as that directory in the larger tree.[1] The root of the entire tree is denoted /.
+The filesystem appears as one rooted tree of directories.[1] Instead of addressing separate volumes such as disk partitions, removable media, and network shares as separate trees (as done in DOS and Windows, in which each drive has a drive letter that denotes the root of its file system tree), such volumes can be mounted on a directory, causing the volume's file system tree to appear as that directory in the larger tree.[1] The root of the entire tree is denoted /.
 
-In the original Bell Labs Unix, a two-disk setup was customary, where the first disk contained startup programs, while the second contained users' files and programs. This second disk was mounted at the empty directory named usr on the first disk, causing the two disks to appear as one filesystem, with the second disk’s contents viewable at /usr.
+In the original Bell Labs Unix, a two-disk setup was customary, where the first disk contained startup programs, while the second contained users' files and programs. This second disk was mounted at the empty directory named usr on the first disk, causing the two disks to appear as one filesystem, with the second disk’s contents viewable at /usr. Confusingly, /usr is now used for completely different things that you don't need to worry about, and your stuff is in your home directory in the "Users" folder.  
 
 https://linuxfoundation.org/blog/classic-sysadmin-the-linux-filesystem-explained/
 
@@ -68,9 +68,13 @@ In the video above you can see that my user name (`francopestilli`) and computer
 
 `francopestilli@francos-mbp ~ %`
 
-In addition to that, the data of last login  (`Last login: Wed Oct 27 21:00:12`) is reported. 
+In addition to that, the date of last login  (`Last login: Wed Oct 27 21:00:12`) is reported. 
 
 ![Example of Bash Shell Terminal in Mac OSX (Big Sur early 2022)](https://user-images.githubusercontent.com/2119795/151271026-9926f136-9c4a-4f25-b748-3187cc8adce5.png)
+
+You can customize you prompt. For example, here is Larry's prompt, which is short and has the current time on the right.
+
+![Example of shorter shell prompt]()
 
 #### Useful commands that can be used in the terminal
 
@@ -83,7 +87,7 @@ In a terminal type:
 
 `cd` - a.k.a. Change Directory. The command will allow navigating away from the current directory. For example `cd ..` will move up one directory, or `cd ~` will return to you home directory (the home directory is the one where the terminal generally start when first opeend.
 
-`touch` - a.k.a. Touch a file to create the file. This command will create an empty file with the specified file lane for example: `touch franco.md` will create a file in the current directory with my name and the suffix `.md`.
+`touch` - a.k.a. Touch a file to create the file. This command will create an empty file with the specified file lane for example: `touch franco.md` will create a file in the current directory with my name and the suffix `.md`. This is a strange name; if used for an existing file, it updates the time the file was modified, i.e. the time it was last "touched". But if the file doesn't exist, it creates one.
 
 `mkdir` - a.k.a. Make a Directory. The command will create an empty directory at the specified path, for example: `mkdir ~/franco_dir` will create an empty directory called `francos_dir` in the `home` directory.
 
@@ -91,7 +95,7 @@ In a terminal type:
 
 `rm` - a.k.a. ReMove a file or a directory. This command will delete files and directories (to remove entire directories additional parameters, the video below shows an example on ho wto delete a full folder).
 
-Well these are the basic commands that we will need to use initially to use GitHub locally on our machines using the Linux/Unix terminal. We will learn a few more of them as we move forward with the readings.
+These are the basic commands that we will need to use initially to use GitHub locally on our machines using the Linux/Unix terminal. We will use them in class and learn a few more of them as the course progresses.
 
 Below a short Video that uses the commands above to give you a sense of the outputs. 
 
@@ -109,43 +113,45 @@ Type `cd ~` to navigate to your home directory (indicated by the symbol `~`).
 
 Type `ls -l` This will show all you files and folders. Some of which you might know you have others might be new to you.
 
-The Image below shows all the visible files in the home directory of the computer I am using.
+The Image below shows all the visible files in the home directory of Franco's computer.
 <img width="1643" alt="terminal_windows_OSX_LS" src="https://user-images.githubusercontent.com/2119795/151272012-d7a4ee97-4393-4773-9b09-8de2ecd86c78.png">
 
 ###### (1.3) Let's now create a folder.
 
-Type `mkdir git` this command will create a folder `git` that will use later on to organize the repositories from GitHub.
+Type `mkdir GitHub` this command will create a folder `GitHub` that will use later on to organize the repositories from GitHub.
       
-###### (1.4) Navigate inside the folder `git`.
+###### (1.4) Navigate inside the folder `GitHub`.
 
-Type `cd git`, the command will change our current location from the home dir (`~`) to the directory we just created. You can check that by typing `pwd` (print working directory), the command will show you the path to the current (working) directory.
+Type `cd GitHub`, the command will change our current location from the home dir (`~`) to the directory we just created. You can check that by typing `pwd` (print working directory), the command will show you the path to the current (working) directory.
       
 <img width="1643" alt="terminal_windows_OSX_PWD" src="https://user-images.githubusercontent.com/2119795/151272499-1a828b1f-3605-4a3d-85d6-38cdba176145.png">
 
-###### (1.5) Create a file inside the folder `git`
+###### (1.5) Create a file inside the folder `GitHub`
 
- Type `touch readme.md` This will create an empty file inside the current directory, that at this point should be the directory `git`.
+ Type `touch readme.md` This will create an empty file inside the current directory, that at this point should be the directory `GitHub`.
       
 ###### (1.6) Edit the file `readme.md` and use MarkDown to make it informative.
  
- Write a short title using the top heading so to explain what the goal of the folder `git` will be. For example, "Folder for all my GitHub repositories"
- In the second line, write the name, surname, email and GitHub user of the owner of this folder (you), using a smaller headings.
- In the rest of the text describe in plain words what you plan to use this folder for. Hoow you created the folder and the file (describe the commands that you typed in the termial to create the folder `git`, the file `readme.md` and describe how you learned to do this all (hint. Refer to this class and this tutorial).
+Open the file using a basic text editor. On the Mac, you can use TextEdit; on Windows, you can use NotePad. If you're using Linux, you probably don't need advice on this.
 
-Note that, opening the file might be different with different computer setup. On my Mac OSX I have the [Apple developer tools](https://developer.apple.com/) installed, so I can type in the terminal `open readme.md` and the file will be opened using Apple Xcode. Alternatively, you can use TextEdit using the graphic interface.
+Write a short title using the top heading so to explain what the goal of the folder `GitHub` will be. For example, "Folder for all my GitHub repositories."
+In the second line, write your name, email, and GitHub username using a smaller headings.
 
-<img width="559" alt="Open_an_MD_file" src="https://user-images.githubusercontent.com/2119795/151277814-a105a53e-fdea-43b0-8743-66bc282a5ee2.png">
-
+Save the file.
 
 #### A couple of notes. 
 
-###### Note one. The Terminal is programmable and that means customizable. 
+##### Note 1. The Terminal is customizable. 
 
-All this can be customized because the terminal is programmable, the interface and display of information by default can be chanhed by changing specific configuration files. We will not go over that as it is not relevat for the current topic but here is a couple of good resources [one](https://www.maketecheasier.com/customize-mac-terminal/) and [another, more advanced, one](https://medium.com/@charlesdobson/how-to-customize-your-macos-terminal-7cce5823006e).
+As we saw above, Larry and Franco have different custom shell prompts. The prompt and other shell behaviors can be customized. We won't cover this, but here are a couple of good resources [one,](https://www.maketecheasier.com/customize-mac-terminal/) and [another, more advanced, one](https://medium.com/@charlesdobson/how-to-customize-your-macos-terminal-7cce5823006e).
 
-###### Note two. Commands have options.
+##### Note 2. Commands have options.
 
-In the previous video video I use additional parameters (a.k.a. options) to generate richer outputs from the commands or to automatically delete folder and the files insdie the folder. You can find out more about how to use a command in Unix/Linux and the available options for the command by typing the comman followed by -h for help, for example `rm -h`
+In the previous video we used additional parameters (a.k.a. options) to generate richer outputs from the commands or to automatically delete folder and the files insdie the folder. You can find out more about how to use a command in Unix/Linux and the available options for the command by typing the command `man` (for **man**ual) followed by the command, for example `man ls`. You can page through the help using the spacebar, and quit by hitting the `q` key.
+
+##### Note 3. The shell is programmable.
+
+You can actually write scripts (programs) consisting of shell commands to automate tasks like copying hundreds of files of a certain file type from one location to another. This is beyond the scope of this course, but remember that this is possible. You can Google "shell scripting" for more information.
 
 ### The UNIX File System Hierarchy
 
