@@ -113,9 +113,8 @@ You just made a new file! (Use `ls` to confirm!). Why "touch"? If you use it on 
 
   - Use `ls -F` to see your new directory with a "/" after it.
  
-  ---
+---
   See if you can figure out how to put a copy (`cp`) of "my_file.txt" into your new directory, "TestDir". Hint, you can specify a file using a file *path* from your current directory. So `Documents/my_copy.txt` would specify the file "my_copy.txt" in the directory "Documents" in your current directory.
-  ---
 
 ### For all the following examples, feel free to use `ls` often to confirm that what you did worked!
 #### 3.4. `mv` – Move or Rename a File
@@ -132,7 +131,7 @@ You just made a new file! (Use `ls` to confirm!). Why "touch"? If you use it on 
 
   ---
   Pop back up into the parent directory (should be your home directory). Now see if you can rename a file in TestDir without changing directories.
-  ---
+  
 
 ---
 
@@ -175,7 +174,7 @@ The wild card is very useful; make it your friend!
  
   ---
   Make a new directory, put a new file it it, and try to use just `rm` to delete it with no `-r` option.
-  ---
+  
   So `rm` is unforgiving, but it's not downright mean. Go ahead and clean up with `rm -r`.
 
 ---
