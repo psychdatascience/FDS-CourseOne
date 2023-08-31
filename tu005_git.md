@@ -3,17 +3,27 @@
 
 ## **Basic Git Functionality Exercise**
 
-### Objective: Familiarize yourself with basic Git commands and understand the flow of changes from your local machine to a remote repository.
+### Objective: Familiarize yourself with basic Git commands and understand the flow of changes from your local machine to a remote repository – and back.
 
 ---
 
-### **Scenario:**
-You're developing a simple webpage for a project. You'll be creating a basic HTML file, adding some content, committing your changes, and then synchronizing with the remote repository.
+### **The Plan:**
+You want a simple webpage to tell the world who your favorite Simpsons character is. You'll 
+
+* create a basic HTML file
+* put in some content 
+* save the file
+* add the file to the git staging area
+* commit your changes
+* push the changes to the remote repository on GitHub.
+* make a change to the same file on GitHub
+* pull those changes back to you local repo
 
 ---
 
 ### 1. Create a New File
 
+- Open a terminal in directory of the repo you cloned in the last exercise (the Simpsons repo).
 - In the root of your cloned repository, create a new file named `index.html`.
 
   ```
