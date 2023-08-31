@@ -72,6 +72,9 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 ### 5. Make Changes to `index.html`
 
 - Open `index.html` in a text editor of your choice.
+  * on a mac, you can type `nano index.html` at the command line
+  * on Windows, try `micro index.html`
+  * you can also just open it in notepad (Windows) or textedit (Mac)
 - Add the following basic HTML content:
 
   ```html
