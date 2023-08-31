@@ -138,20 +138,20 @@ Aside: If you did your editing in nano or micro, you should be able to open your
 
 ---
 
-### 9. Simulate a Scenario for `git fetch` and `git pull`
+### 9. Make a change on GitHub and then synch your local repo with the remote changes
 
 For this step, you need to make a change directly on the GitHub repository. 
 
 - Go to your repository on GitHub.
 - Navigate to `index.html`.
 - Click the pencil icon to edit the file.
-- Add another paragraph:
+- Add another paragraph in the <body> section:
 
   ```html
   <p>This is a change made directly on GitHub!</p>
   ```
 
-- Scroll down and commit the changes with the message: "Direct edit on GitHub."
+- Hit the "Commit Changes..." button and commit the changes with the message: "Direct edit on GitHub."
 
 ---
 
@@ -163,18 +163,22 @@ For this step, you need to make a change directly on the GitHub repository.
   $ git fetch
   ```
 
-  This command fetches the changes, but doesn't merge them.
+  This command fetches the changes, but doesn't merge them. Now that you've "fetched" the change, use `git status` to summarize
+  ```
+  $ git status
+  ```
+  Remember, `git status` is your friend!
 
-- Now, pull the changes to merge them.
+- Now, `pull` the changes to merge them.
 
   ```
   $ git pull
   ```
 
-  If you open `index.html` on your local machine, you'll see the new paragraph you added on GitHub.
+  If you open `index.html` in a text editor on your local machine, you'll see the new paragraph you added on GitHub.
 
 ---
 
-### Conclusion: Congratulations! You've just practiced creating, modifying, committing, and synchronizing files using Git and GitHub. With these foundational skills, you're on your way to mastering version control!
+### Conclusion: Congratulations! You've just practiced creating, modifying, committing, and synchronizing files using Git and GitHub. That's the basic git/GitHub workflow in both directions! With these foundational skills, you're on your way to mastering version control!
 
 ---
