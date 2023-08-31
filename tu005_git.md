@@ -75,7 +75,8 @@ You want a simple webpage to tell the world who your favorite Simpsons character
   * on a mac, you can type `nano index.html` at the command line
   * on Windows, try `micro index.html`
   * you can also just open it in notepad (Windows) or textedit (Mac)
-- Add the following basic HTML content:
+
+- Add the following basic HTML content (you can copy and paste - modify title or body as you see fit):
 
   ```html
   <!DOCTYPE html>
@@ -83,11 +84,11 @@ You want a simple webpage to tell the world who your favorite Simpsons character
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My First Page</title>
+      <title>My Simpsons Page</title>
   </head>
   <body>
       <h1>Welcome to My First Page!</h1>
-      <p>This is a basic Git exercise.</p>
+      <p>My favorite Simpsons character is Maggie.</p>
   </body>
   </html>
   ```
@@ -104,17 +105,17 @@ You want a simple webpage to tell the world who your favorite Simpsons character
   $ git status
   ```
 
-  You should see `index.html` as modified.
+  You should see `index.html` as modified. Remember, `git status` is your friend!
 
 ---
 
-### 7. Commit the Changes
+### 7. Stage and Commit the Changes
 
 - Add the modified file to staging and then commit it.
 
   ```
   $ git add index.html
-  $ git commit -m "Add content to index.html"
+  $ git commit -m "Added content to index.html"
   ```
 
 ---
@@ -127,7 +128,13 @@ You want a simple webpage to tell the world who your favorite Simpsons character
   $ git push
   ```
 
-  If you face an error (because changes have been made to the remote repository that you don't have locally), you'll have to `fetch` and `pull`. Since this is a basic exercise, we'll assume this doesn't happen. But it's something to be aware of in real-world scenarios!
+That's it, you're synched up!
+
+Go to your GitHub page, and you should see index.html in your Simpsons repo.
+
+---
+
+Aside: If you did your editing in nano or micro, you should be able to open your local copy of index.html in your web browser and see it displayed as a webpage!
 
 ---
 
