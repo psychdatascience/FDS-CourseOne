@@ -30,11 +30,13 @@ Try to do it without peeking at help. You've got this!
 ---
 
 ### 2. Clone the repo to your computer
-Your new repo now only exists up in the cloud. Let's pull down to your computer's drive.
+Your new repo now only exists up in the cloud. Let's pull it down to your computer's drive.
 
-* open a terminal where ever you want the repo to go^*^
+* open a terminal where ever you want the repo to go<sup>*</sup>
 * clone the repo
 * confirm everything worked with a quick `ls`, `cd`, and another `ls`
+
+<sup>*</sup> *Mac users: you can open a terminal directly from a finder window by right clicking the folder in the path bar!*
 
 ### 3. Edit the repo
 Let's add a new file!
