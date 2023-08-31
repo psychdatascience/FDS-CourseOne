@@ -36,7 +36,7 @@ Your new repo now only exists up in the cloud. Let's pull it down to your comput
 * clone the repo
 * confirm everything worked with a quick `ls`, `cd`, and another `ls`
 
-<sup>*</sup> *Mac users: you can open a terminal directly from a finder window by right clicking the folder in the path bar!*
+<sup>*</sup> *Mac users: you can open a terminal directly from a finder window by right clicking the folder in the path bar.*
 
 ### 3. Edit the repo
 Let's add a new file!
@@ -45,7 +45,7 @@ Let's add a new file!
 * add a heading and some body text to the file (probably easiest to just use `nano` or `micro` or whatever, but there are free markdown editors available such as Markdown Pro or Markdown Edit)
 * save the file (important step!)
 
-### 3. Commit the changes and push them up to GitHub
+### 4. Commit the changes and push them up to GitHub
 It ain't worth – slit? skit? swit? – if you don't commit!
 
 * stage (add) your changed file
@@ -54,7 +54,9 @@ It ain't worth – slit? skit? swit? – if you don't commit!
 * push your changes up to GitHub
 * check the status again - `git status` never wears out, it's like the Energizer Bunny!
 
-### 4. Make another change on GitHub
+---
+
+### 5. Make another change on GitHub
 We know, we know, you know how to do this now, but we need something to fetch to your local computer!
 
 * add the following to your .py file
@@ -65,15 +67,22 @@ We know, we know, you know how to do this now, but we need something to fetch to
 * save (commit) the change  
 **Pro Tip:** *The standard save shortcut, `cmd s`, works; it pops up the commit window without you having to scroll up to the commit button.*
 
-### 5. Pull the remote changes down to your local computer
+---
+
+### 6. Pull the remote changes down to your local computer
 Let's complete the whole cycle by fetching and pulling. 
 
 * go back to the terminal that has your repo as it's current directory (or open a new one there)
 * check the status
-* do a `git fetch` to fetch any changes made to the repo
+* do a `git fetch` to fetch any changes made to the remote (GitHub) repo
 * check the status (yes, again!)
 * pull the actual changes (`git fetch` only gets a description of the changes, `git pull` actually gets them for you)
 * check the status one last time!
 
 ---
-Summary: That's a run through of the most common steps in a git/GitHub workflow! I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
+
+Summary: That's a run through of the most common steps in a git/GitHub workflow – probably 90% or more of a standard project workflow. I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
+
+For credit, just submit 1) the link to the GitHub repo and 2) a screenshot of an `ls` at the local repo.
+
+Bonus fun: In the terminal window that is "in" your repo, type `python [yourfile.py]` where [yourfile.py] is whatever you named your .py file in the repo. You should see the answer printed in your terminal!
