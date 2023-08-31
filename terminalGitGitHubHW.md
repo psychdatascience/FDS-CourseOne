@@ -23,7 +23,7 @@ Try to do it without peeking at help. You've got this!
 * edit the README file in some way
 * save the file
 * add a new file 
-  - give it a `.py` extension
+  - name it whatever you want, but give it a `.py` extension
   - add a line `print("whatever")` ("whatever" can be whatever)
 * commit your changes
 
@@ -55,8 +55,25 @@ It ain't worth – slit? skit? swit? – if you don't commit!
 * check the status again - `git status` never wears out, it's like the Energizer Bunny!
 
 ### 4. Make another change on GitHub
+We know, we know, you know how to do this now, but we need something to fetch to your local computer!
+
+* add the following to your .py file
+  ```
+  a = 40 + 2
+  print("The answer (to everything) is ", a)
+  ```
+* save (commit) the change  
+**Pro Tip:** *The standard save shortcut, `cmd s`, works; it pops up the commit window without you having to scroll up to the commit button.*
 
 ### 5. Pull the remote changes down to your local computer
+Let's complete the whole cycle by fetching and pulling. 
+
+* go back to the terminal that has your repo as it's current directory (or open a new one there)
+* check the status
+* do a `git fetch` to fetch any changes made to the repo
+* check the status (yes, again!)
+* pull the actual changes (`git fetch` only gets a description of the changes, `git pull` actually gets them for you)
+* check the status one last time!
 
 ---
 Summary: That's a run through of the most common steps in a git/GitHub workflow! I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
