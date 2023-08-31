@@ -136,7 +136,7 @@ Type `cd GitHub`, the command will change our current location from the home dir
 Open the file using a basic text editor. On the Mac, you can use TextEdit; on Windows, you can use NotePad. If you're using Linux, you probably don't need advice on this.
 
 Write a short title using the top heading so to explain what the goal of the folder `GitHub` will be. For example, "Folder for all my GitHub repositories."
-In the second line, write your name, email, and GitHub username using a smaller headings.
+In the second line, write your name, email, and GitHub username using smaller headings.
 
 Save the file.
 

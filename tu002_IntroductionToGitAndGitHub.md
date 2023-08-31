@@ -1,4 +1,4 @@
-## Tutorial 2: GitHub Overview and Account Creation
+# GitHub Overview and Account Creation
 
 Learning Goals:
 
@@ -18,7 +18,10 @@ GitHub uses underlying software called [git](https://git-scm.com/) to allow user
 
 Mistakes in software development are referred to as 'bugs', this terminology is the heritage of the time when computers where not personal yet, but where shared and big and occupied entire rooms (read [Software Bug on Wikipedia](https://en.wikipedia.org/wiki/Software_bug)]. It is said the at these early times of computing insects could enter the computer rooms and interfere with the work of scientists by introducing in the execution of a computer program.  
 
-GitHub can helps you track down the mistake you make and either revert the code to a version before the mistake was introduced or change the code so to eliminate the mistake (see [here](https://en.wikipedia.org/wiki/Version_control) for more details on version control).
+GitHub can helps you track down the mistake you make and either revert the code to a version before the mistake was introduced or change the code so to eliminate the mistake (see [here](https://en.wikipedia.org/wiki/Version_control) for more details on version control). 
+
+This is a nice video from GitHub that provides a nice overview of GitHub:
+[![The video](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc).
 
 #### Sign up for GitHub
 
@@ -32,10 +35,6 @@ GitHub provides videos and written documentation to help 'on board' new users. T
 
 [Here is the GitHub Documentation page](https://docs.github.com/en) 
 
-This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub.
-
-[![This is a nice video from GitHub that provides an overview on the many things it is possible to do with GitHub](https://img.youtube.com/vi/noZnOSpcjYY/0.jpg)](https://www.youtube.com/watch?v=noZnOSpcjYY).
-
 Using GitHub is primarily free (you can find their pricing model [here](https://github.com/pricing)). Yet, some of helpful and more advanced features require a paid plan. Alternatively, users working for educational organizations (those that have an .edu email account), can request a free GitHub account with additional features or receive discounted rates.
 
 Here are resources on how to get a GitHub Educational account if you are a:
@@ -43,7 +42,7 @@ Here are resources on how to get a GitHub Educational account if you are a:
 * [Student](https://education.github.com/benefits?type=student)
 * [Teacher](https://education.github.com/benefits?type=teacher)
 
-#### Note about Git. 
+#### A note about Git. 
 
 Git proposed a revolutionizing approach to software-version control. Git uses a distributed version control system, which means that your code and its entire history is stored both in the cloud and on your own computer or computers. Before Git, the main version control system preceeding git was Subversion (a.k.a., [SVN](https://subversion.apache.org/)). 
 
