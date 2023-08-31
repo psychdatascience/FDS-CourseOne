@@ -40,18 +40,23 @@ You want a simple webpage to tell the world who your favorite Simpsons character
   $ git status
   ```
 
-  You should see `index.html` as an untracked file.
+  You should see `index.html` as an untracked file, and a suggestion to add the file.
 
 ---
 
-### 3. Add the File to Staging
+### 3. Add the File to the git "Staging Area"
 
-- Add `index.html` to the staging area.
+- Follow git's advice and add `index.html`.
 
   ```
   $ git add index.html
   ```
+- Do a git status again for verification - git status is your friend!
 
+  ```
+  $ git status
+  ```
+  (We won't do a git status all the time once you get better at git but, for now, it'll help us learn)
 ---
 
 ### 4. Commit the File
@@ -59,7 +64,7 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 - Commit the staged changes with a message.
 
   ```
-  $ git commit -m "Add initial index.html file"
+  $ git commit -m "Created index.html"
   ```
 
 ---
