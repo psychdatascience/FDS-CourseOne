@@ -32,7 +32,7 @@ Try to do it without peeking at help. You've got this!
 ### 2. Clone the repo to your computer
 Your new repo now only exists up in the cloud. Let's pull it down to your computer's drive.
 
-* open a terminal where ever you want the repo to go<sup>*</sup>
+* open a terminal wherever you want the repo to go<sup>*</sup>
 * clone the repo
 * confirm everything worked with a quick `ls`, `cd`, and another `ls`
 
@@ -54,3 +54,9 @@ It ain't worth – slit? skit? swit? – if you don't commit!
 * push your changes up to GitHub
 * check the status again - `git status` never wears out, it's like the Energizer Bunny!
 
+### 4. Make another change on GitHub
+
+### 5. Pull the remote changes down to your local computer
+
+---
+Summary: That's a run through of the most common steps in a git/GitHub workflow! I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
