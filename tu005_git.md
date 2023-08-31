@@ -3,7 +3,7 @@
 
 ## **Basic Git Functionality Exercise**
 
-**Objective:** Familiarize yourself with basic Git commands and understand the flow of changes from your local machine to a remote repository.
+### Objective: Familiarize yourself with basic Git commands and understand the flow of changes from your local machine to a remote repository.
 
 ---
 
@@ -12,21 +12,21 @@ You're developing a simple webpage for a project. You'll be creating a basic HTM
 
 ---
 
-**1. Create a New File**
+### 1. Create a New File
 
 - In the root of your cloned repository, create a new file named `index.html`.
 
-  ```bash
+  ```
   $ touch index.html
   ```
 
 ---
 
-**2. Check Git Status**
+### 2. Check Git Status
 
 - Always a good practice, check the status of your Git repository.
 
-  ```bash
+  ```
   $ git status
   ```
 
@@ -34,27 +34,27 @@ You're developing a simple webpage for a project. You'll be creating a basic HTM
 
 ---
 
-**3. Add the File to Staging**
+### 3. Add the File to Staging
 
 - Add `index.html` to the staging area.
 
-  ```bash
+  ```
   $ git add index.html
   ```
 
 ---
 
-**4. Commit the File**
+### 4. Commit the File
 
 - Commit the staged changes with a message.
 
-  ```bash
+  ```
   $ git commit -m "Add initial index.html file"
   ```
 
 ---
 
-**5. Make Changes to `index.html`**
+### 5. Make Changes to `index.html`
 
 - Open `index.html` in a text editor of your choice.
 - Add the following basic HTML content:
@@ -78,11 +78,11 @@ You're developing a simple webpage for a project. You'll be creating a basic HTM
 
 ---
 
-**6. Check the Status Again**
+### 6. Check the Status Again
 
 - Note the changes in your repository.
 
-  ```bash
+  ```
   $ git status
   ```
 
@@ -90,22 +90,22 @@ You're developing a simple webpage for a project. You'll be creating a basic HTM
 
 ---
 
-**7. Commit the Changes**
+### 7. Commit the Changes
 
 - Add the modified file to staging and then commit it.
 
-  ```bash
+  ```
   $ git add index.html
   $ git commit -m "Add content to index.html"
   ```
 
 ---
 
-**8. Push to the Remote Repository**
+### 8. Push to the Remote Repository
 
 - Ensure your local changes are synchronized with the remote repository (GitHub).
 
-  ```bash
+  ```
   $ git push
   ```
 
@@ -113,7 +113,7 @@ You're developing a simple webpage for a project. You'll be creating a basic HTM
 
 ---
 
-**9. Simulate a Scenario for `git fetch` and `git pull`**
+### 9. Simulate a Scenario for `git fetch` and `git pull`
 
 For this step, you need to make a change directly on the GitHub repository. 
 
@@ -130,11 +130,11 @@ For this step, you need to make a change directly on the GitHub repository.
 
 ---
 
-**10. Fetch and Pull the Changes**
+### 10. Fetch and Pull the Changes
 
 - On your local machine, fetch the changes.
 
-  ```bash
+  ```
   $ git fetch
   ```
 
@@ -142,7 +142,7 @@ For this step, you need to make a change directly on the GitHub repository.
 
 - Now, pull the changes to merge them.
 
-  ```bash
+  ```
   $ git pull
   ```
 
@@ -150,6 +150,6 @@ For this step, you need to make a change directly on the GitHub repository.
 
 ---
 
-**Conclusion:** Congratulations! You've just practiced creating, modifying, committing, and synchronizing files using Git and GitHub. With these foundational skills, you're on your way to mastering version control!
+### Conclusion: Congratulations! You've just practiced creating, modifying, committing, and synchronizing files using Git and GitHub. With these foundational skills, you're on your way to mastering version control!
 
 ---
