@@ -1,4 +1,6 @@
-## Practice using Git and GitHub via the terminal
+## Let's make something helpful with git/GitHub!
+
+#### Practice using Git and GitHub via the terminal
 
 Learning Goals:
 
