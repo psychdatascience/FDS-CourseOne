@@ -170,7 +170,7 @@ After changing a file and committing to its most recent version, the final step 
 git push
 ```
 
-To synch with GitHub.com, you will need to confirm your credentials:
+To synch with GitHub.com, you *might* need to confirm your credentials. If you do not, please disregard this section and Skip to **6**:
 
 ```
 (base) francopestilli@francos-mbp francopestilli % git push
