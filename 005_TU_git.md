@@ -147,8 +147,7 @@ For this step, you need to make a change directly on the GitHub repository.
 - Click the pencil icon to edit the file.
 - Add another paragraph in the <body> section:
 
-  ```
-  html
+  ```html
   <p>This is a change made directly on GitHub!</p>
   ```
 
