@@ -17,13 +17,13 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 * commit your changes
 * push the changes to the remote repository on GitHub.
 * make a change to the same file on GitHub
-* pull those changes back to you local repo
+* pull those changes back to your local repo
 
 ---
 
 ### 1. Create a New File
 
-- Open a terminal in directory of the repo you cloned in the last exercise (the Simpsons repo).
+- Open a terminal in the directory of the repo you cloned in the last exercise (the Simpsons repo).
 - In the root of your cloned repository, create a new file named `index.html`.
 
   ```
@@ -34,7 +34,7 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 
 ### 2. Check Git Status
 
-- Always a good practice, check the status of your Git repository.
+- Always a good practice to check the status of your Git repository.
 
   ```
   $ git status
@@ -74,11 +74,12 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 - Open `index.html` in a text editor of your choice.
   * on a mac, you can type `nano index.html` at the command line
   * on Windows, try `micro index.html`
-  * you can also just open it in notepad (Windows) or textedit (Mac)
+  * you can also just open it in `notepad` (Windows) or `textedit` (Mac)
 
-- Add the following basic HTML content (you can copy and paste - modify title or body as you see fit):
+- Add the following basic HTML content (you can copy and paste - modify the title or body as you see fit):
 
-  ```html
+  ```
+  html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -147,7 +148,8 @@ For this step, you need to make a change directly on the GitHub repository.
 - Click the pencil icon to edit the file.
 - Add another paragraph in the <body> section:
 
-  ```html
+  ```
+  html
   <p>This is a change made directly on GitHub!</p>
   ```
 
@@ -163,7 +165,7 @@ For this step, you need to make a change directly on the GitHub repository.
   $ git fetch
   ```
 
-  This command fetches the changes, but doesn't merge them. Now that you've "fetched" the change, use `git status` to summarize
+  This command fetches the changes but doesn't merge them. Now that you've "fetched" the change, use `git status` to summarize
   ```
   $ git status
   ```
