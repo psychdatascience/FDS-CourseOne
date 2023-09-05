@@ -101,11 +101,13 @@ The command will make a copy of the online repository on the current directory o
 
 ### 4. Edit your repository.
 
-We want to edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the README.md file that came with the repository we just cloned. This is just like what we did in [Tutorial 003](https://github.com/psychdatascience/FDS-CourseOne/blob/main/tutorial003.md#4-edit-a-repository-edit-an-existing-file). Pick your editor of choice, edit the README.md file and let's add your First Name, Middle initials, and Family name as Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example, I would write: 
+We want to edit the README.md file that came with the repository. While doing this, we will temporarily put the terminal aside (do not close it, just minimize the window). We will then use any editor to edit the README.md file that came with the repository we just cloned. 
+
+Pick your editor of choice, edit the README.md file, and let's add your First Name, Middle initials, and Family name as the Title header, after that let's add a tag-line that can give a quick sense of who you are for example *I am a professor at The University of Texas at Austin interested in Psychology, Neuroscience and Data Science.* After that let's write a short biography. Write something short about your background, for example, I would write: 
 
 *I work in a Public University because I believe in science and education. I like to think that by teaching young minds how to think critically and how to use cutting-edge tools, like coding, we can make the world a better place. It is not a simple task, but I believe we can.* 
 
-Finally, finish editing, save, and close your editor. Now we are ready to make our first commit. 
+Finally, finish editing, save, and close your editor. Now we are ready to make our `commit`. 
 
 First, let's learn how to take a look at the status of your local repository. Let's go back to the terminal, navigate to the new folder we just cloned, and check the status of the repository:
 
@@ -127,7 +129,7 @@ Changes not staged for commit:
 	modified:   README.md
 ```
 
-As you can see git has detected changes to the `README.md` file. Let's analyze the output above:
+As you can see `git` has detected changes to the `README.md` file. Let's analyze the output above:
 
   - `On branch main` This means that you are currently working on the main development thread for this repository. Git allows "branching" (just like a tree branch). This means that you can create a copy (a `branch`) of the repository that diverges from the principal (`main` branch). Generally, branches are "merged" back into the main branch after a certain development goal is achieved. [Here is some additional reading material to understand basic branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
   - `Your branch is up to data with origin/main` This means that the files in your local copy of the repository and the main branch you are currently working on are the same as the versions of the files committed to the cloud version of the repository, the `origin` is, in a nutshell, the term used here to refer to the cloud-hosted copy of the repository, so the files on GitHub.com.
