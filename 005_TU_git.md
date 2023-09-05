@@ -78,8 +78,7 @@ You want a simple webpage to tell the world who your favorite Simpsons character
 
 - Add the following basic HTML content (you can copy and paste - modify the title or body as you see fit):
 
-  ```
-  html
+  ```html
   <!DOCTYPE html>
   <html lang="en">
   <head>
