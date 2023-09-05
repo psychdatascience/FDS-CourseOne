@@ -9,7 +9,7 @@
 ### **The Homework:**
 Let's go through the whole basic workflow for maintaining a repo. Try to do this with as little help as possible (of course you can peek at a cheat sheet if you need to). 
 
-Note: we're making some "junk" repos while we learn. You can delete them once they've been checked so they don't clutter up your GitHub world.
+Note: We're making some "junk" repos while we learn. You can delete them once they've been checked so they don't clutter up your GitHub world.
 
 ---
 
@@ -30,13 +30,13 @@ Try to do it without peeking at help. You've got this!
 ---
 
 ### 2. Clone the repo to your computer
-Your new repo now only exists up in the cloud. Let's pull it down to your computer's drive.
+Your new repo now only exists in the cloud. Let's pull it down to your computer's drive.
 
 * open a terminal wherever you want the repo to go<sup>*</sup>
 * clone the repo
 * confirm everything worked with a quick `ls`, `cd`, and another `ls`
 
-<sup>*</sup> *Mac users: you can open a terminal directly from a finder window by right clicking the folder in the path bar.*
+<sup>*</sup> *Mac users: you can open a terminal directly from a finder window by right-clicking the folder in the path bar.*
 
 ### 3. Edit the repo
 Let's add a new file!
@@ -65,14 +65,14 @@ We know, we know, you know how to do this now, but we need something to fetch to
   print("The answer (to everything) is ", a)
   ```
 * save (commit) the change  
-**Pro Tip:** *The standard save shortcut, `cmd s`, works; it pops up the commit window without you having to scroll up to the commit button.*
+**Pro Tip:** *The standard save the shortcut, `cmd s`, works; it pops up the commit window without you having to scroll up to the commit button.*
 
 ---
 
 ### 6. Pull the remote changes down to your local computer
 Let's complete the whole cycle by fetching and pulling. 
 
-* go back to the terminal that has your repo as it's current directory (or open a new one there)
+* go back to the terminal that has your repo as its current directory (or open a new one there)
 * check the status
 * do a `git fetch` to fetch any changes made to the remote (GitHub) repo
 * check the status (yes, again!)
@@ -81,7 +81,7 @@ Let's complete the whole cycle by fetching and pulling.
 
 ---
 
-Summary: That's a run through of the most common steps in a git/GitHub workflow – probably 90% or more of a standard project workflow. I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
+Summary: That's a run-through of the most common steps in a git/GitHub workflow – probably 90% or more of a standard project workflow. I wouldn't call ourselves git ninjas or gitmasters or whatever just yet, but we're progressing above the git bunny level for sure!
 
 For credit, just submit 1) the link to the GitHub repo and 2) a screenshot of an `ls` at the local repo.
 
