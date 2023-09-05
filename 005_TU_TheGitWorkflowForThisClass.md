@@ -22,6 +22,8 @@ We will now go over the steps necessary to update, work with, and report on the 
 Let's go over some of the steps from previous Tutorials and create a repository on GitHub.com. The repository will be named:
 `YourEID_FDS1`.
 
+Note. This repo is important. We will use this repository for the rest of the semester. We will ask that you `git add` and `git push` files to this repo every week and you will be asked to send us URLs of the files uploaded with the examples, tutorials, and homework completed.
+
 #### Navigate to GitHub.com/yourUserName and Sign in to your account.
 
 First, navigate to GitHub.com and *sign in*. 
@@ -42,6 +44,8 @@ On your local computer, navigate to the root of your `git` repositories:
  cd ~
  cd MyGitRepos
 ```
+
+###### Note that the above folder (`MyGitRepos`) was created in the previous tutorial. if you have not created it yet, look into how to create it under your home directory (`cd ~`) by using the Unix/Linux command `mkdir` (make a directory).
 
 The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on GitHub is `clone`:
 
