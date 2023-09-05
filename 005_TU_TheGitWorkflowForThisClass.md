@@ -22,6 +22,8 @@ We will now go over the steps necessary to update, work with, and report on the 
 Let's go over some of the steps from previous Tutorials and create a repository on GitHub.com. The repository will be named:
 `YourEID_FDS1`.
 
+Note. This repo is important. We will use this repository for the rest of the semester. We will ask that you `git add` and `git push` files to this repo every week and you will be asked to send us URLs of the files uploaded with the examples, tutorials, and homework completed.
+
 #### Navigate to GitHub.com/yourUserName and Sign in to your account.
 
 First, navigate to GitHub.com and *sign in*. 
@@ -43,6 +45,8 @@ On your local computer, navigate to the root of your `git` repositories:
  cd MyGitRepos
 ```
 
+###### Note that the above folder (`MyGitRepos`) was created in the previous tutorial. if you have not created it yet, look into how to create it under your home directory (`cd ~`) by using the Unix/Linux command `mkdir` (make a directory).
+
 The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on GitHub is `clone`:
 
 ```
@@ -58,15 +62,15 @@ The command will make a copy of the online repository on the current directory o
 We want to navigate to Canvas, and then:
 
 * find the module for this week,
-* find the file to download (call it `ThisWeekTutorial.ipynb`)
+* find the file to download (call it `005_AUX_NotebookToPracticeWorkflow.ipynb`)
 * download the file.
 * move the file to `~/MyGitRepos/YourEID_FDS1`
 
-[Hint. You can move the file using a terminal and the command `mv`.]
+###### Hint. You can move the file using a terminal and the command `mv`.
 
 ### 3. Add the file to your local git repository.
 
-After downloading and moving the `ThisWeekTutorial.ipynb` inside your git repository for the class: `~/MyGitRepos/YourEID_FDS1` we will add it to the git repository. Open a terminal and follow the next steps.
+After downloading and moving the `005_AUX_NotebookToPracticeWorkflow.ipynb` inside your git repository for the class: `~/MyGitRepos/YourEID_FDS1` we will add it to the git repository. Open a terminal and follow the next steps.
 
 #### Add the File to the git "Staging Area"
 
@@ -82,10 +86,10 @@ Check the status of the repository (it should have a new file, just copied into 
 $ git status
 ```
 
-Follow git's advice and add `ThisWeekTutorial.ipynb`.
+Follow git's advice and add `005_AUX_NotebookToPracticeWorkflow.ipynb`.
 
 ```
-$ git add ThisWeekTutorial.ipynb
+$ git add 005_AUX_NotebookToPracticeWorkflow.ipynb
 ```
 
 Do a git status again for verification - git status is your friend!
@@ -101,18 +105,18 @@ $ git status
 Commit the staged changes with a message.
 
 ```
-$ git commit -m "Created ThisWeekTutorial.ipynb"
+$ git commit -m "Created 005_AUX_NotebookToPracticeWorkflow.ipynb"
 ```
 
 ### 5. Make Changes to index.html
 
-Open `ThisWeekTutorial.ipynb` using `Jupyter`.
+Open `005_AUX_NotebookToPracticeWorkflow.ipynb` using `Jupyter`.
 
 ### 6. Work on your tutorial/assignment 
 
-[This will Make changes to `ThisWeekTutorial.ipynb`]
+[This will Make changes to `005_AUX_NotebookToPracticeWorkflow.ipynb`]
 
-* Open `ThisWeekTutorial.ipynb` using `Jupyter`
+* Open `005_AUX_NotebookToPracticeWorkflow.ipynb` using `Jupyter`
 * Follow the tutorial and execute the cells
 
 ### 7. Check the Status Again
@@ -122,15 +126,15 @@ Note the changes in your repository.
 $ git status
 ```
 
-You should see `ThisWeekTutorial.ipynb` as modified. Remember, git status is your friend!
+You should see `005_AUX_NotebookToPracticeWorkflow.ipynb` as modified. Remember, git status is your friend!
 
 ### 8. Stage and Commit the Changes
 
 Add the modified file to staging and then commit it.
 
 ```
-$ git add ThisWeekTutorial.ipynb
-$ git commit -m "Added content to ThisWeekTutorial.ipynb"
+$ git add 005_AUX_NotebookToPracticeWorkflow.ipynb
+$ git commit -m "Added content to 005_AUX_NotebookToPracticeWorkflow.ipynb"
 ```
 
 ### 8. Push to the Remote Repository
@@ -142,17 +146,21 @@ $ git push
 
 That's it, you're synched up!
 
-Go to your GitHub page, and you should see `ThisWeekTutorial.ipynb` in your `YourEID_FDS1` repo.
+Go to your GitHub page, and you should see `005_AUX_NotebookToPracticeWorkflow.ipynb` in your `YourEID_FDS1` repo.
 
 ### 9. Submit the URL of the tutorial
 
 Every week you will need to submit the URL to your repository with the tutorial done, or the homework completed. To do so, copy and paste the URL of your tutorial from your GitHub into the appropriate location on Canvas. 
 
-Here is the URL of my tutorial: https://github.com/francopestilli/fp4834_FDS1/blob/main/myFirstTutorial.ipynb
+Here is the URL of my tutorial: [https://github.com/francopestilli/fp4834_FDS1/blob/main/myFirstTutorial.ipynb](https://github.com/francopestilli/fp4834_FDS1/blob/main/005_AUX_NotebookToPracticeWorkflow.ipynb)
 
 ### 10. Print the tutorial and upload the PDF 
 
-Finally, we ask that you submit your notebook as a PDF file by uploading it on Canvas following the appropriate Assignment inside the model.
+Finally, we ask that you submit your notebook as a PDF file by uploading it on Canvas following the appropriate Assignment inside the model. If you do not remember how to save a PDF from a Jupyter Notebook [here is a Video of how I do it on my Mac OSX computer using Google Chrome as a browser](https://youtu.be/B2SvTX4-RS8)
+
+### 11. Excellent, you are done!
+
+The above is the workflow we will use for every week and lecture. We will always give you a file (most often a Jupyter Notebook) and ask that you download it from Canvas, then add it to your local git repository, push it to the cloud, and submit both a URL pointing to the notebook under your GitHub account and a PDF of the tutorial with all the questions answered or exercises completed. Remember, we will use the same repository for the whole semester `YourEID_FDS1`, so keep good care of it and practice well!
 
 
 
