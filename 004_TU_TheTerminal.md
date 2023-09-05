@@ -14,9 +14,9 @@ The terminal is where you'll enter shell commands. On most systems, you can find
 ### 2. Navigating the File System
 To navigate the file system, we need to be able to 
 
-* see where we are – our current location in the file system
-* see what's there – which files and directories are housed in the current directory
-* jump around – change our current location to a new location in the file system
+* See where we are – our current location in the file system
+* See what's there – which files and directories are housed in the current directory
+* Jump around – change our current location to a new location in the file system
 
 #### 2.1. `pwd` – Print Working Directory
 The `pwd` command lets us see where we are. It will display the path down the file tree from the very top, "root", all the way down to your current location. (Your current directory, without the whole path, might be displayed in your prompt or in the title bar of your terminal window.)
@@ -28,7 +28,7 @@ The `pwd` command lets us see where we are. It will display the path down the fi
 
   - What's displayed? (Rhetorical question, but make sure you understand what you are seeing.)
  
-  Don't be afraid to use this often! There's no crime in using it everytime you change you current location, just to be sure!
+  Don't be afraid to use this often! There's no crime in using it every time you change your current location, just to be sure!
 
 #### 2.2. `ls` – List Files and Directories
 The `ls` command will **l**i**s**t files and directories (folders) in your current directory. By default, it will list everything that's not a "hidden" file in a short format, listing only the names.
@@ -47,7 +47,7 @@ The `ls` command will **l**i**s**t files and directories (folders) in your curre
   ```
   $ ls -l
   ```
-  This lists the files and folders in "long" format, giving addtional information in each row. This will be useful later in your data science life but, now, not so much.
+  This lists the files and folders in "long" format, giving additional information in each row. This will be useful later in your data science life but, now, not so much.
 
   ```
   $ ls -F
@@ -57,7 +57,7 @@ The `ls` command will **l**i**s**t files and directories (folders) in your curre
   ```
   $ ls -a
   ```
-  This lists **a**ll the files in the current directory, including *hidden* files whose names beging with a ".", which tells the OS to not show them to people by default. These are files that regular users don't need to worry about, and should only be messed with if you are *sure* you know what you're doing!
+  This lists **a**ll the files in the current directory, including *hidden* files whose names begin with a ".", which tells the OS to not show them to people by default. These are files that regular users don't need to worry about, and should only be messed with if you are *sure* you know what you're doing!
 
 You can specify multiple options at once just by tacking them together. So, yes, you can do 
   ```
@@ -67,7 +67,7 @@ Awesome aF, right?
 
 ### 2.3. `cd` – Change Directory
 
-- To navigate into a directory, use `cd [directory_name]`. If your want to jump into a directory that is in your current directory, you just type is name after `cd`. So, for example, if you have a "Documents" directory in your current folder, you can jump into it with:
+- To navigate into a directory, use `cd [directory_name]`. If you want to jump into a directory that is in your current directory, you just type its name after `cd`. So, for example, if you have a "Documents" directory in your current folder, you can jump into it with:
   ```
   $ cd Documents
   ```
@@ -77,7 +77,7 @@ Awesome aF, right?
     ```
     $ cd ..
     ```
-    Where ever you may roam, you can jump instantly back to your home directory using
+    Where you may roam, you can jump instantly back to your home directory using
     ```
     $ cd ~
     ```
@@ -173,7 +173,7 @@ The wild card is very useful; make it your friend!
   The `-r` option stands for "recursive"; it means delete the directory and all its contents.
  
   ---
-  Make a new directory, put a new file it it, and try to use just `rm` to delete it with no `-r` option.
+  Make a new directory, put a new file in it, and try to use just `rm` to delete it with no `-r` option.
   
   So `rm` is unforgiving, but it's not downright mean. Go ahead and clean up with `rm -r`.
 
@@ -183,7 +183,7 @@ Conclusion:
 
 Well done! You've now taken your first steps into the world of shell commands. With practice, these commands will become second nature to you. Remember, the terminal is a powerful tool, and the commands you've learned today are just the tip of the iceberg!
 
-Do yourself a favor. Keep your terminal muscles toned by using the terminal a lot, even when you don't need to. For example, whenever you're working on a project in some folder on your computer, even writing a paper, open a terminal in that folder and see what all is in there. Use it to copy or remame files instead of using the "Save As..." menu from within the application.
+Do yourself a favor. Keep your terminal muscles toned by using the terminal a lot, even when you don't need to. For example, whenever you're working on a project in some folder on your computer, even writing a paper, open a terminal in that folder and see what all is in there. Use it to copy or rename files instead of using the "Save As..." menu from within the application.
 
 
 ---
