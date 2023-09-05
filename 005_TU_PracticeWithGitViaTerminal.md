@@ -22,9 +22,9 @@ In this tutorial, we will practice performing some more operations using `git` a
 
 Just as a general reminder. Version control is a method to keep track of files and folders for a computer file system. We all have used some sort of version control. For example, I like to save files on my computer with the following naming convention `year-collaborator-project-some_details.ext`, say `2022-larry-datascience-to_do_list.pdf`. I like to save files in folders also organized by date: `/Users/francopestilli/UTAustin/Teaching/2023/Fall/DataScience/`. I then update the same file or make new versions of the file every year. When I update files and folders I change the year in their name. Many of us have performed similar operations, manually, and many of us have encountered the challange of developing a good way to keep track of file names and being more or less diligent in updating the file names. A version control system is a way to use computers to do what humans are not very good at keeping track of small changes, updating files as they are modified, and remembering to update records.
 
-### 2. Set up a MyGitCode Folder to keep all your repositories.
+### 2. Set up a MyGitRepos Folder to keep all your repositories.
 
-Developers, Data Scientists, and Scientists alike prefer to keep their file systems well organized. One simple strategy to keep all your git repositories organized is to create a folder on the home directory of your file system and to use that folder to keep all your `git` repositories. For example, on my computer, I created a folder called: `/Users/francopestilli/MyGitCode/`.
+Developers, Data Scientists, and Scientists alike prefer to keep their file systems well organized. One simple strategy to keep all your git repositories organized is to create a folder on the home directory of your file system and to use that folder to keep all your `git` repositories. For example, on my computer, I created a folder called: `/Users/francopestilli/MyGitRepos/`.
 
 Let's make a folder where you will keep all the files for this class. Open a terminal and navigate to your home directory. 
 
@@ -40,10 +40,10 @@ Check that you are now in the home directory of your current user:
 pwd
 ```
 
-Now let's create a folder where we will keep the git repository for this class (and any other file you might like to keep). We will call the folder `MyGitCode`:
+Now let's create a folder where we will keep the git repository for this class (and any other file you might like to keep). We will call the folder `MyGitRepos`:
 
 ```
- mkdir -v MyGitCode
+ mkdir -v MyGitRepos
 ```
 
 Check that the folder was created:
@@ -52,7 +52,7 @@ Check that the folder was created:
 ls
 ```
 
-Great, you should now have the folder we will use to store all the future git repositories for this class. [It is fine to make the folder in a different location, or call it differently, but we will use the above standard. We will expect a folder in your home directory called MyGitCode.]
+Great, you should now have the folder we will use to store all the future git repositories for this class. [It is fine to make the folder in a different location, or call it differently, but we will use the above standard. We will expect a folder in your home directory called MyGitRepos.]
 
 ### 3. Practice creating and cloning a new repository.
 
