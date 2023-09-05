@@ -16,7 +16,7 @@ Prerequisites:
 
 * Internet access on Linux or Unix based computer (or Windows, especially with PowerShell)
 * Git Installed
-* A GitHub account and ability Create a GitHub Repo, i.e., the previous tutorials
+* A GitHub account and the ability to create a GitHub Repo, i.e., the previous tutorials
 
 ### 1. A reminder for version control.
 
