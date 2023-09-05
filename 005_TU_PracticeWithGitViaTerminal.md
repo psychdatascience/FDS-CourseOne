@@ -86,7 +86,7 @@ Next on your local computer, navigate to the root of your `git` repositories:
 
 ```
  cd ~
- cd git
+ cd MyGitRepos
 ```
 
 The command that will allow the repository online to be copied locally on your computer while maintaining an invisible link to your online repository living on GitHub is `clone`:
