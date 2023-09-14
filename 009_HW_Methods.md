@@ -1,4 +1,4 @@
-### **Python Homework Assignment: Slicing & Data Structure Methods**
+### **Homework Assignment: Slicing & Data Container Methods**
 
 ---
 
@@ -19,6 +19,7 @@
         - Extract and print the last 2 elements.
         - Extract and print the elements from index 3 to 6 (inclusive).
         - Extract and print every 2nd element from the list.
+        - Extract and print every 2nd element *starting from the end of the list*.
         
 3. **Tuples:**
     - Given the tuple `tup = (5, 10, 15, 20, 25, 30, 35, 40)`:
@@ -46,12 +47,14 @@
     - Convert `tup` into a list, add the number `45` at its end, then convert it back to a tuple. Print the new tuple.
     
 4. **Dictionaries:**
-    - Given the dictionary `dict_ = {"Alice": 25, "Bob": 30, "Charlie": 35}`:
-        - Add a new key-value pair: `"David": 40` and print the updated dictionary.
-        - Retrieve and print the age of "Charlie".
-        - Remove "Bob" and his age from the dictionary and print the updated dictionary.
+    - Given the dictionary `S_Doo_ = {"Scooby": 4, "Shaggy": 19, "Velma": 18, "Daphne": 20}`
+        - Add a new key-value pair: `"Phred": 21` and print the updated dictionary.
+        - Retrieve and print the age of "Velma".
+        - Remove "Scooby" and his age from the dictionary and print the updated dictionary.
         - Print all the keys in the dictionary.
         - Print all the values in the dictionary.
 
 ---
-
+  
+#### Bonus: 
+Make and print a `list` of the keys in the Scooby dictionary using the output of `.keys()`.
