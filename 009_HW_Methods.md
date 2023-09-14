@@ -32,7 +32,7 @@
 #### **Part B: Methods of Data Structures**
 
 1. **Strings:**
-    - Find and print the index of the first occurrence of the substring "ring" in `s`.
+    - Find and print the index of the first occurrence of the substring "ming" in `s`.
     - Convert the string `s` to lowercase and print the result.
     - Replace the substring "Fun" in `s` with "Amazing" and print the result.
     
