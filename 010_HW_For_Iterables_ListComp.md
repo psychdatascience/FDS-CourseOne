@@ -32,9 +32,9 @@ apple
 
 a) Write a program that uses a `for` loop and the `range()` function to print numbers 0 through 9.
 
-b) Create a program that prints out the first 10 even numbers using the `range()` function.
+b) Use the `range()` function to print numbers from 5 to 15.
 
-c) Use the `range()` function to print numbers from 5 to 15.
+c) Create a program that prints out the first 10 even numbers using the `range()` function.
 
 ### Part 2: Dictionaries and Loops
 
@@ -85,3 +85,11 @@ Expected Output: `["e", "r", "i", "e"]`
 ---
 
 Bonus:
+
+Write some code to "flatten" the following list-of-lists-of-lists:
+```
+deep_list = [[[1, 2, 3, 4], [5, 6, 7, 8]],
+            [[9, 10, 11, 12], [13, 14, 15, 16]],
+            [[17, 18, 19, 20], [21, 22, 23, 42]]]
+```
+(that is, make into a simple list of `ints`)
