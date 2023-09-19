@@ -107,6 +107,9 @@ deep_list = [[[1, 2, 3, 4], [5, 6, 7, 8]],
 (that is, make into a simple list of `ints`)
 
 b) Write code that, given a list of strings like this:
+```
 myStrLst = ["able", "was", "I", "ere", "I", "saw", "elba"]
-will reverse both the order of the strings in the list ***and*** the order of the letters in each string.
+```
+will reverse both the order of the strings in the list ***and*** the order of the letters in each string.  
+
 **Warning** This one is tough, and requires you put together a few of the skills we've learned, so don't get frustrated if it takes you a lot of trial and error! That's what coding is often like!
