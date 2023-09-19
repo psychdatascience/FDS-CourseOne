@@ -77,7 +77,10 @@ Example Output (new list): `["A", "B", "C", "D"]`
 c) Use a list comprehension to compute and save the square roots of a list of numbers from 1 to 10.
 
 Input list: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
-Expected Output: [1.0,
+
+Expected Output: 
+```
+[1.0,
  1.4142135623730951,
  1.7320508075688772,
  2.0,
@@ -87,6 +90,7 @@ Expected Output: [1.0,
  2.8284271247461903,
  3.0,
  3.1622776601683795]
+```
 
 d) Given a list of words, use a list comprehension to create a new list containing the last letter of each word.
 
