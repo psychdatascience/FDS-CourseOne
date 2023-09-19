@@ -59,7 +59,7 @@ cherries now have 20.
 ```
 
 ### Part 3: Storing Results of a For Loop in a New List and List Comprehensions
-Only use list comprehension for c) and d)
+#### 1. not using list comprehension
 
 a) Write a program that takes a list of numbers and creates a new list with each number multiplied by 2.
 
@@ -73,6 +73,7 @@ Example Input: `["Apple", "Banana", "Cherry", "Date"]`
 
 Example Output (new list): `["A", "B", "C", "D"]`
 
+#### 2. using list comprehension
 c) Use a list comprehension to compute and save the square roots of a list of numbers from 1 to 10.
 
 Input list: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
@@ -95,12 +96,17 @@ Expected Output: `["e", "r", "i", "e"]`
 
 ---
 
-Bonus:
+### Part 4: nested loops
 
-Write some code to "flatten" the following list-of-lists-of-lists:
+a) Write some code to "flatten" the following list-of-lists-of-lists:
 ```
 deep_list = [[[1, 2, 3, 4], [5, 6, 7, 8]],
             [[9, 10, 11, 12], [13, 14, 15, 16]],
             [[17, 18, 19, 20], [21, 22, 23, 42]]]
 ```
 (that is, make into a simple list of `ints`)
+
+b) Write code that, given a list of strings like this:
+myStrLst = ["able", "was", "I", "ere", "I", "saw", "elba"]
+will reverse both the order of the strings in the list ***and*** the order of the letters in each string.
+**Warning** This one is tough, and requires you put together a few of the skills we've learned, so don't get frustrated if it takes you a lot of trial and error! That's what coding is often like!
