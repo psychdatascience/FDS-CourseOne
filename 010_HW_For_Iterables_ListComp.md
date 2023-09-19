@@ -1,6 +1,6 @@
 ## Python Looping Homework Assignment
 
-### Part 1: For Loops with Lists and Range
+### Part 1: `for` loops with lists and `range()`
 
 #### 1. Lists:
 
@@ -16,16 +16,16 @@ Example Output:
 16
 ```
 
-b) Given a list of strings, write a program that prints out each string in reverse order without reversing the list itself.
+b) Given a list of strings, write a program that prints out the elements of the string in reverse order without reversing the list itself.
 
 Example Input: `["apple", "pear", "kiwi", "grape"]`
 
 Example Output:
 ```
-elppa
-raep
-iwik
-eparg
+grape
+kiwi
+pear
+apple
 ```
 
 #### 2. Using the range() function:
@@ -59,6 +59,7 @@ cherries now have 20.
 ```
 
 ### Part 3: Storing Results of a For Loop in a New List and List Comprehensions
+Only use list comprehension for c) and d)
 
 a) Write a program that takes a list of numbers and creates a new list with each number multiplied by 2.
 
