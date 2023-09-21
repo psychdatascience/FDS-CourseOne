@@ -52,7 +52,7 @@ Make sure to handle invalid operations with an appropriate error message.
 
 **4. Guessing Game:**
 
-a) The program should produce a random answer between 1 and 10).  
+a) The program should produce a random answer between 1 and 10.  
 
     - use `import random` (we only have to do this once, at the top of the program)
     - then `answer = random.randint()` to get the random answer
