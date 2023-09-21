@@ -6,7 +6,9 @@
 
 **0. Logic:**
 
-Write come code that determines whether either of the letters in `test_strs = [“y”, “o”]` are in the string `comp_str = “Hello World!”`.
+a) Write come code that determines whether either of the letters in `test_strs = [“y”, “o”]` are in the string `comp_str = “Hello World!”`.
+
+b) In logic and computing there is a comparison called an “exclusive or” or “xor”. An xor test produces `True`(or 1) only when one *but not both* of its inputs are `True`. Note that this is different than an `or`, which yields `True` if *either* input is true. Write a line of code that performs an xor on two Boolean variables, a and b, using the tests we know about: `and`, `or`, and `not`. Test you code for all four possible combinations of a and b.
 
 **1. Age Category:**
 
