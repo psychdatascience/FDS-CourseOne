@@ -93,7 +93,7 @@ Which loop structure do you think is better in this context, and why?
 
 Think about writing a program for which the user must enter a positive number. If they don't, the program should prompt them again until they do.  
 
-Would you use a `for` loop or a `while` loop, and why?
+Would you use a `for` loop or a `while` loop to do this? Why?
 
 ---
 
