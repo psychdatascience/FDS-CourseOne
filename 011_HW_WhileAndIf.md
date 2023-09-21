@@ -1,7 +1,6 @@
-**Python Homework Assignment: Control Structures**
+**Homework Assignment: Control Structures**
 
-**Objective**: To gain hands-on experience with conditional statements and 
-loops in Python.
+**Objective**: To gain hands-on experience with `if` statements and `while` loops in Python.
 
 ---
 
@@ -35,8 +34,8 @@ b) Check if the number is even or odd.
 Design a calculator that can perform addition, subtraction, 
 multiplication, and division. The program should:
 
-a) Ask the user to select an operation.
-b) Ask the user to input two numbers.
+a) Ask the user to input two numbers.
+b) Ask the user to select an operation.
 c) Perform the selected operation on the two numbers and display the 
 result.
 
@@ -46,14 +45,14 @@ Make sure to handle invalid operations with an appropriate error message.
 
 **4. Guessing Game:**
 
-a) The program should randomly select a number between 1 and 10.
+a) The program should produce a random answer between 1 and 10).
+    - use `import random`
+    - then `answer = random.randint()` to get the random answer
 b) Ask the user to guess the number.
 c) Provide hints like "Too High" or "Too Low" based on the user's guess.
 d) The user should have a maximum of 5 attempts.
 e) After 5 incorrect attempts or if the user guesses correctly, reveal the 
 correct number.
-
-*Hint*: Use a `while` loop to limit the number of attempts.
 
 ---
 
@@ -65,8 +64,7 @@ Write two versions of a program that asks the user for a positive integer
 a) First, use a `for` loop.
 b) Next, use a `while` loop.
 
-*Note*: Discuss the difference in structure between the two loops and when 
-you might prefer one over the other.
+Which loop structure do you prefer in this context, and why?
 
 ---
 
@@ -89,7 +87,13 @@ Implement this twice:
 a) Using a `for` loop.
 b) Using a `while` loop.
 
-*Hint*: Observe and reflect on the difference in loop structures.
+Which loop structure do you think is better in this context, and why?
+
+---
+
+Think about writing a program for which the user must enter a positive number. If they don't, the program should prompt them again until they do.  
+
+Would you use a `for` loop or a `while` loop, and why?
 
 ---
 
