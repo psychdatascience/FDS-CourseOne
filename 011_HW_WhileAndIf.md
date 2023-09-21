@@ -4,6 +4,10 @@
 
 ---
 
+**0. Logic:**
+
+Write come code that determines whether either of the letters in `test_strs = [“y”, “o”]` are in the string `comp_str = “Hello World!”`.
+
 **1. Age Category:**
 
 Write a program that:
@@ -27,7 +31,9 @@ Ask the user to input a number. Write a program to:
 a) Check if the number is positive, negative, or zero.
 b) Check if the number is even or odd.
 
----
+Sample output: “Your number, 42, is positive and even."
+
+—
 
 **3. Simple Calculator:**
 
@@ -46,12 +52,12 @@ Make sure to handle invalid operations with an appropriate error message.
 **4. Guessing Game:**
 
 a) The program should produce a random answer between 1 and 10).
-    - use `import random`
+    - use `import random` (we only have to do this once, at the top of the program)
     - then `answer = random.randint()` to get the random answer
 b) Ask the user to guess the number.
 c) Provide hints like "Too High" or "Too Low" based on the user's guess.
-d) The user should have a maximum of 5 attempts.
-e) After 5 incorrect attempts or if the user guesses correctly, reveal the 
+d) The user should have some maximum number of attempts.
+e) After the maximum number of incorrect attempts or if the user guesses correctly, reveal the 
 correct number.
 
 ---
@@ -99,6 +105,5 @@ Would you use a `for` loop or a `while` loop to do this? Why?
 
 **Notes**:
 
-- Make sure to comment your code!.
+- Make sure to comment your code! We don’t heavily comment the code in the tutorials, because we want you to focus on reading the code itself but, in practice, you should comment, comment, comment!
 - Ensure your program handles unexpected inputs gracefully.
-
