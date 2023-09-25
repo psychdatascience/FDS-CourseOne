@@ -1,4 +1,4 @@
-Certainly! The `id()` function can be a very powerful tool to clarify the relationship between objects and namespaces in Python. When you understand that variables in Python are more like references or pointers to objects rather than the objects themselves, it starts to make more sense.
+The `id()` function can be a very powerful tool to clarify the relationship between objects and namespaces in Python. When you understand that variables in Python are more like references or pointers to objects rather than the objects themselves, it starts to make more sense.
 
 Let's consider an example:
 
