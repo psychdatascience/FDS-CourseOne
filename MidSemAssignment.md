@@ -30,7 +30,7 @@ You will create a simple statistics tool that allows users to:
         - Summary of the statistics
 
 3. **Modules and Functions:**
-    - Create a module named `statistics_module.py`.
+    - Create a module named `{your_initials}_stats_module.py`.
     - This module should contain functions to compute the mean, variance, standard deviation, standard error, and z-score.
 
 4. **User Interface:**
@@ -46,7 +46,7 @@ You will create a simple statistics tool that allows users to:
     - **Variance:** The average of the squared differences from the mean.
     - **Standard Deviation:** The square root of variance.
     - **Standard Error:** Standard deviation divided by the square root of the number of observations.
-    - **Z-score:** The number of standard deviations by which the value of an observation or data point is above the mean.
+    - **Z-score:** The number of standard deviations by which the value of an observation or data point is above or below the mean.
 
 - Use lists to store the numbers inputted by the user.
 
@@ -56,8 +56,8 @@ You will create a simple statistics tool that allows users to:
 
 **Submission Guidelines:**
 
-1. Your main script (e.g., `statistics_tool.py`).
-2. The `statistics_module.py` file containing your statistical functions.
+1. Your main script (e.g., `{your_initials}_stats_tool.py`).
+2. The `{your_initials}_stats_module.py.py` file containing your statistical functions.
 3. A brief README explaining how to run your tool and any additional features or notes you wish to include.
 
 ---
