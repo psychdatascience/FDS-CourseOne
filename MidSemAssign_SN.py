@@ -50,7 +50,7 @@ while True:
     elif choice == '6':
         if 'numbers' in locals():
             print(f"Mean: {mystat.mean(numbers)}")
-            print(f"Standard Deviation: {smystatm.std_dev(numbers)}")
+            print(f"Standard Deviation: {mystat.std_dev(numbers)}")
             print(f"Standard Error: {mystat.std_error(numbers)}")
         else:
             print("Please enter a set of numbers first.")
