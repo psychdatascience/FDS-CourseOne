@@ -38,5 +38,5 @@ The purpose of this homework is to reinforce your understanding of functions, na
    - Now do a `from mylen import len`
    - Finally, repeat the `len(mylist)`
 
-In your own words, compare the outputs of the two `len(mylest)` calls. What happened? Why? What does this tell you about namespaces and the egalitarian nature of Python?
+    In your own words, compare the outputs of the two `len(mylest)` calls. What happened? Why? What does this tell you about namespaces and the egalitarian nature of Python?
 
