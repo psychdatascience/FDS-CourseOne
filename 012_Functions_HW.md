@@ -27,6 +27,19 @@ The purpose of this homework is to reinforce your understanding of functions, na
     - Organize all the conversion functions you've created into a Python module named `unit_conversions.py`.
     - In a separate script, import your module and demonstrate the use of each function.
 
+3. #### Namespaces
+   - Make a module with filename "mylen.py"
+       * add a function named `len` to the module
+       * the function should return the number 42 no matter what
+   - Create a list `mylist` (or whatever) with some elements in it (they can be numbers or anything)
+   - ***Before importing you module***, try a `len(mylise)`
+   - Import mylen.py (`import mylen`)
+       * verify that `mylen.len()` works as expected
+   - Now do a `from mylen import len`
+   - Finally, repeat the `len(mylist)`
+
+In your own words, compare the outputs of the two `len(mylest)` calls. What happened? Why? What does this tell you about the egalitarian nature of Python?
+
 ---
 
 ### Hints and Tips:
