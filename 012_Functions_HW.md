@@ -5,7 +5,7 @@ The purpose of this homework is to reinforce your understanding of functions, na
 
 ---
 
-### Task Overview:
+### Overview:
 
 1. **Function Design for Unit Conversions**: Write functions for basic conversions between imperial and metric units.
 2. **Module Creation**: Organize your conversion functions into a custom Python module.
@@ -13,7 +13,7 @@ The purpose of this homework is to reinforce your understanding of functions, na
 
 ---
 
-### Detailed Requirements:
+### Detailed Instructions:
 
 1. #### Function Design for Unit Conversions:
     - Design and implement functions for the following conversions:
@@ -32,28 +32,11 @@ The purpose of this homework is to reinforce your understanding of functions, na
        * add a function named `len` to the module
        * the function should return the number 42 no matter what
    - Create a list `mylist` (or whatever) with some elements in it (they can be numbers or anything)
-   - ***Before importing you module***, try a `len(mylise)`
+   - ***Before importing you module***, try a `len(mylist)`
    - Import mylen.py (`import mylen`)
        * verify that `mylen.len()` works as expected
    - Now do a `from mylen import len`
    - Finally, repeat the `len(mylist)`
 
-In your own words, compare the outputs of the two `len(mylest)` calls. What happened? Why? What does this tell you about the egalitarian nature of Python?
+In your own words, compare the outputs of the two `len(mylest)` calls. What happened? Why? What does this tell you about namespaces and the egalitarian nature of Python?
 
----
-
-### Hints and Tips:
-
-- Ensure each function handles user input effectively and returns results in a clear format.
-- Test each function thoroughly to ensure accurate conversions.
-- Comment your code!
-
----
-
-###  Submission :
-
-1. Your main notebook demonstrating the use of your module converted to pdf
-2. A link to your notebook on GitHub as usual
-3. A link to your `unit_conversions.py` module containing your functions.
-
----
