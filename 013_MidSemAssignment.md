@@ -1,17 +1,17 @@
-### **Python Programming Assignment: Basic Statistics Tool**
+### **Python Programming Mini-Project: Basic Statistics Tool**
 
 **Objective:**  
-The goal of this assignment is to provide you with a hands-on experience in collecting user input, performing calculations on data, and structuring code using functions and modules.
+The goal of this assignment is to provide you with a hands-on experience in collecting user input, performing calculations on data, and structuring code using functions and modules. It will let you sythesize many of the Python concepts and techniques we have learned about thus far in the course.
 
 ---
 
-**Task Overview:**
+**Overview:**
 
 You will create a simple statistics tool that allows users to:
 1. Input a series of numbers.
-2. Compute basic statistics on these numbers, including the mean, standard deviation, and standard error.
+2. Compute basic statistics on these numbers, such as the mean and variance.
 3. Calculate the z-score for a newly entered observation.
-4. Display a summary of the statistics.
+4. Display a summary output of the basic statistics.
 
 ---
 
@@ -24,6 +24,7 @@ You will create a simple statistics tool that allows users to:
 2. **Computational Options:**
     - Provide options to compute:
         - Mean
+        - Variance
         - Standard Deviation
         - Standard Error
         - Z-score of a new observation
@@ -45,7 +46,7 @@ You will create a simple statistics tool that allows users to:
     - **Mean:** Average of all numbers.
     - **Variance:** The average of the squared differences from the mean.
     - **Standard Deviation:** The square root of variance.
-    - **Standard Error:** Standard deviation divided by the square root of the number of observations.
+    - **Standard Error:** Precision of the mean – Standard deviation divided by the square root of the number of observations.
     - **Z-score:** The number of standard deviations by which the value of an observation or data point is above or below the mean.
 
 - Use lists to store the numbers inputted by the user.
@@ -67,7 +68,7 @@ You will create a simple statistics tool that allows users to:
 - Correctness and completeness of the functions in the module.
 - Proper implementation of the menu and user input features in the main script.
 - Code readability and organization.
-- Handling of edge cases and user input errors is a bonus but not required for this assignment.
+- Handling of pathological states and user input errors.
 
 ---
 

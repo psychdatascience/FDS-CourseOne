@@ -1,4 +1,4 @@
-import statistics_module as sm
+import MidSemAssing_SN_Module as mystat
 
 while True:
     print("\nMenu:")
@@ -24,34 +24,34 @@ while True:
     
     elif choice == '2':
         if 'numbers' in locals():
-            print("Mean:", sm.mean(numbers))
+            print("Mean:", mystat.mean(numbers))
         else:
             print("Please enter a set of numbers first.")
     
     elif choice == '3':
         if 'numbers' in locals():
-            print("Standard Deviation:", sm.std_dev(numbers))
+            print("Standard Deviation:", mystat.std_dev(numbers))
         else:
             print("Please enter a set of numbers first.")
     
     elif choice == '4':
         if 'numbers' in locals():
-            print("Standard Error:", sm.std_error(numbers))
+            print("Standard Error:", mystat.std_error(numbers))
         else:
             print("Please enter a set of numbers first.")
     
     elif choice == '5':
         if 'numbers' in locals():
             new_observation = float(input("Enter a new observation: "))
-            print("Z-Score:", sm.z_score(new_observation, numbers))
+            print("Z-Score:", mystat.z_score(new_observation, numbers))
         else:
             print("Please enter a set of numbers first.")
     
     elif choice == '6':
         if 'numbers' in locals():
-            print(f"Mean: {sm.mean(numbers)}")
-            print(f"Standard Deviation: {sm.std_dev(numbers)}")
-            print(f"Standard Error: {sm.std_error(numbers)}")
+            print(f"Mean: {mystat.mean(numbers)}")
+            print(f"Standard Deviation: {mystat.std_dev(numbers)}")
+            print(f"Standard Error: {mystat.std_error(numbers)}")
         else:
             print("Please enter a set of numbers first.")
     
