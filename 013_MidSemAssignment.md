@@ -58,7 +58,7 @@ You will create a simple statistics tool that allows users to:
 **Submission Guidelines:**
 
 1. Your main script (e.g., `{your_initials}_stats_tool.py`).
-2. The `{your_initials}_stats_module.py.py` file containing your statistical functions.
+2. The `{your_initials}_stats_module.py` file containing your statistical functions.
 3. A brief README explaining how to run your tool and any additional features or notes you wish to include.
 
 ---
