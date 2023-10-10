@@ -12,8 +12,8 @@ For this assignment, use the "Iris" dataset, a classic dataset in data science a
 
 This is by no means a "behavioral science" data set, but there are certain classic data sets that every data science student has to touch once, and this is one of them.
 
-The dataset is available [here](https://archive.ics.uci.edu/dataset/53/iris)
-Or paste "https://archive.ics.uci.edu/dataset/53/iris" into your browser.
+The dataset is available [here](https://www.kaggle.com/datasets/saurabh00007/iriscsv/)
+Or paste "https://www.kaggle.com/datasets/saurabh00007/iriscsv/" into your browser.
 
 1. **Reading the Dataset:**
     - Use `pandas` to read the Iris dataset into a data frame.
