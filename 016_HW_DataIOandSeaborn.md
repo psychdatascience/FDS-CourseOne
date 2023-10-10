@@ -15,6 +15,8 @@ This is by no means a "behavioral science" data set, but there are certain class
 The dataset is available [here](https://www.kaggle.com/datasets/saurabh00007/iriscsv/)
 Or paste "https://www.kaggle.com/datasets/saurabh00007/iriscsv/" into your browser.
 
+If you don't have a kaggle account, you'll be asked to create one – please do that, it's free and you'll eventually want one anyway!
+
 1. **Reading the Dataset:**
     - Use `pandas` to read the Iris dataset into a data frame.
     - The dataset does not contain headers. Assign the following column names to your data frame: `['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']`
