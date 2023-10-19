@@ -2,7 +2,7 @@
 
 ---
 
-**Pandas Homework**
+**Pandas Indexing, Grouping, and Aggregating Homework **
 
 **Dataset**: You will be using the famous "Titanic" dataset. This dataset contains the information about passengers who were onboard the Titanic. You can load it directly from the seaborn library.
 
