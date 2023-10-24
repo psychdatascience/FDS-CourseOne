@@ -1,4 +1,3 @@
-
 **NumPy Basics Homework Assignment**
 
 **Objective**: To get familiar with the core operations and functionalities of the NumPy library.
@@ -30,6 +29,3 @@
 5. **Bonus (Optional)**:
     a. Compute the dot product of two 1D arrays of length 5. Remember, the dot product is the sum of the products of corresponding entries of the two sequences of numbers.
     b. Reshape the 3x3 matrix from 1b into a 1D array of length 9.
-
----
-
