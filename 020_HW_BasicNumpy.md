@@ -1,4 +1,3 @@
----
 
 **NumPy Basics Homework Assignment**
 
