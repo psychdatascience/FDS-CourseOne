@@ -32,9 +32,10 @@ Gain proficiency in creating basic plots using Matplotlib, and understand the di
 5. **Combining Plots:**  
    a. Plot both functions (X^2 and Y^3) on the same figure, using different colors for each function.  
    b. Add a legend for the two plots
-6. **Functional Plotting**
-   a. Write a function to plot its two input arguments, y and x, against one another. It should label the y-axis "activity" and the x-axis "time", and have a good looking style.
-   b. Add a third argument to let the users choose between a solid line, circle markers, or both.
+6. **Functional Plotting:**  
+   a. Write a function to plot its two input arguments, y and x, against one another. It should label the y-axis "activity" and the x-axis "time", and have a good looking style.  
+   b. Test your function with python list and numpy 1D array inputs. (and does it work with one of each?).  
+   c. Add a third argument to let the users choose between a solid line, circle markers, or both.  
    
 
 Pro Tips: 
