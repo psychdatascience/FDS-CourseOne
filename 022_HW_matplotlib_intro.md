@@ -34,3 +34,10 @@ Gain proficiency in creating basic plots using Matplotlib, and understand the di
    b. Add a legend for the two plots
 6. **Functional Plotting**
    a. Write a function to plot its two input arguments, y and x, against one another. It should label the y-axis "activity" and the x-axis "time", and have a good looking style.
+   b. Add a third argument to let the users choose between a solid line, circle markers, or both.
+   
+
+Pro Tips: 
+
+* to highlight a single point on a plot, try adding a `.scatter()` plot of a single point to your `axes`
+* in general, a function that does plotting using `matplotlib` should return a `figure` (i.e. `fig`) object
