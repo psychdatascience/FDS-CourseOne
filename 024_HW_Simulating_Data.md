@@ -15,7 +15,7 @@ Sine waves are a mathematical curve that describes a smooth periodic oscillation
     - A noise level that is normally distributed with a mean of 0 and a standard deviation of 0.1.
     - A phase shift for the second hormone, representing a delay in its cycle compared to the first.
 
-2. Plot the two sine waves on the same graph over a period of 10 seconds.
+2. Plot the two sine waves on the same graph over a period of 10 days.
     - The x-axis should represent time in seconds.
     - The y-axis should represent the hormone level.
     - Include a legend to differentiate between the two hormones.
