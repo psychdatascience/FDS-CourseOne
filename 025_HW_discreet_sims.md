@@ -2,6 +2,8 @@ compare empirical with normal approx for binom
 
 
 
+rewrite the dice code to just store the sums, then use seaboard hist to overlay the plots below...
+
 Increase `k` incrementally (e.g., 2, 5, 10, 20) and observe how the distribution evolves. Illustrate how, as `k` increases, the distribution approximates a normal distribution.
 
 \# Simulate different numbers of dice
