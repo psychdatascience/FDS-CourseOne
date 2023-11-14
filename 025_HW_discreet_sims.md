@@ -28,17 +28,13 @@
   4. Calculate the total votes for each candidate and determine the winner.
   5. Perform the simulation multiple times and discuss the variability in election outcomes.
 
+#### Problem 4: Effects of Sample Size on the Distribution of Sums
+- **Objective**. To see how the distribution of sums of discrete variables approachs a continuous Gaussian distribution with increasing addends. 
+- **Task**.
+  1. Rewrite the dice code to just store the sum on each set of rolls (rather than incrementing the counts of possible sums as we did in the tutorial).
+  2. Functionlize the code such that your function takes the number of dice to roll and the number of rolls to do, and returns a vector of the sums for each roll.
+  3. Run the code for ('`for()`')  2, 5, 10, and 20 dice.
+  4. Plot the results as overlaid KDEs like we did for the coin flips in the tutorial.
 
 
-rewrite the dice code to just store the sums, then use seaboard hist to overlay the plots below...
-
-Increase `k` incrementally (e.g., 2, 5, 10, 20) and observe how the distribution evolves. Illustrate how, as `k` increases, the distribution approximates a normal distribution.
-
-\# Simulate different numbers of dice
-
-dice_counts = [2, 5, 10, 20]
-
-for num_dice in dice_counts:
-
-​    plot_dice_roll_distribution(num_dice, 1000)
 
