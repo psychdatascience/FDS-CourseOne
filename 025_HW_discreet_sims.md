@@ -33,9 +33,9 @@
 - **Task**.
   1. Rewrite the dice code from the tutorial to just store the sum on each set of rolls (rather than incrementing the counts of possible sums as we did in the tutorial).
   2. Write a function that takes 1) the number of dice to roll and 2) the number of rolls to do as input arguments, and returns a vector of the sums for each of the rolls as output.
-  3. Run the code for (``for()``)  2, 4, 8, 16, and 32 dice; the number of rolls (experiments) should be "large".
+  3. Run the code for (``for()``)  2, 4, 8, 16, and 32 dice; the number of experiments should be "large".
   4. Plot the results as overlaid KDEs like we did for the coin flips in the tutorial.
-  5. Briefly describe how the sampling distributions change as the number of experiments (rolls) increases.
+  5. Briefly describe how the sampling distributions change as the number of dice increases.
 
 
 
