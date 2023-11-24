@@ -2,15 +2,21 @@
 
 ### Objective: 
 
-Predict the winner of a presidential election between candidates "A" and "B" for a fictional county that uses an electoral college system.
+Predict the chance that candidate "A" will beat "B" for a fictional country that uses an electoral college system.
 
-The relevant data for the states is in stateData.csv. This has columns that give for each state:
+The data you get are:
 
-* the population for each state
-* the expected voter turnout for each state
-* the current poll results indicating the percentage of voter that will vote for candidate "A"
+    * A list of the state populations (vector)
 
-The electoral college votes are for each state are 1/1000 of the population rounded up to the nearest integer.
+    * A set of polling data (% estimated to vote for candidate "A") for each state from a few national polling entities (matrix)
+
+    * A list of the estimated quality of each polling entity (company, university, think tank, etc.) (vector)
+
+The facts you know about the data are
+
+    * Each state gets awarded 1 electoral college vote per 1000 people in the state.
+
+    * Everybody votes; voter turnout is 100%
 
 Do 10,000 simulations of the election. Your report should include
 
