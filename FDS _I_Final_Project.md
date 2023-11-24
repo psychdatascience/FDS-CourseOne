@@ -26,6 +26,8 @@ The facts you know about the data are
 
 Once your code is finished, debugged, and ready to go, do 10,000 simulations of the election!
 
+*Make sure and put a `rnd.seed(42)` just before your simulation runs do that all our results are comparable.*
+
 The post-simulation part of your notebook should include:
 
 * a plot of the sampling distribution of the popular vote for candidate "A" 
