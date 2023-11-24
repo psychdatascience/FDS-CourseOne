@@ -2,7 +2,7 @@
 
 ### Objective: 
 
-Predict the % chance that candidate "A" will beat "B" for a fictional country with 11 states  that uses an electoral college system.
+Predict the % chance that candidate "Barnes" will beat candidate "Noble" for a fictional country with 11 states  that uses an electoral college system.
 
 The data you get are:
 
@@ -10,16 +10,13 @@ The data you get are:
 
 * A set of polling data (% estimated to vote for candidate "A") for each state from seven national polling entities (matrix)
 
-* A list of the estimated quality of each polling entity (company, university, think tank, etc.) (vector)
+* A list of the estimated quality of each of 7 polling entities (company, university, think tank, etc.) (vector). Higher numbers are better (e.g. the poll is considered more reliable)
 
 The facts you know about the data are
 
 * Each state gets awarded 1 electoral college vote per 1000 people in the state.
-
 * Everybody votes; voter turnout is 100%
-
 * The state populations are fixed (obviously)
-
 * The quality of the polls can be considered fixed (there has to uncertainty associated with these ratings but we don't know what it is, so we'll consider them to be constants)
 
 ---
