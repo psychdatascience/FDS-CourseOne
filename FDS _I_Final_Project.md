@@ -18,6 +18,11 @@ The facts you know about the data are
 * Everybody votes; voter turnout is 100%
 * The state populations are fixed (obviously)
 * The quality of the polls can be considered fixed (there has to uncertainty associated with these ratings but we don't know what it is, so we'll consider them to be constants)
+* each poll was based on 2000 people in each state
+
+---
+
+The starter notebook will work us through the basic analysis of predicting the election winner based on the data at hand. In other words, it will provide the basic code for a single simulation without any added variability. Your mission (and you have no choice but to accept it!), will be to package this code into a loop that will predict the outcomes of many elections given known variability, namely, that the polls cannot be perfectly accurate; they are subject to ***binomial*** variability.
 
 ---
 
