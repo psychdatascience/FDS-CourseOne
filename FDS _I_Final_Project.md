@@ -28,7 +28,7 @@ The facts you know about the data are
 The starter notebook will work us through the basic analysis of predicting the election winner based on the data at hand. In other words, it will provide the basic code for a single simulation without any added variability. Your mission (and you have no choice but to accept it!), will be to package this code into a loop that will predict the outcomes of many elections given 
 
 * known variability, namely, that the polls cannot be perfectly accurate; they are subject to ***binomial*** variability.
-* variability in voter turnout – the starter notebook assumes everybody votes, but we know that’s not realistic even in countries such as Australia where voting is “mandatory”. Let’s assume that our fictional country is more like the U.S. with an *average* turnout of around 60% in each state. The exact number will then vary simulation-to-simulation. Make sure you think about this so you add the correct sort of variability.
+* variability in voter turnout – the starter notebook assumes everybody votes, but we know that’s not realistic even in countries such as Australia where voting is “mandatory”. Let’s assume that our fictional country is more like the U.S. with an *average* turnout of **60%** in each state. The exact number will then vary simulation-to-simulation. Make sure you think about this so you add the correct sort of variability.
 
 ---
 
