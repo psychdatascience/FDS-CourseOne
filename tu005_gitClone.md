@@ -41,7 +41,7 @@ If you have a relatively new computer, it should already have git on it. If not 
   ```
   $ cd ~/projects
   ```
-*A note on file organization: Some people prefer to have a "git" or "GitHub" folder under their home folder and keep each repo in there (each repo will have its own folder). Others might prefer to have, for example, "R_Projects" and "Python_Projects" directories in their home directory, and have the corresponding repos in there. How you organize your files is up to you, but the key word is **organize**! The more organized you are now, the more future you will love past you (who is currently current you – isn't time travel fun?).*
+*A note on file organization: Some people prefer to have a "git" or "GitHub" folder under their home folder and keep each repo in there (each repo will have its own folder). Others might prefer to have, for example, "R_Projects" and "Python_Projects" directories in their home directory, and have the corresponding repos in there. How you organize your files is up to you, but the keyword is **organize**! The more organized you are now, the more future you will love past you (who is currently current you – isn't time travel fun?).*
 
 ---
 
